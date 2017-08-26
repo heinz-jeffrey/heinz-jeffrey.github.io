@@ -1,0 +1,402 @@
+<h2>Computational Linguistics (LING 455/655)</h2>
+
+<br>
+
+<table>
+<TR>
+  <TD align="" colspan=""><b>Course: </b></TD>
+  <TD align="" colspan="">Ling 455/655, MW 15:35-16:50, Pearson Hall, Room 114</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor:</b></TD>
+  <TD align="" colspan=""> <a href="http://udel.edu/~heinz/">Jeff Heinz</a> (<a href="mailto:heinz@udel.edu">heinz@udel.edu</a>, 302-831-2924)</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor's office hours:&nbsp;&nbsp;</b></TD>
+  <TD align="" colspan="">T 11:00-12:00, W 13:00-14:00 <del>Th 14:00-15:00</del>, 125 E. Main Street, Room 117</TD>
+</TR>
+</table>
+
+<br>
+<br>
+
+<hr>
+<a href="materials/">Materials</a>
+<hr>
+
+<h3>Course Information</h3>
+
+<ul>
+  <li>
+   <a href="materials/syllabus-LING4-655.pdf"> 
+  Syllabus for LING 455/655
+   </a> 
+  </li>
+</ul>
+<hr>
+
+<h3>Course Log</h3>
+
+
+<b>Here is the <a
+href="materials/compling-complete-notes-May2017.pdf">set of complete
+notes</a> from the class.</b>
+
+<h4>15 May 2017</h4>
+
+<ul> <li> Today I concluded the class by mentioning some related
+  topics we could not cover in class: two-way automata in
+  computational linguistics, automata in natural language processing,
+  using closure properties to describe complex generalizations,
+  subregular automata and classes, and learning automata from
+  examples.</li>
+</ul>
+
+  <h4>10 May 2017</h4>
+
+<ul>
+  <li> Here are some haskell scripts for tree automata.
+  <ul>
+    <li> <a href="materials/dbfta-v1.hs">dbfta-v1.hs</a>  (deterministic bottom-up finite-state tree acceptors)</li>
+    <li> <a href="materials/dtfta-v1.hs">dtfta-v1.hs</a>  (deterministic top-down finite-state tree acceptors)</li>
+    <li> <a href="materials/dbftt-v1.hs">dbftt-v1.hs</a>
+  (deterministic bottom-up finite-state tree transducers)</li>
+  <li> <a href="materials/dtftt-v1.hs">dtftt-v1.hs</a>  (deterministic top-down finite-state tree transducers)</li>
+  </ul>
+  </li>
+  <li>I updated the notes on  <a href="materials/11-nondeterminism.pdf">non-determinism</a>, which we
+  discussed.</li>
+</ul>
+
+<h4>8 May 2017</h4>
+
+<ul>
+  <li> I corrected an error I had made regarding the deterministic top-down tree
+  automata. The notes on the deterministic top-down <a href="materials/07-dtdfta.pdf">acceptors</a> and
+  <a href="materials/10-dtftt.pdf">transducers</a> has been updated accordingly. </li>
+
+  <li> We began discussing <a href="materials/11-nondeterminism.pdf">non-determinism</a>.</li>
+</ul>
+
+
+<h4>3 May 2017</h4>
+
+<ul>
+  <li> We discussed <a href="materials/10-dtftt.pdf">deterministic top-down tree transducers</a>.</li>
+  <li> I updated the <a href="materials/09-dbftt.pdf">notes from last time</a>.</li>
+</ul>
+
+
+<h4>1 May 2017</h4>
+
+<ul>
+  <li> We discussed <a href="materials/09-dbftt.pdf">deterministic bottom-up tree transducers</a>.</li>
+</ul>
+
+
+<h4>26 Apr 2017</h4>
+
+<ul>
+  <li> We discussed ideas for projects.</li>
+  <li> We went over <a href="materials/08-properties-recognizable-treesets.pdf">properties of recognizable treesets</a>.</li>
+  <li> Next week: tree transducers </li>
+</ul>
+
+<h4>24 Apr 2017</h4>
+
+<ul>
+  <li> We reviewed bottom-up tree transducers and discussed Haskell
+  code for implementing them.</li>
+  <li> We went over <a href="materials/07-dtdfta.pdf">deterministic top-down finite-state tree acceptors</a>.</li>
+</ul>
+
+
+<h4>19 Apr 2017</h4>
+
+<ul>
+  <li> We went over <a href="materials/06-dbufta.pdf">deterministic bottom-up finite-state tree acceptors</a>.</li>
+</ul>
+
+<h4>17 Apr 2017</h4>
+
+<ul>
+  <li> We reviewed sequential transducers and monoids.</li>
+  <li> We showed how the "Finite Language" monoid can be used to model
+  optionality with sequential transducers.</li>
+  <li> We demo-ed the Monoid.hs script.</li>
+  <li> We mentioned some string-to-string functions that are not
+  sequential.</li>
+  <li> We previewed tree acceptors.</li>
+</ul>
+
+<h4>12 Apr 2017</h4>
+
+<ul>
+    <li> We finished the handout on deterministic transducers.</li>
+  <li> We also went over   <a href="materials/05-left-right-sequential.pdf">left and right sequential functions</a>.</li>
+  <li> Here are two Haskell scripts
+  <ul>
+    <li>  <a href="materials/Monoid.hs">Monoid.hs</a> (the Monoid module)</li>
+    <li>  <a href="materials/dfst-v2.hs">dfst-v2.hs</a> (the
+    second version of the script for transducers which supports
+    Monoids). But you have to define <tt>process</tt> and <tt>transduce</tt>!</li>
+  </ul></li>
+
+</ul>
+
+
+<h4>10 Apr 2017</h4>
+
+<ul> <li> We went through several more examples of sequential
+  transducers, which illustrated both morphological and phonological
+  transformations.</li> </ul>
+
+<h4>5 Apr 2017</h4>
+
+<ul>
+    <li> We went over the 2nd page of the updated handout on <a href="materials/04-nonregular-stringsets.pdf">nonregular stringsets</a>.</li>
+  <li> We went over the 1st page of notes on <a
+  href="materials/05-dfst.pdf">determinstic transducers</a>.</li>
+  <li> Here is the first version of a haskell script for transducers <a href="materials/dfst-v1.hs">dfst-v1.hs</a>.
+</ul>
+
+<h4>3 Apr 2017</h4>
+
+<ul>
+  <li> We went over the <a href="materials/project-instructions.pdf">project instructions</a>.
+  <ul>
+    <li> Here is a <a href="materials/inuktitut.hs">sample project</a>.</li>
+    <li> It uses this <a href="materials/Dfsa.hs">Dfsa module</a>.</li>
+  </ul></li>
+  <li> We discussed examples of <a href="materials/04-nonregular-stringsets.pdf">nonregular stringsets</a>.</li>
+</ul>
+
+<h4>22 Mar 2017</h4>
+
+<ul>
+  <li> We discussed how dfsa could be defined as a new type or data structure in Haskell.</li>
+  <li> We went over some <a href="materials/notes-on-folds.pdf">notes on fold functions</a>.</li>
+  <li> We went over how to <a href="materials/03-minimizing-dfsa.pdf">minimize dfsa</a>.</li>
+  <li> No HW except to review, catch up on missed assignments, and practice Haskell.</li>
+</ul>
+
+
+<h4>20 Mar 2017</h4>
+
+<ul>
+  <li> We discussed defining new data structures in Haskell.</li>
+  <li> HW on chapters 7 and 8 are updated with answers
+    <a href="materials/HW-chaps7-8.hs">here</a>.</li>
+    <li>Upcoming events:
+    <ul>
+      <li> Haskell workshop 2-3pm this Wednesday, room 111 in the
+      Linguistics and Cognitive Science Department.</li>
+      <li> Haskell workshop 1-2pm this Friday, room 107 in the
+      Linguistics and Cognitive Science Department.</li>
+    </ul>
+    </li>
+</ul>
+
+
+<h4>15 Mar 2017</h4>
+
+<ul>
+  <li>We discussed how to implement intersection and union as
+  functions in Haskell. </li>
+  <li>These are implemented in the updated script: <a href="materials/dfsa-v3.hs">dfsa-v3.hs</a>
+</li>
+  <li> HW for Monday:
+  <ul>
+    <li> Read Chapter 8 up to page 101 (inclusive).
+    <li><a href="materials/HW-chaps7-8.hs">Some exercises here</a></li>
+  </ul>
+</li>
+</ul>
+
+<h4>13 Mar 2017</h4>
+
+<ul>
+  <li> We defined the cross product of two automata and showed how it
+  can be used to define an automata that recognizes the intersection
+  and union of two regular stringsets.</li>
+  <li> We briefly reviewed the functions map and foldr.</li>
+  <li> HW for Wednesday:
+  <ul>
+    <li> Practice Haskell! Play with the map, foldr, and foldl
+    functions.</li>
+    <li> Define a function which takes two DFSAs as arguments and
+    constructs a third DFSA which recognizes the intersection. If you
+    succeed, print it out and turn in. If you don't succeed, explain
+    where you had trouble. </li>
+  </ul>
+</li>
+</ul>
+
+
+<h4>8 Mar 2017</h4>
+
+<ul> 
+  <li> We reviewed the functions for "dstar" and "recognize" in the first
+    version of our Haskell script for DFSAs. </li> 
+  <li> We discussed some properties of DFSAs, especially complete and
+  incomplete DFSAs. </li> 
+  <li> We looked at a couple more examples of defining recursive
+  functions from chaper 6 exercise 5 on page 72. </li> 
+  <li> We introduced the problem of finding the intersection of
+  regular stringsets.</li>
+    <li> HW for Monday:
+  <ul>
+    <li> Practice Haskell!</li>
+    <li> Make a1, a2, a3 <i>complete</i> automata in dfsa-v1.hs.</li>
+    <li> Practice running the <b>recognize</b> function in ghci with these
+    automata and example words. Here is the updated script:
+    <a href="materials/dfsa-v2.hs">dfsa-v2.hs</a>
+    </li>
+    <li>Try writing some recursive functions in Chapter 6, exercise 5
+    on page 72 (this won't be collected.) </li>
+    <li>Read chapter 7 up to page 82, section 7.6.</li>
+  </ul>
+</li>
+</ul>
+
+<h4>6 Mar 2017</h4>
+
+<ul> 
+  <li> We reviewed Chapter 6 exercises 1,2 and 5.</li> 
+  <li> We discussed exercise 2 in the handout on DFSAs.</li>
+  <li> HW for Wednesday:
+  <ul>
+    <li> Write definitions for "dstar" and "recognize" in the first
+    version of our Haskell script for DFSAs:
+    <a href="materials/dfsa-v1.hs">dfsa-v1.hs</a>
+  </ul>
+</li>
+</ul>
+
+
+<h4>1 Mar 2017</h4>
+
+<ul> 
+  <li> We reviewed the Chapter 5 exercises.</li> 
+  <li> HW for Monday:
+  <ul>
+    <li> Read Chapter 6 of Programming in Haskell. Do #1,2,5 on page 71.</li>
+  </ul>
+  </li>
+  <li> Keep reading Chapter 1 up to page 44 of Sipser, Introduction to
+   the Theory of Computation, which reviews what we went over in
+   class.</li>
+ </ul>
+
+<h4>27 Feb 2017</h4>
+
+<ul> 
+  <li>We reviewed the Chapter 4 exercises.</li> 
+  <li>We formally introduced finite-state
+  acceptors in this <a href="materials/02-dfsa.pdf">handout</a>.</li> 
+  <li>HW for Wednesday:
+  <ul>
+    <li> Read Chapter 5 of Programming in Haskell up to section 5.4
+    (so pages 47-51). Do #1,2,4,5 on pages 57.</li>
+  </ul></li>
+  <li>For Monday, read Chapter 1 up to page 44 of Sipser,
+   Introduction to the Theory of Computation. This reviews what we
+   went over in class.</li>
+ </ul>
+
+
+<h4>22 Feb 2017</h4>
+
+<ul> 
+  <li>We informally introduced finite-state acceptors with examples.</li> 
+
+ <li>HW for Monday:
+  <ul>
+    <li> Read Chapter 4 of Programming in Haskell. Do #1,2,3,4,7 on
+    pages 45-46.</li>
+    <li> Read pages 1-10 of Finite State Morphology by Beesley and
+  Karttunen, which reviews the informal introduction we had in class.</li>
+  </ul></li>
+</ul>
+
+
+<h4>20 Feb 2017</h4>
+
+<ul> 
+  <li> We reviewed the Chapter 3 exercises.</li> 
+  <li> We reviewed the tree exercises, execpt for #3(2) on the yield
+  since we have not yet defined concatenation for strings.</li>
+  <li> Great discussion!</li>
+</ul>
+
+
+<h4>15 Feb 2017</h4>
+
+<ul> 
+  <li> We discussed types in Haskell and went over the third HW.</li> 
+  <li> We finished the exercises, defined trees and a recursive
+  function for giving the size of trees.
+  <li> The HW for Monday 2/20 is as follows:
+  <ul>
+    <li>Finish reading Chapter 3 of Programming in Haskell. The class
+  types that are most important are Eq, Ord, Show, and Read. The
+  numeric ones are less important for our purposes. </a></li>
+    <li>Do exercises 3-4 on page 36.</li>
+
+    <li>Do exercises 3-4 on the <a
+  href="materials/01-exercises.pdf">exercises handout</a> from class
+  on trees. Also, it is fine to write tree diagrams instead of dealing
+  with brackets as we did on the board in class.
+    </li>
+  </ul>
+</li>
+</ul>
+
+
+
+<h4>13 Feb 2017</h4>
+
+<ul> 
+  <li> We went over the second HW.</li> 
+  <li> We went through the first two exercises for strings in this <a href="materials/01-exercises.pdf">document</a>.
+  <li> The HW for Wednesday 2/15 is as follows:
+  <ul>
+    <li>Read Chapter 3 of Programming in Haskell up through section 3.7
+  (page 29)</a></li>
+    <li>Do exercises 1-2 on page 36.</li>
+  </ul>
+</li>
+</ul>
+
+<hr>
+
+<h4>8 Feb 2017</h4>
+
+<ul> 
+  <li> We went over the first HW.</li> 
+  <li> Here are definitions for <a href="materials/01-strings-and-trees.pdf">strings and trees</a>.
+  <li> The HW for Monday is as follows:
+  <ul>
+    <li>Read Chapters 1 and 2 of Programming in Haskell</a></li>
+    <li>Do exercises 1-4 on page 13 and exercise 1 on page 21.</li>
+  </ul>
+</li>
+</ul>
+
+<hr>
+   
+
+<h4>6 Feb 2017</h4>
+
+ <ul> 
+   <li> We reviewed the syllabus and introduced the course.</li> 
+   <li> Here is the <a href="materials/00-intro.pdf">course overview</a>.
+   <li> The HW is listed on the last page of this overview. It is due
+   Wednesday, February 8. The reading for Wednesday is: <ul> <li>
+   Sipser, Introduction to the Theory of Computation (Chapter
+   0)</a></li> </ul> </li> </ul>
+<hr>
+   
+<p><i><script language="Javascript">
+document.write("Last updated: " + document.lastModified +"");
+</SCRIPT></i></p>
