@@ -1,0 +1,377 @@
+<h2>Learnability (LIN 629)</h2>
+
+<br>
+
+<table>
+<TR>
+  <TD align="" colspan=""><b>Course: </b></TD>
+  <TD align="" colspan="">LIN 629, TTh 16:00-17:15, <del>SBS N117</del>SBS N250 </TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor:</b></TD>
+  <TD align="" colspan=""> <a href="https://heinz-jeffrey.github.io/">Jeff Heinz</a> (<a href="mailto:jeffrey.heinz@stonybrook.edu">jeffrey.heinz@stonyrbook.edu</a>)</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor's office hours:&nbsp;&nbsp;</b></TD>
+  <TD align="" colspan="">M 14:30-16:00, W 14:30-16:00</TD>
+</TR>
+</table>
+
+<br>
+<br>
+
+<!-- <hr> -->
+<!-- <a href="materials/">Materials</a> -->
+<!-- <hr> -->
+
+<h3>Course Information</h3>
+
+<ul>
+  <li>
+   <a href="materials/syllabus-learnability-LIN629-17F.pdf"> 
+  Syllabus for LIN 629
+   </a> 
+  </li>
+</ul>
+<hr>
+
+
+<h3>Course Log</h3>
+
+
+Here are the <a href="materials/Learning-Theory-F17-CourseNotes.pdf">course notes in one bundle</a>.
+
+
+
+<h4>07 Dec 2017</h4>
+
+<ul>
+  <li> We finished the notes from last class.</li>
+  <li> We reviewed the course in this <a href="materials/07-summary.pdf">summary</a>.</li> 
+</ul>
+
+
+
+<h4>05 Dec 2017</h4>
+
+<ul>
+  <li> We went over <a href="materials/06-islk-dft-learning.pdf">notes on learning k-ISL functions</a>.</li>
+  <li> We went over <a href="materials/Nazila-Presentation.pdf">Nazila's notes</a> on the LT, LTT, and NC classes.</li> 
+</ul>
+
+
+<h4>30 Nov 2017</h4>
+
+<ul>
+  <li>  <a href="materials/Hossep-presentation.pdf">Hossep's notes</a> on Chandlee 2017.</li>
+  <li> Reading for next Tuesday
+  <ul>
+    <li><a href="materials/Rogers-Pullum-2011.pdf">Rogers and Pullum 2011</a> </li>
+    <li><a href="materials/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf">Jardine et al 2014</a> </li>
+  </ul>
+  </li>
+
+</ul>
+
+
+<h4>28 Nov 2017</h4>
+
+<ul>
+  <li>  <a
+  href="materials/Alex-Learnability-Presentation-ISL.pdf">Alex's notes</a> on Chandlee and Heinz 2018.</li>
+  <li>  <a
+  href="materials/11-28-Ji-Yea-Learnability-presentation.pdf">Ji Yea's notes</a> on Chandlee et al to appear.</li>
+</ul>
+
+<h4>23 Nov 2017</h4>
+
+<ul>
+  <li> University closed for Thanksgiving. </li>
+</ul>
+
+
+<h4>21 Nov 2017</h4>
+
+<ul>
+  <li> Here are the <a href="materials/05-slk-mle.pdf">notes on MLE.</a></li>
+  <li>We studied the definition of learning maximum likelihood
+  estimation and consistent estimators.</li>
+  <li>We learned how to find the MLE when the parametric model is
+  given by a DFA. N-gram models are just one example of this where the
+  structure of the model is Strictly k-Local. </li>
+</ul>
+
+
+<h4>16 Nov 2017</h4>
+
+<ul>
+  <li>Class canceled as instructor is away.</li>
+</ul>
+
+
+<h4>14 Nov 2017</h4>
+
+<ul>
+  <li>We reviewed learning SL-k stringsets from an automata
+  perspective.</li>
+  <li>We reviewed learning SL-k stochastic stringsets from an automata
+  perspective. </li>
+  <li>We touched briefly on what it means to define learning in terms
+  of the MLE.</li>
+  <li> Read Chandlee on Input Strictly Local functions and why
+  they are of interest to phonology and morphology. 
+  <ol> 
+    <li> <a href="materials/Chandlee-Heinz-2018-SLPM.pdf">Chandlee and Heinz (2018, Linguistic Inquiry)</a></li>
+    <li> <a href="materials/Chandlee-Heinz-Jardine-ISLOM.pdf">Chandlee, Heinz, and Jardine (to appear, Phonology)</a> </li>
+    <li> <a href="materials/Chandlee-2017.pdf">Chandlee (2017, Morphology)</a> </li>
+  </ol></li>
+  <li>Please read the LI paper by next Tuesday.</li>
+</ul>
+
+
+
+<h4>09 Nov 2017</h4>
+
+<ul>
+  <li>We defined DFA (see chapter 2 in <a href="materials/compling-complete-notes-May2017.pdf">these notes</a>.)</li>
+  <li>We defined canonical <a href="materials/04-slk-dfa.pdf">SL-k DFA</a> </li>
+  <li> HW
+  <ul>
+    <li> Do exercise 9, #s 1-3 only on class handout (pg. 19 in the
+  chapter 2 notes above)</li>
+    <li> Read chapter 3 section 9 in the pdf I emailed to you. Focus
+  on pages 74-75.</li>
+  </ul></li>
+</ul>
+
+
+
+
+<h4>07 Nov 2017</h4>
+
+<ul>
+  <li>We went discussed this <a href="materials/Clark-2017.pdf">2017 paper by Alex Clark</a>.</li>
+  <li> Reading on finite-state automata
+  <ul>
+    <li><a href="materials/Coleman-2005-Chapter5.pdf">Coleman 2005, Chapter 5</a> 
+    [<a
+  href="https://www.amazon.com/Introducing-Processing-Cambridge-Introductions-Linguistics/dp/0521530695/ref=sr_1_1?ie=UTF8&qid=1510086772&sr=8-1&keywords=coleman+speech+and+language+processing">book on amazon</a>]</li>
+    <li><a href="materials/compling-complete-notes-May2017.pdf"> Notes</a> from my Spring 2017 class, see chapters 2 and 3 to get started</li>
+  </ul></li>
+</ul>
+
+
+<h4>02 Nov 2017</h4>
+
+<ul>
+  <li>We went over the second part of the handout from last class.</li>
+  <li> We discussed what these results mean.</li>
+</ul>
+
+
+<h4>31 Oct 2017</h4>
+
+<ul>
+  <li>We went over the first part of this handout on
+  <a href="materials/03-id-lim-results.pdf">learning results in the
+  identification in the limit paragdigm</a>.</li>
+</ul>
+
+
+
+<h4>26 Oct 2017</h4>
+
+<ul>
+  <li>Jon Rawski went over
+  <a href="materials/Jon-SEL.pdf"> string extension learning</a>.</li>
+  <li> Here is the <a href="materials/Heinz-2010-SEL.pdf">paper itself</a>. </li>
+</ul>
+
+
+
+<h4>24 Oct 2017</h4>
+
+<ul>
+  <li> We strictly k-local treesets and discussed how and why they are
+  identifiable in the limit from positive data. </li>
+  <li> We briefly saw how 2-local trees relate to context-free
+  grammars, but more on this next time.</li>
+  <li>Here are
+  <a href="materials/SLk-treesets.pdf">
+  updated notes on treesets</a>.</li>
+  <li> For Thursday please finish studying the paper and complete the
+  midterm feedback questionnaire. </li>
+</ul>
+
+
+<h4>19 Oct 2017</h4>
+
+<ul>
+  <li> We defined trees, treesets, and relations among trees such as
+  subtrees, and k-local trees. </li>
+  <li> We briefly saw how 2-local trees relate to context-free
+  grammars, but more on this next time.</li>
+  <li>Here is the
+  <a href="materials/629CourseNotes2017Oct19.pdf">
+  set of notes from this course so far</a>.</li>
+  <li> What we covered today was the first part of 2.1.4 in those notes.</li>
+</ul>
+
+
+
+<h4>17 Oct 2017</h4>
+
+<ul>
+  <li> We reviewed a proof that SL-k stringsets are identifiable in the limit
+  from positive data. Here is the updated <a href="materials/SLk-defs.pdf">SL handout</a>.</li>
+  <li> <a href="materials/HW7.pdf">Homework</a> for Thursday.</li>
+  <li> We discussed two types of classes for future directions
+  <ul>
+    <li> identification in the limit theorems: regarding all computably
+  enumerable stringsets from positive and negative data (Yes),
+  regarding the class of finite stringsets (Yes), regarding any class
+  of superfinite stringsets (No), and how to understand these results.</li>
+  <li>Extensions: SL tree languages, n-gram models (MLE of SL
+  distributions), ISL and OSL transductions (Chandlee 2014 et seq.),
+  SL tree transductions, and more!</li>
+</ul>
+  </li>
+  
+</ul>
+
+
+<h4>12 Oct 2017</h4>
+
+<ul>
+<li> We went over a <a href="materials/SPk-proof.pdf">proof</a> that SP-k stringsets are identifiable in the limit
+   from positive data.</li>
+<li> We discussed informally the regular and noncounting classes of stringsets.</li>
+<li> We defined Strictly k-Local stringsets and talked about how they
+could be learned (<a href="materials/SLk-defs.pdf">SL handout</a>).</li>
+</ul>
+
+
+<h4>10 Oct 2017</h4>
+
+ <ul>
+      <li> We discussed <a href="materials/Heinz-2010-LLP.pdf">Heinz (2010)</a>
+   <i>Learning Long-distance Phonotactics</i>.</li>
+</ul>
+
+<h4>05 Oct 2017</h4>
+
+ <ul> 
+   <li> We discussed why SP-k stringsets are identifiable in the limit
+   from positive data. </li>
+   <li> HW: Write a proof that SP-k stringsets are identifiable in the limit
+   from positive data. </li>
+</ul>
+
+<h4>03 Oct 2017</h4>
+
+ <ul> 
+   <li> We continued discussing SP stringsets. </li>
+   <li> We sketched the idea behind on SP-k stringsets can be learned.</li>
+   <li> Read <a href="materials/Heinz-2010-LLP.pdf">Heinz (2010)</a>
+   <i>Learning Long-distance Phonotactics</i> by Oct 10, 2017.</li>
+</ul>
+
+<h4>28 Sep 2017</h4>
+
+ <ul> 
+   <li> We finished the discussion from last time. </li>
+   <li> We defined the Strictly Piecewise stringsets
+   (see <a href="materials/01-learningdefs.pdf">here</a>).</li>
+   <li> HW: Study the proof for learning the "bar" class of stringsets
+   and come to class prepared to ask about it.</li>
+ </ul>
+
+<h4>26 Sep 2017</h4>
+
+ <ul> 
+   <li> We talked about a concrete procedure which provides the n-th
+   string in the standard enumeration of all 
+   strings.</li>
+   <li>We explained how it can be modified to learn a
+   non-trivial class of stringsets. Here is the 
+  <a href="materials/02-enum.pdf">the handout</a>.
+ </ul>
+
+<h4>21 Sep 2017</h4>
+
+ <ul> 
+   <li> We discussed HW exercises and reviewed one definition of learning. </li>
+   <li> Al&euml;na explained why most subsets of sigma star do not have a
+   solution to the membership problem in  <a href="materials/alena-enum_diag.pdf">this handout</a>.
+ </ul>
+
+<h4>19 Sep 2017</h4>
+
+ <ul> 
+   <li> We discussed HW exercises. </li>
+   <li> We began going over some
+   <a href="materials/01-learningdefs.pdf">definitions of learning</a>.  </li>
+   <li> HW for Thursday: Read
+   <a href="materials/Boolos%20et%20al%205th%20Edition%20Computability%20and%20Logic%20Chaps%201-2.pdf">chapters 1 and 2</a>
+   in Boolos, Burgess and Jeffrey's <i>Computability and Logic</i> about
+   enumerability and diagonalization. </li> </ul>
+
+   <h4>14 Sep 2017</h4>
+
+ <ul> 
+   <li> We kept going over the overview. </li>
+   <li> HW for Tuesday: Exercises 3 and 4 in those notes. </li>
+  <li> Note all future classes will be in the comp ling lab. </li>
+ </ul>
+
+
+<h4>12 Sep 2017</h4>
+
+ <ul> 
+   <li> We discussed the guessing-rule game a bit more, and how its
+   like and unlike language learning. </li>
+   <li> We began going over this <a href="materials/00-overview.pdf">overview</a>.  </li>
+   <li> HW for Thursday: Exercises 1 and 2 in those notes. </li>
+ </ul>
+
+
+<h4>7 Sep 2017</h4>
+
+ <ul> 
+   <li> We spent the class discussing HW 1.</li> 
+ </ul>
+
+<h4>5 Sep 2017</h4>
+
+ <ul> 
+   <li> In observance of Labor Day, <a href="http://www.stonybrook.edu/commcms/_old/registrar-old/calendars/acalcontent/ay1718/GradSPD%20Fall%202017.pdf">no classes are in session at Stony Brook.</a> </li> 
+ </ul>
+
+<h4>31 Aug 2017</h4>
+
+ <ul> 
+   <li> Class canceled and will be rescheduled later. </li> 
+ </ul>
+
+<h4>29 Aug 2017</h4>
+
+ <ul> 
+   <li> We reviewed the syllabus and introduced the course.</li> 
+   <li> Homework. Read the following chapters and articles and answer
+   the questions in the HW1 file.
+   <ul>
+     <li> <a href="materials/Heinz-Idsardi-2017-CPT.pdf">Computational Phonology Today by Heinz and Idsardi 2017</a></li>
+     <li> <a href="materials/Cormen%202013%20Chaps%201-2%20Algorithms%20Unlocked.pdf">Algorithms Unlocked by Cormen 2016, Chapter 1</a></li>
+     <li> <a href="materials/Osherson%20Stob%20Weinstein%201986%20Systems%20That%20Learn%20INTRODUCTION.pdf">Systems that Learn by Osherson, Stob, and Weinstein 1986, Introduction</a></li>
+     <li> <a href="materials/HW1.pdf">HW 1</a></li>
+   </ul>
+   </li>
+ </ul>
+
+
+
+ <hr>
+   
+<p><i><script language="Javascript">
+document.write("Last updated: " + document.lastModified +"");
+</SCRIPT></i></p>
