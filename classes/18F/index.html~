@@ -1,0 +1,332 @@
+<h2>Learnability (LIN 650)</h2>
+
+<br>
+
+<table>
+<TR>
+  <TD align="" colspan=""><b>Course: </b></TD>
+  <TD align="" colspan="">LIN 650, <del> TTh 8:30-09:50, SBS N117 </del> MW 16:00-17:20, SBS N250
+</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor:</b></TD>
+  <TD align="" colspan=""> <a href="https://heinz-jeffrey.github.io/">Jeff Heinz</a> (<a href="mailto:jeffrey.heinz@stonybrook.edu">jeffrey.heinz@stonyrbook.edu</a>)</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor's office hours:&nbsp;&nbsp;</b></TD>
+  <TD align="" colspan="">M 13:30-15:00, R 11:30-13:00</TD>
+</TR>
+</table>
+
+<br>
+<br>
+
+<!-- <hr> -->
+<!-- <a href="materials/">Materials</a> -->
+<!-- <hr> -->
+
+<h3>Course Information</h3>
+
+<ul>
+  <li>
+   <a href="materials/syllabus-learnability-LIN650-18S-Heinz.pdf"> 
+  Syllabus for LIN 650
+   </a> 
+  </li>
+</ul>
+<hr>
+
+
+<h3>Course Log</h3>
+
+<h4>07 May 2018</h4>
+
+<ul><li>We concluded the class for the year.
+</li></ul>
+
+<h4>02 May 2018</h4>
+
+<ul><li>We went over properties of ZR languages and explained the ZR
+inference algorithm.
+</li></ul>
+
+    
+<h4>30 Apr 2018</h4>
+
+<ul><li>We went over the preliminaries section of the reversible
+languages paper.
+</li></ul>
+
+    
+<h4>25 Apr 2018</h4>
+
+<ul><li>Seouyoung presented an empirical comparison of MaxEnt methods
+in phonology to MLE methods on Hungarian vowel harmony.
+</li></ul>
+
+    
+<h4>23 Apr 2018</h4>
+
+<ul>
+<li>We went over state-merging as an inference method.
+</li></ul>
+
+
+<h4>18 Apr 2018</h4>
+
+<ul>
+  <li> Class cancelled; instructor away.</li>
+    <li> Please read the following sections of <a href="materials/angluin-reversible-languages.pdf">Angluin
+	1982</a>, for next Wednesday's (4/25) class.
+      <ul>
+	<li>sections 1, 2, 3 </li>
+	<li>section 4: 4.1 </li>
+	<li>section 5: 5.1, 5.2, 5.3 </li>
+	<li>section 9 </li>
+      </ul>
+    </li>
+</ul>
+
+<h4>16 Apr 2018</h4>
+
+<ul>
+  <li> Sophie presented her research on logically defining an
+  epenthetic transformation where the quality of the vowel is
+  determined by morphological, not phonological information.</li>
+</ul>
+
+
+<h4>11 Apr 2018</h4>
+
+<ul>
+  <li> We discussed how to define logical transductions from one
+  relational structure to another.</li>
+</ul>
+
+<h4>09 Apr 2018</h4>
+
+<ul>
+  <li>We continued the discussion of using propositional logic to
+  define sets of relational structures with k-factors. It was pointed
+  out that the without FO, special accomodations were needed to
+  distinguish the beginnings and ends of words. </li>
+</ul>
+
+
+<h4>04 Apr 2018</h4>
+
+<ul>
+  <li> We provided a definition for k-factors of arbitrary relational
+  structures in addition to a propositional logic of which the
+  k-factors are the atomic propositions.</li>
+</ul>
+
+<h4>02 Apr 2018</h4>
+
+<ul>
+  <li> We went over 1.3 of the Kearns and Vazirani chapter on
+  PAC-learning the class of concepts expressible with conjunctions of
+  literals.</li>
+  <li> Please read the draft of section 2.8 that I emailed for
+  Wednesday.</li>
+</ul>
+
+  
+<h4>28 Mar 2018</h4>
+
+<ul>
+  <li>Our guest
+  lecturer <a href="http://pageperso.lif.univ-mrs.fr/~remi.eyraud/en/index.html">R&eacute;mi
+  Eyraud</a>
+  presented <a href="materials/Eyraud-Substitutable-presentation.pdf">slides</a>
+  on distributional learning.</li>
+</ul>
+
+<h4>26 Mar 2018</h4>
+
+<ul>
+  <li> <li>Our guest
+  lecturer <a href="http://pageperso.lif.univ-mrs.fr/~remi.eyraud/en/index.html">R&eacute;mi
+  Eyraud</a> presented slides on RPNI. The slides are available on
+  <a href="http://pagesperso.lina.univ-nantes.fr/~cdlh/slides/">this
+  webpage</a>, courtesy of <a href="http://pagesperso.lina.univ-nantes.fr/~cdlh/">Colin de la Higuera</a> (they were item 2).</li>
+
+  <li>For Wedesday's lecture, please review
+  this <a href="materials/Clark%202013%20JMLR%20Learning%20Trees%20from%20Strings.pdf">2013
+  paper</a> by Alex Clark.</li>
+
+</ul>
+
+<h4>21 Mar 2018</h4>
+
+<ul>
+  <li> University cancels classes due to weather. </li>
+  <li> I emailed the class a chapter which introduces state-merging
+    and provides outlines the RPNI algorithm to prepare for next
+    week's class. </li>
+</ul>
+
+
+<h4>19 Mar 2018</h4>
+
+<ul>
+  <li>We reviewed PAC learning and the VC dimension. We compared it to
+    the identification in the limit paradigms.</li>
+  <li>Please read 1.3 of Kearns and Vazirani on learning monomials.</li>
+    <ul>
+      <li>Supplemental
+	  reading on VC dimension: <a href="materials/Mohri%20Rostamizadeh%20Talwalk%202012%20Foundations%20of%20Machine%20Learning%20Chap%203.pdf">Chapter
+	  3, Mohri et al 2012</a></li>
+    </ul>
+</ul>
+
+
+<h4>14 Mar 2018</h4>
+
+<ul>
+  <li> Spring Break</li>
+</ul>
+
+<h4>12 Mar 2018</h4>
+
+<ul>
+  <li> Spring Break</li>
+</ul>
+
+<h4>07 Mar 2018</h4>
+
+<ul>
+  <li> We defined the PAC framework and explained why the concept
+  class of axis-aligned rectangles is PAC-learnable.</li>
+</ul>
+
+<h4>05 Mar 2018</h4>
+
+<ul>
+  <li> Hossep completed his presentation, which included discussion of
+    how reduplication patterns can be learned.</li>
+    <li> We discussed the VC dimension in anticipation of our lesson
+      on Probably Approximately Correct (PAC) learning on Wednesday.</li>
+  <li> Readings. Please read up to section 1.3 in Kearns and Vazirani 1994 for Wednesday. It's OK to skim pages 4-6 and 12-14.
+    <ul>
+      <li><a href="materials/Kearns-Vairani-1994-Introduction-to-Computational-Learning-Thoery-Ch01.pdf">Chapter 1, Kearns and Vazirani 1994</a></li>
+      <li><a href="materials/Mohri%20Rostamizadeh%20Talwalk%202012%20Foundations%20of%20Machine%20Learning%20Chap%201.pdf">Chapter 1, Mohri et al 2012</a></li>
+      <li><a href="materials/Mohri%20Rostamizadeh%20Talwalk%202012%20Foundations%20of%20Machine%20Learning%20Chap%202.pdf">Chapter 2, Mohri et al 2012</a></li>
+    </ul>
+    </li>
+</ul>
+
+
+
+
+
+<h4>28 Feb 2018</h4>
+
+<ul>
+  <li> Ji Yea presented her research on optionality in Korean
+    etymological i-epenthesis and how it might be modeled as an OSL or
+    as an ISL function.</li>
+  <li> Hossep began talking about his research on reduplication with
+    2-way deterministic finite-state transducers.</li>
+</ul>
+
+<h4>26 Feb 2018</h4>
+
+<ul>
+  <li> Nazila presented her research on how the tree languages
+    representing well-formed binding relations not be well described
+    with dominance and successor models of trees, but that it may be
+    more straightforward with c-command as a primitive relation (Frank
+    and Vijay-Shankar, 2001).</li>
+  <li> Lei also presented his work on binding relations from the
+  perspectibe Bruening's precede and command perspective.</li>
+</ul>
+
+<h4>21 Feb 2018</h4>
+
+<ul>
+  <li> We
+  discussed <a href="materials/02-relational-learning-factors.pdf">this
+  handout</a> on using relational learning to identify smallest
+  factors consistent with a most specific hypothesis which covers the
+  data.</li>
+</ul>
+
+
+<h4>19 Feb 2018</h4>
+
+<ul>
+  <li> We discussed chapter 3 of De Raedt's book.</li>
+  <li> Jon presented his project on learning feature-based constraints in the context of this chapter.</li>
+</ul>
+
+
+
+<h4>14 Feb 2018</h4>
+
+<ul>
+  <li>Hongchen presented her ideas on lifting OSL funnctions from strings to trees and we discussed what syntactic phenomena may be described in this way, if any.</li>
+  <li>We began discussion of Chapter 3 of De Raedt 2008 in anticipation of Jon's presentation.</li>
+</ul>
+
+<h4>12 Feb 2018</h4>
+
+<ul>
+  <li> We went over <a href="materials/01-dtts.pdf">deterministic bottom-up tree transducers</a> in anticipation of Hongchen's presentation.</li>
+</ul>
+
+<h4>07 Feb 2018</h4>
+
+<ul>
+  <li> We discussed the constraints definable with first order logic and precedence. </li>
+  <li> Reading for Wednesday Feb 14.
+    <ul>
+      <li><a href="materials/De%20Raedt%202008%20Chapter03.pdf">Chapter 3</a> of De Raedt's 2008 book Logical and Relational Learning </li>
+      <li><a href="materials/De%20Raedt%202008%20FrontMatter.pdf">Front matter</a> of De Raedt's 2008 book Logical and Relational Learning </li>
+    </ul>
+</ul>
+
+<h4>05 Feb 2018</h4>
+
+<ul>
+  <li> Class cancelled; instructor away.</li>
+ </ul>
+
+<h4>31 Jan 2018</h4>
+
+<ul>
+  <li>We discussed the successor model with features</li>
+  <li>Aniello presented the sections on MSO logic.</li>
+ </ul>
+
+<h4>29 Jan 2018</h4>
+
+<ul>
+  <li> Class now meets MW 4:00 to 5:20pm in the compling lab (SBS N250).</li>
+  <li> We discussed how to write constraints using the successor model and FO logic.</li>
+  <li> Reading for next class on successor model with features and MSO logic: <a href="materials/dcp-ch02.5-ch02.7.pdf">chapter 2, DCP, sections 2.5, 2.6 and 2.7</a>. It is a rough first draft! Please send typos etc and higher level comments to Hossep, who will compile and give to me.</li>
+ </ul>
+
+<h4>25 Jan 2018</h4>
+
+<ul>
+  <li> We finished going over the handout from last class.</li>
+  <li> Reading for next class on successor model and FO logic: <a href="materials/dcp-ch02-ch02.4.pdf">chapter 2, DCP, up to section 2.5</a>. It is a rough first draft! Please send typos etc and higher level comments to Hossep, who will compile and give to me.</li>
+ </ul>
+
+
+
+<h4>23 Jan 2018</h4>
+
+<ul>
+  <li> We reviewed the syllabus and introduced the course.</li>
+  <li> We discussed the time and location of class. It may change to MW 4-5:20pm, but next class will be 8:30-9:50am in the compling lab (SBS N250).</li> 
+  <li> We began going over this handout on <a href="materials/00-models.pdf">relational models</a>. Do exercise 1 for next class.</li>
+ </ul>
+
+
+ <hr>
+   
+<p><i><script language="Javascript">
+document.write("Last updated: " + document.lastModified +"");
+</SCRIPT></i></p>
