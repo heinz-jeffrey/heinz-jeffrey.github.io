@@ -49,14 +49,13 @@ wishes = wishesT.stringify(token_type="utf8")
 #   x = ((A(stem) @ regPlural) @ phonology).optimize() 
 #   return (x.stringify(token_type="utf8"))
 
-
 # a lexicon of memorized exceptions
 
 pluralExceptions = ( T("fʊt","fit")   # foot/feet 
                    | T("gus","gis")   # goose/geese
                    | T("fɪʃ","fɪʃ") ).optimize()   # fish/fish
 
-lexicalExceptions = pynini.project(irrPlural)
+lexicalExceptions = pynini.project(pluralExceptions)
 
 wrongPlural = (lexicalExceptions @ regPlural).optimize()
 
