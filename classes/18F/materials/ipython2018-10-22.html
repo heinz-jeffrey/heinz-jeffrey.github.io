@@ -1,0 +1,1098 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="qrichtext" content="1" /><style type="text/css">
+p, li { white-space: pre-wrap; }
+</style></head><body style=" font-family:'Monospace'; font-size:13pt; font-weight:400; font-style:normal;">
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Type &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IPython 5.1.0 -- An enhanced Interactive Python.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">?         -&gt; Introduction and overview of IPython's features.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">%quickref -&gt; Quick reference.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">help      -&gt; Python's own help system.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">object?   -&gt; Details about 'object', use 'object??' for extra details.</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">1</span><span style=" color:#000080;">]:</span> cd /media/sf_pynini/</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">/media/sf_pynini</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">2</span><span style=" color:#000080;">]:</span> ls</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">2.dot</span>*                  <span style=" color:#006400;">irregular-plurals.tsv</span>*   <span style=" color:#006400;">p2.eps</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">english_phonemes.txt</span>*   <span style=" color:#006400;">irregular-plurals.tsv~</span>*  <span style=" color:#00008b;">__pycache__</span>/</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">english_phonemes.txt~</span>*  <span style=" color:#006400;">irrLexicon.dot</span>*          <span style=" color:#006400;">regular-plurals.tsv</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">EngPlurals.py</span>*          <span style=" color:#006400;">irrLexicon.jpg</span>*          <span style=" color:#006400;">regular-plurals.tsv~</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">EngPlurals.py~</span>*         <span style=" color:#006400;">irrs.dot</span>*                <span style=" color:#006400;">upper.dot</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">example.py</span>*             <span style=" color:#006400;">irrs.jpg</span>*                <span style=" color:#006400;">upper.jpg</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">exceptions.dot</span>*         <span style=" color:#006400;">lower.dot</span>*               <span style=" color:#006400;">wish2.dot</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">exceptions.eps</span>*         <span style=" color:#006400;">lower.jpg</span>*               <span style=" color:#006400;">wish.dot</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">exceptions.jpg</span>*         <span style=" color:#006400;">p1.dot</span>*                  <span style=" color:#006400;">wish.jpg</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">ipa.txt</span>*                <span style=" color:#006400;">p1.eps</span>*</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">ipa.txt~</span>*               <span style=" color:#006400;">p1.pdf</span>*</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">3</span><span style=" color:#000080;">]:</span> %load EngPlurals.py</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">4</span><span style=" color:#000080;">]:</span> # %load EngPlurals.py</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # Jeff Heinz</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # October 2018</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # English Plural with Pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import functools</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> A = functools.partial(pynini.acceptor, token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> T = functools.partial(pynini.transducer, input_token_type=&quot;utf8&quot;, output_token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # some natural classes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> vowel = (A(&quot;i&quot;) | A(&quot;ɪ&quot;) | A(&quot;e&quot;) | A(&quot;ɛ&quot;) | A(&quot;æ&quot;) | A(&quot;u&quot;) | A(&quot;ʊ&quot;) | A(&quot;o&quot;) | A(&quot;ɔ&quot;) | A(&quot;ɑ&quot;) | A(&quot;ə&quot;) | A(&quot;ʌ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> consonant = (A(&quot;p&quot;) | A(&quot;b&quot;) | A(&quot;t&quot;) | A(&quot;d&quot;) | A(&quot;k&quot;) | A(&quot;g&quot;) | A(&quot;m&quot;) | A(&quot;n&quot;) | A(&quot;ŋ&quot;) | A(&quot;f&quot;) | A(&quot;v&quot;) | A(&quot;θ&quot;) | A(&quot;ð&quot;) | A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;h&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;) | A(&quot;j&quot;) | A(&quot;w&quot;) | A(&quot;ɹ&quot;) | A(&quot;l&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> strident = (A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> voiceless = (A(&quot;p&quot;) | A(&quot;t&quot;) | A(&quot;k&quot;) | A(&quot;f&quot;) | A(&quot;θ&quot;) | A(&quot;s&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # all segments</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> sigmaStar = (pynini.closure(vowel | consonant)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # phonological changes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> epenthesis = pynini.cdrewrite(T(&quot;&quot;,&quot;ɪ&quot;), strident, strident, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicePairs = (T(&quot;b&quot;,&quot;p&quot;) | T(&quot;d&quot;,&quot;t&quot;) | T(&quot;g&quot;,&quot;k&quot;) | T(&quot;v&quot;,&quot;f&quot;) | T(&quot;ð&quot;,&quot;θ&quot;) | T(&quot;z&quot;,&quot;s&quot;) | T(&quot;ʒ&quot;,&quot;ʃ&quot;) | T(&quot;ʤ&quot;,&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicing = pynini.cdrewrite(devoicePairs, voiceless, &quot;&quot;, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> phonology = (epenthesis @ devoicing).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPlural = (sigmaStar + T(&quot;&quot;, &quot;z&quot;)).optimize() # plural morphology suffixes a 'z'</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>  </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wish = A(&quot;wɪʃ&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cat = A(&quot;kæt&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cable = A(&quot;keɪbl&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dog = A(&quot;dɔg&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishesT = ((wish @ regPlural) @ phonology).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishes = wishesT.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # THIS DOES NOT WORK</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # def makeRegPl(stem):</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> #   x = ((A(stem) @ regPlural) @ phonology).optimize() </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> #   return (x.stringify(token_type=&quot;utf8&quot;))</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # a lexicon of memorized exceptions</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> pluralExceptions = ( T(&quot;fʊt&quot;,&quot;fit&quot;)   # foot/feet </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;gus&quot;,&quot;gis&quot;)   # goose/geese</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;fɪʃ&quot;,&quot;fɪʃ&quot;) ).optimize()   # fish/fish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> lexicalExceptions = pynini.project(irrPlural)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wrongPlural = (lexicalExceptions @ regPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPluralLessExceptions = (regPlural - wrongPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> plural = (pluralLessExceptions | pluralExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # a lexicon of nouns for which plural morphology applies productively and normally.</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> lexicon = (wish | cat | dog | cable | foot | goose | fish).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>  </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dog_LEX = T(&quot;🐕&quot;,&quot;dɔg&quot;) # just playing around with unicode</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">NameError</span>                                 Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-4-6008b9e7296c&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     57</span>                    | T(&quot;fɪʃ&quot;,&quot;fɪʃ&quot;) ).optimize()   # fish/fish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     58</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">---&gt; 59</span><span style=" color:#8b0000;"> </span>lexicalExceptions <span style=" color:#00008b;">=</span> pynini<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>irrPlural<span style=" color:#00008b;">)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     60</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     61</span> wrongPlural <span style=" color:#00008b;">=</span> <span style=" color:#00008b;">(</span>lexicalExceptions <span style=" color:#00008b;">@</span> regPlural<span style=" color:#00008b;">).</span>optimize<span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">NameError</span>: name 'irrPlural' is not defined</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">5</span><span style=" color:#000080;">]:</span> %load EngPlurals.py</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">6</span><span style=" color:#000080;">]:</span> # %load EngPlurals.py</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # Jeff Heinz</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # October 2018</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # English Plural with Pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import functools</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> A = functools.partial(pynini.acceptor, token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> T = functools.partial(pynini.transducer, input_token_type=&quot;utf8&quot;, output_token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # some natural classes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> vowel = (A(&quot;i&quot;) | A(&quot;ɪ&quot;) | A(&quot;e&quot;) | A(&quot;ɛ&quot;) | A(&quot;æ&quot;) | A(&quot;u&quot;) | A(&quot;ʊ&quot;) | A(&quot;o&quot;) | A(&quot;ɔ&quot;) | A(&quot;ɑ&quot;) | A(&quot;ə&quot;) | A(&quot;ʌ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> consonant = (A(&quot;p&quot;) | A(&quot;b&quot;) | A(&quot;t&quot;) | A(&quot;d&quot;) | A(&quot;k&quot;) | A(&quot;g&quot;) | A(&quot;m&quot;) | A(&quot;n&quot;) | A(&quot;ŋ&quot;) | A(&quot;f&quot;) | A(&quot;v&quot;) | A(&quot;θ&quot;) | A(&quot;ð&quot;) | A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;h&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;) | A(&quot;j&quot;) | A(&quot;w&quot;) | A(&quot;ɹ&quot;) | A(&quot;l&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> strident = (A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> voiceless = (A(&quot;p&quot;) | A(&quot;t&quot;) | A(&quot;k&quot;) | A(&quot;f&quot;) | A(&quot;θ&quot;) | A(&quot;s&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # all segments</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> sigmaStar = (pynini.closure(vowel | consonant)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # phonological changes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> epenthesis = pynini.cdrewrite(T(&quot;&quot;,&quot;ɪ&quot;), strident, strident, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicePairs = (T(&quot;b&quot;,&quot;p&quot;) | T(&quot;d&quot;,&quot;t&quot;) | T(&quot;g&quot;,&quot;k&quot;) | T(&quot;v&quot;,&quot;f&quot;) | T(&quot;ð&quot;,&quot;θ&quot;) | T(&quot;z&quot;,&quot;s&quot;) | T(&quot;ʒ&quot;,&quot;ʃ&quot;) | T(&quot;ʤ&quot;,&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicing = pynini.cdrewrite(devoicePairs, voiceless, &quot;&quot;, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> phonology = (epenthesis @ devoicing).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPlural = (sigmaStar + T(&quot;&quot;, &quot;z&quot;)).optimize() # plural morphology suffixes a 'z'</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>  </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wish = A(&quot;wɪʃ&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cat = A(&quot;kæt&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cable = A(&quot;keɪbl&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dog = A(&quot;dɔg&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishesT = ((wish @ regPlural) @ phonology).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishes = wishesT.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # THIS DOES NOT WORK</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> def makeRegPl(stem):</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   x = (((A(stem)) @ regPlural) @ phonology).optimize() </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   y = pynini.project(x,True)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   return y.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # a lexicon of memorized exceptions</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> pluralExceptions = ( T(&quot;fʊt&quot;,&quot;fit&quot;)   # foot/feet </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;gus&quot;,&quot;gis&quot;)   # goose/geese</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;fɪʃ&quot;,&quot;fɪʃ&quot;) ).optimize()   # fish/fish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> lexicalExceptions = pynini.project(pluralExceptions)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wrongPlural = (lexicalExceptions @ regPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPluralz = pynini.arcmap(regPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wrongPluralz = pynini.arcmap(wrongPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wrongPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPluralLessExceptions = (regPlural - wrongPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # plural = (pluralLessExceptions | pluralExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # the full lexicon </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> lexicon = (wish | cat | dog | lexicalExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dogLEX = T(&quot;🐕&quot;,&quot;dɔg&quot;) # just playing around with unicode</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstOpError</span>                                Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-6-22e8d47313f7&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     69</span> wrongPluralz<span style=" color:#00008b;">.</span>set_properties<span style=" color:#00008b;">(</span>pynini<span style=" color:#00008b;">.</span>UNWEIGHTED<span style=" color:#00008b;">,</span> pynini<span style=" color:#00008b;">.</span>UNWEIGHTED<span style=" color:#00008b;">)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     70</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">---&gt; 71</span><span style=" color:#8b0000;"> </span>regPluralLessExceptions <span style=" color:#00008b;">=</span> <span style=" color:#00008b;">(</span>regPlural <span style=" color:#00008b;">-</span> wrongPlural<span style=" color:#00008b;">).</span>optimize<span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     72</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     73</span> <span style=" color:#8b0000;"># plural = (pluralLessExceptions | pluralExceptions).optimize()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.__sub__</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini._difference_patch.patch</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstOpError</span>: 2nd argument must be an unweighted acceptor</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">7</span><span style=" color:#000080;">]:</span> %load EngPlurals.py</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">8</span><span style=" color:#000080;">]:</span> # %load EngPlurals.py</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # Jeff Heinz</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # October 2018</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # English Plural with Pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import functools</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> A = functools.partial(pynini.acceptor, token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> T = functools.partial(pynini.transducer, input_token_type=&quot;utf8&quot;, output_token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # some natural classes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> vowel = (A(&quot;i&quot;) | A(&quot;ɪ&quot;) | A(&quot;e&quot;) | A(&quot;ɛ&quot;) | A(&quot;æ&quot;) | A(&quot;u&quot;) | A(&quot;ʊ&quot;) | A(&quot;o&quot;) | A(&quot;ɔ&quot;) | A(&quot;ɑ&quot;) | A(&quot;ə&quot;) | A(&quot;ʌ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> consonant = (A(&quot;p&quot;) | A(&quot;b&quot;) | A(&quot;t&quot;) | A(&quot;d&quot;) | A(&quot;k&quot;) | A(&quot;g&quot;) | A(&quot;m&quot;) | A(&quot;n&quot;) | A(&quot;ŋ&quot;) | A(&quot;f&quot;) | A(&quot;v&quot;) | A(&quot;θ&quot;) | A(&quot;ð&quot;) | A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;h&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;) | A(&quot;j&quot;) | A(&quot;w&quot;) | A(&quot;ɹ&quot;) | A(&quot;l&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> strident = (A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> voiceless = (A(&quot;p&quot;) | A(&quot;t&quot;) | A(&quot;k&quot;) | A(&quot;f&quot;) | A(&quot;θ&quot;) | A(&quot;s&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # all segments</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> sigmaStar = (pynini.closure(vowel | consonant)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # phonological changes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> epenthesis = pynini.cdrewrite(T(&quot;&quot;,&quot;ɪ&quot;), strident, strident, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicePairs = (T(&quot;b&quot;,&quot;p&quot;) | T(&quot;d&quot;,&quot;t&quot;) | T(&quot;g&quot;,&quot;k&quot;) | T(&quot;v&quot;,&quot;f&quot;) | T(&quot;ð&quot;,&quot;θ&quot;) | T(&quot;z&quot;,&quot;s&quot;) | T(&quot;ʒ&quot;,&quot;ʃ&quot;) | T(&quot;ʤ&quot;,&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicing = pynini.cdrewrite(devoicePairs, voiceless, &quot;&quot;, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> phonology = (epenthesis @ devoicing).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPlural = (sigmaStar + T(&quot;&quot;, &quot;z&quot;)).optimize() # plural morphology suffixes a 'z'</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>  </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wish = A(&quot;wɪʃ&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cat = A(&quot;kæt&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cable = A(&quot;keɪbl&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dog = A(&quot;dɔg&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishesT = ((wish @ regPlural) @ phonology).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishes = wishesT.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # THIS WORKS! :-) ☺</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> def makeRegPl(stem):</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   x = (((A(stem)) @ regPlural) @ phonology).optimize() </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   y = pynini.project(x,True)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   return y.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # a lexicon of memorized exceptions</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # pluralExceptions = ( T(&quot;fʊt&quot;,&quot;fit&quot;)   # foot/feet </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;gus&quot;,&quot;gis&quot;)   # goose/geese</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>                    | T(&quot;fɪʃ&quot;,&quot;fɪʃ&quot;) ).optimize()   # fish/fish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # lexicalExceptions = pynini.project(pluralExceptions)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPlural = (lexicalExceptions @ regPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralz = pynini.arcmap(regPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPluralz = pynini.arcmap(wrongPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralLessExceptions = (regPlural - wrongPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # plural = (pluralLessExceptions | pluralExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # the full lexicon </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # lexicon = (wish | cat | dog | lexicalExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dogLEX = T(&quot;🐕&quot;,&quot;dɔg&quot;) # just playing around with unicode</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#4682b4;">  File </span><span style=" color:#006400;">&quot;&lt;ipython-input-8-8d532c30ea93&gt;&quot;</span><span style=" color:#4682b4;">, line </span><span style=" color:#006400;">58</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">    | T(&quot;gus&quot;,&quot;gis&quot;)   # goose/geese</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">    ^</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">IndentationError:</span> unexpected indent</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">9</span><span style=" color:#000080;">]:</span> %load EngPlurals.py</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">10</span><span style=" color:#000080;">]:</span> # %load EngPlurals.py</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # Jeff Heinz</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # October 2018</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # English Plural with Pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import pynini</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> import functools</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> A = functools.partial(pynini.acceptor, token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> T = functools.partial(pynini.transducer, input_token_type=&quot;utf8&quot;, output_token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # some natural classes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> vowel = (A(&quot;i&quot;) | A(&quot;ɪ&quot;) | A(&quot;e&quot;) | A(&quot;ɛ&quot;) | A(&quot;æ&quot;) | A(&quot;u&quot;) | A(&quot;ʊ&quot;) | A(&quot;o&quot;) | A(&quot;ɔ&quot;) | A(&quot;ɑ&quot;) | A(&quot;ə&quot;) | A(&quot;ʌ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> consonant = (A(&quot;p&quot;) | A(&quot;b&quot;) | A(&quot;t&quot;) | A(&quot;d&quot;) | A(&quot;k&quot;) | A(&quot;g&quot;) | A(&quot;m&quot;) | A(&quot;n&quot;) | A(&quot;ŋ&quot;) | A(&quot;f&quot;) | A(&quot;v&quot;) | A(&quot;θ&quot;) | A(&quot;ð&quot;) | A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;h&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;) | A(&quot;j&quot;) | A(&quot;w&quot;) | A(&quot;ɹ&quot;) | A(&quot;l&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> strident = (A(&quot;s&quot;) | A(&quot;z&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʒ&quot;) | A(&quot;ʤ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> voiceless = (A(&quot;p&quot;) | A(&quot;t&quot;) | A(&quot;k&quot;) | A(&quot;f&quot;) | A(&quot;θ&quot;) | A(&quot;s&quot;) | A(&quot;ʃ&quot;) | A(&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # all segments</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> sigmaStar = (pynini.closure(vowel | consonant)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # phonological changes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> epenthesis = pynini.cdrewrite(T(&quot;&quot;,&quot;ɪ&quot;), strident, strident, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicePairs = (T(&quot;b&quot;,&quot;p&quot;) | T(&quot;d&quot;,&quot;t&quot;) | T(&quot;g&quot;,&quot;k&quot;) | T(&quot;v&quot;,&quot;f&quot;) | T(&quot;ð&quot;,&quot;θ&quot;) | T(&quot;z&quot;,&quot;s&quot;) | T(&quot;ʒ&quot;,&quot;ʃ&quot;) | T(&quot;ʤ&quot;,&quot;ʧ&quot;)).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> devoicing = pynini.cdrewrite(devoicePairs, voiceless, &quot;&quot;, sigmaStar)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> phonology = (epenthesis @ devoicing).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> regPlural = (sigmaStar + T(&quot;&quot;, &quot;z&quot;)).optimize() # plural morphology suffixes a 'z'</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>  </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wish = A(&quot;wɪʃ&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cat = A(&quot;kæt&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> cable = A(&quot;keɪbl&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dog = A(&quot;dɔg&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishesT = ((wish @ regPlural) @ phonology).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> wishes = wishesT.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # THIS WORKS! :-) ☺</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> def makeRegPl(stem):</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   x = (((A(stem)) @ regPlural) @ phonology).optimize() </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   y = pynini.project(x,True)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span>   return y.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # a lexicon of memorized exceptions</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # pluralExceptions = ( T(&quot;fʊt&quot;,&quot;fit&quot;)   # foot/feet </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> #                   | T(&quot;gus&quot;,&quot;gis&quot;)   # goose/geese</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> #                   | T(&quot;fɪʃ&quot;,&quot;fɪʃ&quot;) ).optimize()   # fish/fish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # lexicalExceptions = pynini.project(pluralExceptions)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPlural = (lexicalExceptions @ regPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralz = pynini.arcmap(regPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPluralz = pynini.arcmap(wrongPlural, map_type=&quot;rmweight&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # wrongPluralz.set_properties(pynini.UNWEIGHTED, pynini.UNWEIGHTED)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # regPluralLessExceptions = (regPlural - wrongPlural).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # plural = (pluralLessExceptions | pluralExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # the full lexicon </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> # lexicon = (wish | cat | dog | lexicalExceptions).optimize()</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> dogLEX = T(&quot;🐕&quot;,&quot;dɔg&quot;) # just playing around with unicode</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">   ...:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">11</span><span style=" color:#000080;">]:</span> wish</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">11</span><span style=" color:#8b0000;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+b'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
+2LyK7DgiTjAAAAAElFTkSuQmCC'
+" /></p>
+<br/>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">12</span><span style=" color:#000080;">]:</span> wishesT</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">12</span><span style=" color:#8b0000;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+b'iVBORw0KGgoAAAANSUhEUgAAAjEAAAA0CAYAAAB7PWluAAAACXBIWXMAAA
+7EAAAOxAGVKw4bAAAgAElEQVR4nO2dd1hU1/b+XwiKFCGxO1gwdrFce76igh
+TFEtCImqhANEXN1WjEqNHkGmOLileTeK8pit2rsSIgEiSAmmDsIDbsKIzSlN
+6GeX9/8OOEYUCZQhH353nmeThlr71n8c456+y99j4GJAmBQCAQCASClwzD6m
+6AQCAQCAQCgTaIIEYgEAgEAsFLiVF1N0AgEAgEAsHLS2ZmJuLj4yGXy5GQkA
+C5XA4AaN68OWQyGZo3b46WLVvC1NRU73UbiJwYgUAgEAgEmvDw4UP4+fnBz8
+8PBgYGiIuLUwlaAKgENS1btoSBgQHc3Nzg5uaGFi1a6KUdIogRCAQCgUBQIY
+KDg7F9+3acPn1aCkicnJwqVDYkJEQKfOzs7ODl5QVnZ2ed2iOCGIFAIBAIBM
+/l0qVL+Pzzz2FkZAQfHx907dpVJ3vR0dGYN28eAMDHxwfdu3fXyo7OQUxiYi
+KOHj2KiIgIPHr0CAkJCUhISAAAyGQyyGQytGjRAnZ2dnB1dUWTJk10qe6VJz
+Y2VvJx8bhjcfedTCZDhw4dqrmFNRfhO+0QfhMAQgevMosWLcLx48exdu1aOD
+o6lnmOtvoICQnBvHnz8Pbbb2P58uUat02rIEahUGD79u3YsWMHTp8+DaVSWa
+FyhoaGGDhwIDw9PeHl5QUjI5FXXBHCw8Nx5MgR+Pn5oXfv3khJSVEZdywWTc
+OGDXHx4kW4ublh9OjRsLOzq+aWVz/Cd9oh/CYAhA4EwMCBA/HJJ59g4sSJas
+f0qY8dO3Zgy5YtiIiI0KyB1AClUkk/Pz926tSJAAiAlpaWnDBhAn19fRkeHs
+6bN28yPT2d6enpvHnzJsPDw+nr68sJEybQwsJCKtepUyf6+flRqVRq0oRXis
+DAQHbv3p329vbcsGED792798Iyd+/e5fr162lnZ8du3boxKCio8htaAxG+0w
+7hNwEpdCAgnz59SktLS54+fVrtWGXpIyIigg0aNGB6enqF21nhICYxMZHOzs
+5SEDJ48GAGBwczPz+/wpXl5eUxODiYgwYNkuw4OzszKSmpwjZeBeRyOe3s7D
+hixAhevXpVazvR0dF0cXGhg4PDK+Nj4TvtEH4TkEIHgiKePn1Ke3t7Pnv2TG
+V/VegjJSWF9vb2TEtLq5CtCgUxUVFRtLa2JgB27dqVgYGBOvWgKJVKBgQE0M
+bGhgBobW3N6Ohore3VJkJDQ9mxY0eGh4fr1aa1tTUjIiL0ZrMm8rL6LjIykh
+s3buSBAweYnZ2tciw/P58HDx7kDz/8wJMnT1ZKz+XL6jeBfhE6EBRjaWmpFs
+BUpT6Sk5PZsGHDCtl4YRATFBREMzMzAqCXlxdzcnK0a20Z5OTk0NPTkwBoZm
+b2ync/Hj58mA4ODpVmf/DgwfT39680+9XJy+q7f//73+zduzcDAwPp6OjITZ
+s2SccKCwvp5OTEadOm8cCBA2zWrBkfPnyo1/pfVr9VJbdv3+bdu3el7ZSUFF
+6+fLkaW6R/hA5ezJMnT1T+71lZWfzrr7+qsUWVg62trdoQUnXoIzw8nHZ2di
+8s+9wgJioqimZmZjQwMOC6desq5SlQqVRy3bp1NDAwoJmZ2SvbI3P48GGOHz
+++0utxd3fn0aNHK72equRl9t2bb77JzZs3kySvXr3Kc+fOSceuXbtGAHz8+D
+HJou9Z0S7WivAy+60qmT59OmfNmkWSvHjxIrt3784JEyZUc6v0h9BBxdiwYQ
+MdHR1Jknfu3OGwYcPYo0ePam6Vfvniiy+4e/dulX3VqY/t27fzyy+/fG65co
+OYxMREtm7dmgC4bt06/bTyOfj4+EhDS6/aGGpoaGilRrmlGTx4sF67d3Nzc/
+n06VPpU1BQoHJcqVSqHM/KytJb3S+777p27Vru7+v+/fsEwJs3b+qtvmJedr
+9VJaUf3r744osqD2IyMjJUfkP6QuhAMwoLC6W/t2/fXquCmIsXL7Jnz54q+2
+qCPrp16/bczo0ygxilUikl8Xp5eVXJDCKlUikNLTk7O+ulzpSUFMrlcqakpD
+A7O5tyuZxyuZyZmZlUKpWUy+XSBSE1NZWZmZkal9MVuVzOjh076sWWJrRt25
+bJycl6seXv7087OzsC4Lvvvstbt26RpDT0kZeXx7Fjx7J+/frs06cPf/nlF7
+3UWxt8N3bsWH788ccq+4r9VlhYSBMTE70/vdYGv5VFeHg4R40axT/++INkkf
++uXr3KhIQElfPkcjlJMi4uTm147tmzZ4yOjmZGRobKNai4N4wkFy9erBbEZG
+Rk8NKlS2o9ZRkZGXz27BnT09MZHR0t2Vy8eDHnzZvHR48elft95HK59ECwcu
+VKdu7cmU2aNOHUqVMr5I8XUVt1EB0dTU9PT27fvl3ad+vWLd65c0flvJSUFO
+bl5TExMVG6ZhWTnZ3NqKgopqWlqUxeKamDnTt3qgUxubm5jIqKUnsQL66n+H
+heXh5J8pdffuHUqVN57dq1cr9PyXtTXl6edD8q/uird9bR0ZEnTpyQtmuKPo
+4fP85hw4aVe36ZQYyfn5+UxKvPHJgXkZOTw65duxKAXi7chw4dIgAGBAQwNT
+WVDg4O7NOnD5OSkqhUKvnRRx9x69atJMlhw4bx/fffr3C5kj8QXbCzs9Nrol
+RFOXHihNQ1qg9OnTpFAJJeIiMjCYAPHjyQzrGxseEPP/ygtzprg+8WL16sMu
+77119/EYA0ZbFHjx5cu3atXuoqpjb4rRiFQsFff/2V/fr144ABA3jo0CEWFh
+YyLi6O3t7e3LlzJ3v37s1vvvmG2dnZnDlzJs3MzLhkyRK6u7vTzMyMy5cvJ0
+mePXuWM2fOZHR0NIcOHUq5XM7Y2Fg6Ojpy5MiRUp2lg5gNGzZwxYoVPH36NE
+eOHMmVK1eSJH/77TeamZlx/vz5/Oyzz9i2bVt+8sknJItuTCtXrmSrVq3o6e
+lZ5pOmlZUVfXx8pO0lS5ZUKEegotQmHRTbHTZsGLt06cLNmzczNzeXWVlZnD
+dvHnfs2MHhw4dz8uTJJMlVq1axTp06/Oqrrzhu3Dg2atSIHh4eJMmEhAROnj
+yZMTExnDp1Kk+cOMHHjx/T09OT7dq1k+orHcQcPnyYn332GSMjIzl16lR+8M
+EHVCgUvHTpElu3bs0pU6Zw/vz57N27t9S7kZOTwx9//JEdO3bkyJEjy/x/OD
+o68sMPPyRZlKM6e/Zs7t+/n+vWrSMA7t+/X2fflRUo1CR9lA6wSqIWxBQUFE
+jrwAQGBlZOK59DQEAAAbBz585qwxLa0KtXLylZ8sSJE2zatCkVCgVJ0tvbWz
+rv9u3bjI+Pr1C5+fPn69wusmiu/YgRI/RiSxuGDh3K4OBgvdgqHcQUFBTwzz
+//VDlHn0FMbfHdjh072LRpU2lboVCo+G38+PH84IMPdK6nmNrit6ysLH7//f
+ds164dx4wZI/W+FOPq6sqTJ0/y3r17/OGHH/jaa68xJSWFJ0+eZN26daUn5Y
+MHD9LIyIhyuZxLly7lokWLSJLnz5+XenD+9a9/lRvEnDt3jl26dJGOpaam0s
+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
+1bmZWVxWnTpjEiIoJpaWl0dXVlu3bt+PjxY6alpXH48OHs2bMnU1JSSBYNN7
+399tu8c+cOt2zZIg0bJCQk0NzcnMuWLaNCoeD69esJgNevX+e3337LTp068a
+effip3CLZFixZSYu+OHTs4aNAgtmrVikuXLlU7V5P8QV2vPWTRStK2trYcO3
+as1jYqQwfJycn85ptv2LJlS/r7+/PixYts0KABO3ToQBcXF86YMYOFhYXScN
+Jnn33G8+fPc+7cudyxYwfJovvgokWLmJOTwxUrVnDz5s3MycnhnDlzaGxszL
+t37zInJ4ezZs1igwYNpFzKXbt28a233uK1a9d47Ngxzpgxg0qlks+ePWOXLl
+3o5eXF3NxcKTfnyJEjPHDgAFu1asVVq1aVO+PVyclJSuzdvXs369SpQz8/P0
+ZGRvLAgQNSsnhJKvo6oIyMDDo7O6vs01Ufixcvpre3N729vTl//nytZ6KVpQ
+9HR0fm5uaq7FMJYiZPnkwA9PX11arS0aNHc82aNdL26tWrOWbMGK1s+fr6Ek
+C5yTyaUnJq3JMnT9SO37hxQ2UcvKLlSrJ37142b96cy5cvL9NWMTdv3tTpx1
+/M4sWLdQ5iSHLMmDFqUww14fHjxzx37pz0ycjIYH5+vpTcWFhYqHK8rB/IwY
+MH2axZMy5btkxlRlNpdPGdUqnkN998I23n5uaycePG3LZtm1b2SN19R5Iff/
+yx9J0KCgoYFhamclwmk0mz6EqzZMkStm3blt999510Uy0LXTUXExMj/f3gwQ
+NaWFhIiYfaoA+/lcWzZ8+YmppKknz06BEDAgJU6inOiYmLi2NISIhKLtKjR4
+8YFRVFf39/SaMPHjyQdHvz5k2V7ZJ27927x8DAQBXtxsbGSuempqZKf1+9ep
+X3799/Yc5hcbnSti5cuKB2rrOzM21tbblnz57n2tTXtWfdunX8+uuvdbZVWT
+rIzc2V8ieSk5N57NgxldV2i4OYy5cvMzg4WO06f+3aNQYGBkq6T0xMlPwfFR
+XFJ0+eSNslE2IfP37MY8eO8fr169K+uLg46dzExEReunSJ586d4/nz5xkfH/
+/CB5Hr169LuTt37txRuZaWdz399ttv2aZNG65fv/65667duHFDZRq1rvpITU
+2lp6enWqChLaX10a5dOzW9qAQx9vb2BKD1tKrXX3+dx48fl7aDgoJYt25drR
+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'
+" /></p>
+<br/>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">13</span><span style=" color:#000080;">]:</span> wishes</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">13</span><span style=" color:#8b0000;">]:</span> 'wɪʃɪz'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">14</span><span style=" color:#000080;">]:</span> wishesT.project(wishes,TRUE)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">NameError</span>                                 Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-14-5b14c795bb05&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">----&gt; 1</span><span style=" color:#8b0000;"> </span>wishesT<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>wishes<span style=" color:#00008b;">,</span>TRUE<span style=" color:#00008b;">)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">NameError</span>: name 'TRUE' is not defined</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">15</span><span style=" color:#000080;">]:</span> wishesT.project(wishes,True)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError</span>                                 Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-15-5cc8dfafc061&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">----&gt; 1</span><span style=" color:#8b0000;"> </span>wishesT<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>wishes<span style=" color:#00008b;">,</span><span style=" color:#006400;">True</span><span style=" color:#00008b;">)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pywrapfst.pyx</span> in <span style=" color:#4682b4;">pywrapfst._MutableFst.project</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">TypeError</span>: project() takes at most 1 positional argument (2 given)</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">16</span><span style=" color:#000080;">]:</span> wishesT.project(True)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">16</span><span style=" color:#8b0000;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+b'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
+9+KFhv37599NRTTxER0V//+lfy8/OjsrIyampqoj179gjWJyIKDQ0VNAdeKH
+V1dbRo0SJRtMT+1jpevDly5AhNnz5dhIjuMV58IWJtZji6urpo1qxZ9N5774
+mi9+OPP9KMGTNMykajZ76+vqTRaMzONUu5RUVFAICcnBxIJBLRs+JwSCQSvP
+XWWwCAQ4cOCdZbt24dLly4gG+//RZXrlxBZmYmDh48iMOHDyMlJUWwvkqlwr
+Rp0xAUFCRYiy+hoaFwd3dHbW3tiMVgifHkTWBgIJqbm3H79m3BMY0nX8RmPH
+qzbds2eHt74/XXXxdFT6lUQi6Xc8ej1TO5XA6lUml2rknSaW5uRk1NDby8vP
+D000/zqlytViM3Nxd//vOfcebMGV4aMpkMnp6eqKmpQUtLCy8NI56enkhKSs
+LatWuRnJyM9evXo6KiAs3NzfDx8RGkDQDHjx9HQkKCII0zZ85gz549gjQSEh
+Jw/PhxQRpiI9Sbo0ePQi6XIzU1FXV1dbx1xPAmMDAQAETpYhPqyz/+8Q/Ex8
+djzZo1OH/+PG+d8dhmjPzvf//D22+/zft6sbypra3F/v37UVBQAFdXVzQ3N+
+PixYuCNAcnHaGeNTU1YevWrdi6dSu2bNmCI0eO8NIZ7Jm1pGPSvbZ//34CQM
+nJybxusS5dukRLliwhvV5Per2eli1bRl9++SUvraSkJNG62M6ePWuyaGnVql
+VDTo3U6/U2awcEBNj0HCNrfPrpp/TrX/+a5HI5bw0ioitXrtBjjz0mSOP69e
+uUnZ3NzVq01F3S19dns54Qb/bu3Uvvv/8+/fOf/6Rnn32WPD096caNG7y0xP
+CGiMjPz4+KioosvmfP46CE+FJVVUV///vf6cKFC5SWlkZ+fn68dIjGX5sx0t
+/fT8uWLaNVq1bx1hDDm56eHpozZw6tXbuWzpw5Q9XV1bRx40ZqaGgwO9dWjz
+o7Oyk2NtakTKhnOTk5lJmZSZmZmfT666/znr1nybPo6GizafQmSSc1NZUAUH
+5+Pq9KExISTKaV5ubm0sqVK3lp5efnEwBKTU3ldf1gfvrpJ+7nmzdvDnnuoU
+OHSCqV0o4dO4b8oLt8+bKghm0kJydHcNIhIlq5ciVduXKF9/U6nY6+/PJL7m
+XJp8TERFq8eDEVFBQM+SgYId4YDAb605/+xB339vbSww8/TAUFBbz0iIR7Q0
+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
+5CYII='
+" /></p>
+<br/>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">17</span><span style=" color:#000080;">]:</span> wishesT</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">17</span><span style=" color:#8b0000;">]:</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><img src="data:image/png;base64,
+b'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
+9+KFhv37599NRTTxER0V//+lfy8/OjsrIyampqoj179gjWJyIKDQ0VNAdeKH
+V1dbRo0SJRtMT+1jpevDly5AhNnz5dhIjuMV58IWJtZji6urpo1qxZ9N5774
+mi9+OPP9KMGTNMykajZ76+vqTRaMzONUu5RUVFAICcnBxIJBLRs+JwSCQSvP
+XWWwCAQ4cOCdZbt24dLly4gG+//RZXrlxBZmYmDh48iMOHDyMlJUWwvkqlwr
+Rp0xAUFCRYiy+hoaFwd3dHbW3tiMVgifHkTWBgIJqbm3H79m3BMY0nX8RmPH
+qzbds2eHt74/XXXxdFT6lUQi6Xc8ej1TO5XA6lUml2rknSaW5uRk1NDby8vP
+D000/zqlytViM3Nxd//vOfcebMGV4aMpkMnp6eqKmpQUtLCy8NI56enkhKSs
+LatWuRnJyM9evXo6KiAs3NzfDx8RGkDQDHjx9HQkKCII0zZ85gz549gjQSEh
+Jw/PhxQRpiI9Sbo0ePQi6XIzU1FXV1dbx1xPAmMDAQAETpYhPqyz/+8Q/Ex8
+djzZo1OH/+PG+d8dhmjPzvf//D22+/zft6sbypra3F/v37UVBQAFdXVzQ3N+
+PixYuCNAcnHaGeNTU1YevWrdi6dSu2bNmCI0eO8NIZ7Jm1pGPSvbZ//34CQM
+nJybxusS5dukRLliwhvV5Per2eli1bRl9++SUvraSkJNG62M6ePWuyaGnVql
+VDTo3U6/U2awcEBNj0HCNrfPrpp/TrX/+a5HI5bw0ioitXrtBjjz0mSOP69e
+uUnZ3NzVq01F3S19dns54Qb/bu3Uvvv/8+/fOf/6Rnn32WPD096caNG7y0xP
+CGiMjPz4+KioosvmfP46CE+FJVVUV///vf6cKFC5SWlkZ+fn68dIjGX5sx0t
+/fT8uWLaNVq1bx1hDDm56eHpozZw6tXbuWzpw5Q9XV1bRx40ZqaGgwO9dWjz
+o7Oyk2NtakTKhnOTk5lJmZSZmZmfT666/znr1nybPo6GizafQmSSc1NZUAUH
+5+Pq9KExISTKaV5ubm0sqVK3lp5efnEwBKTU3ldf1gfvrpJ+7nmzdvDnnuoU
+OHSCqV0o4dO4b8oLt8+bKghm0kJydHcNIhIlq5ciVduXKF9/U6nY6+/PJL7m
+XJp8TERFq8eDEVFBQM+SgYId4YDAb605/+xB339vbSww8/TAUFBbz0iIR7Q0
+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
+5CYII='
+" /></p>
+<br/>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">18</span><span style=" color:#000080;">]:</span> wishez = wishesT</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">19</span><span style=" color:#000080;">]:</span> wishez.stringify(token_type=&quot;utf8&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">19</span><span style=" color:#8b0000;">]:</span> 'wɪʃɪz'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">20</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;bug&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">20</span><span style=" color:#8b0000;">]:</span> 'bugz'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">21</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;buk&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">21</span><span style=" color:#8b0000;">]:</span> 'buks'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">22</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;bus&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">22</span><span style=" color:#8b0000;">]:</span> 'busɪz'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">23</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;buS&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>                               Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-23-fe2793cccfb6&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">----&gt; 1</span><span style=" color:#8b0000;"> </span>makeRegPl<span style=" color:#00008b;">(&quot;buS&quot;)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-10-e043cdfff2c4&gt;</span> in <span style=" color:#4682b4;">makeRegPl</span><span style=" color:#00008b;">(stem)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     50</span>   x <span style=" color:#00008b;">=</span> <span style=" color:#00008b;">(((</span>A<span style=" color:#00008b;">(</span>stem<span style=" color:#00008b;">))</span> <span style=" color:#00008b;">@</span> regPlural<span style=" color:#00008b;">)</span> <span style=" color:#00008b;">@</span> phonology<span style=" color:#00008b;">).</span>optimize<span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     51</span>   y <span style=" color:#00008b;">=</span> pynini<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>x<span style=" color:#00008b;">,</span><span style=" color:#006400;">True</span><span style=" color:#00008b;">)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">---&gt; 52</span><span style=" color:#8b0000;">   </span><span style=" color:#006400;">return</span> y<span style=" color:#00008b;">.</span>stringify<span style=" color:#00008b;">(</span>token_type<span style=" color:#00008b;">=&quot;utf8&quot;)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     53</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     54</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>: FST is not a string</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">24</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;kat&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>                               Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-24-5d8e900c41c9&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">----&gt; 1</span><span style=" color:#8b0000;"> </span>makeRegPl<span style=" color:#00008b;">(&quot;kat&quot;)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-10-e043cdfff2c4&gt;</span> in <span style=" color:#4682b4;">makeRegPl</span><span style=" color:#00008b;">(stem)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     50</span>   x <span style=" color:#00008b;">=</span> <span style=" color:#00008b;">(((</span>A<span style=" color:#00008b;">(</span>stem<span style=" color:#00008b;">))</span> <span style=" color:#00008b;">@</span> regPlural<span style=" color:#00008b;">)</span> <span style=" color:#00008b;">@</span> phonology<span style=" color:#00008b;">).</span>optimize<span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     51</span>   y <span style=" color:#00008b;">=</span> pynini<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>x<span style=" color:#00008b;">,</span><span style=" color:#006400;">True</span><span style=" color:#00008b;">)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">---&gt; 52</span><span style=" color:#8b0000;">   </span><span style=" color:#006400;">return</span> y<span style=" color:#00008b;">.</span>stringify<span style=" color:#00008b;">(</span>token_type<span style=" color:#00008b;">=&quot;utf8&quot;)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     53</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     54</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>: FST is not a string</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">25</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;kit&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">25</span><span style=" color:#8b0000;">]:</span> 'kits'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">26</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;rug&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">---------------------------------------------------------------------------</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>                               Traceback (most recent call last)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-26-cc4618bab748&gt;</span> in <span style=" color:#4682b4;">&lt;module&gt;</span><span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">----&gt; 1</span><span style=" color:#8b0000;"> </span>makeRegPl<span style=" color:#00008b;">(&quot;rug&quot;)</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">&lt;ipython-input-10-e043cdfff2c4&gt;</span> in <span style=" color:#4682b4;">makeRegPl</span><span style=" color:#00008b;">(stem)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     50</span>   x <span style=" color:#00008b;">=</span> <span style=" color:#00008b;">(((</span>A<span style=" color:#00008b;">(</span>stem<span style=" color:#00008b;">))</span> <span style=" color:#00008b;">@</span> regPlural<span style=" color:#00008b;">)</span> <span style=" color:#00008b;">@</span> phonology<span style=" color:#00008b;">).</span>optimize<span style=" color:#00008b;">()</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     51</span>   y <span style=" color:#00008b;">=</span> pynini<span style=" color:#00008b;">.</span>project<span style=" color:#00008b;">(</span>x<span style=" color:#00008b;">,</span><span style=" color:#006400;">True</span><span style=" color:#00008b;">)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">---&gt; 52</span><span style=" color:#8b0000;">   </span><span style=" color:#006400;">return</span> y<span style=" color:#00008b;">.</span>stringify<span style=" color:#00008b;">(</span>token_type<span style=" color:#00008b;">=&quot;utf8&quot;)</span></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     53</span> </p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">     54</span> </p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#006400;">pynini.pyx</span> in <span style=" color:#4682b4;">pynini.Fst.stringify</span><span style=" color:#00008b;">()</span></p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">FstArgError</span>: FST is not a string</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">27</span><span style=" color:#000080;">]:</span> makeRegPl(&quot;bug&quot;)</p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#8b0000;">Out[</span><span style=" font-weight:600; color:#8b0000;">27</span><span style=" color:#8b0000;">]:</span> 'bugz'</p>
+<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><br /></p>
+<p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"><span style=" color:#000080;">In [</span><span style=" font-weight:600; color:#000080;">28</span><span style=" color:#000080;">]:</span> exit</p></body></html>
