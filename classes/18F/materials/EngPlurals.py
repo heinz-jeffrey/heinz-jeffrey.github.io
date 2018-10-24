@@ -44,10 +44,13 @@ wishesT = ((wish @ regPlural) @ phonology).optimize()
 wishes = wishesT.stringify(token_type="utf8")
 
 
-# THIS DOES NOT WORK
-# def makeRegPl(stem):
-#   x = ((A(stem) @ regPlural) @ phonology).optimize() 
-#   return (x.stringify(token_type="utf8"))
+# THIS WORKS! :-) ☺
+
+def makeRegPl(stem):
+  x = (((A(stem)) @ regPlural) @ phonology).optimize() 
+  y = pynini.project(x,True)
+  return y.stringify(token_type="utf8")
+
 
 # a lexicon of memorized exceptions
 
@@ -57,14 +60,20 @@ pluralExceptions = ( T("fʊt","fit")   # foot/feet
 
 lexicalExceptions = pynini.project(pluralExceptions)
 
-wrongPlural = (lexicalExceptions @ regPlural).optimize()
+otherWords = ((sigmaStar - lexicalExceptions)).optimize()
 
-regPluralLessExceptions = (regPlural - wrongPlural).optimize()
+plural = (pluralExceptions | (otherWords + T("", "z"))).optimize()
 
-plural = (pluralLessExceptions | pluralExceptions).optimize()
+def makePl(stem):
+  x = (((A(stem)) @ Plural) @ phonology).optimize() 
+  y = pynini.project(x,True)
+  return y.stringify(token_type="utf8")
 
-# a lexicon of nouns for which plural morphology applies productively and normally.
 
-lexicon = (wish | cat | dog | cable | foot | goose | fish).optimize()
- 
-dog_LEX = T("🐕","dɔg") # just playing around with unicode
+# the full lexicon 
+
+lexicon = (wish | cat | dog | lexicalExceptions).optimize()
+
+lexiconPlural = lexicon @ plural @ phonology
+
+dogLEX = T("🐕","dɔg") # just playing around with unicode
