@@ -1,0 +1,123 @@
+<h2>Computational Phonology @ LSA Summer Institute @ UC Davis 2019</h2>
+
+<p><a href="https://jeffreyheinz.net">Jeffrey Heinz</a>, instructor</p>
+<p>Jonathan Rawski, TA</p>
+
+<br>
+
+<h3>Course Log</h3>
+
+<h4>18 Jul 2019</h4>
+
+<ul> 
+  <li> We went over <a href="materials/class8.pdf">class 8 slides</a>. </li>
+     <li> Supplementary Reading
+     <ul>
+       <li><a href="materials/Heinz-2016-CTLDP.pdf">Computational Theories of Learning and Developmental Psycholinguistics.</a>  In Jeffrey Lidz, William Synder, and Joe Pater, editors, The Oxford Handbook of Developmental Linguistics, chapter 27, pages 633--663. Oxford University Press, Oxford, UK, 2016.</li>
+       
+       <li><a href="materials/Rawski-Heinz-2019-NFLLMLRP.pdf">No Free Lunch in Linguistics or Machine Learning: Response to Pater.</a> Language 95(1):e124-135, 2019.</li>
+	      
+   </ul></li>
+  <li> Thanks for the great class!</li>
+  
+</ul>
+<hr>
+
+<h4>15 Jul 2019</h4>
+
+<ul> 
+  <li> We went over <a href="materials/class7.pdf">class 7 slides</a>. </li> 
+   <li> Supplementary Reading
+     <ul>
+       <li><a href="https://aniellodesanto.github.io/publications/DeSantoGraf_FG19.pdf">Structure Sensitive Tier Projection: Applications and Formal Properties"</a> (FG 2019)</li>
+       
+       <li><a href="https://adamjardine.net/files/chandleejardine2019qflfp-ms.pdf">Quantifier-free Least Fixed Point Functions for Phonology</a> (MoL 2019)</li>
+	      
+       <li><a href="http://jeffreyheinz.net/papers/Heinz-2014-CTHEUS.pdf">Culminativity Times Harmony Equals Unbounded Stress</a> (2014) </li>
+   </ul></li>
+
+</ul>
+<hr>
+
+<h4>11 Jul 2019</h4>
+
+<ul> 
+  <li> Jon Rawski leads class with <a href="materials/class6-Rawski-LSA.pdf">class 6 slides</a>. </li> 
+</ul>
+<hr>
+
+<h4>08 Jul 2019</h4>
+
+<ul> 
+  <li> We went over <a href="materials/class5.pdf">class 5 slides</a>. </li> 
+   <li> Read for next time.
+   <ul>
+     <li> <a href="materials/Strother-Garcia2018-ITBSQF.pdf">Strother-Garcia 2018</a></li>
+     <li> <a href="materials/Chandlee-Jardine-2019-AISLF.pdf">Chandlee and Jardine 2019</a></li>
+   </ul></li>
+   <li> Supplementary Reading
+   <ul>
+     <li> <a href="materials/Chandlee-Heinz-2018-SLPM.pdf">Chandlee and Heinz 2018</a></li>
+     <li> <a href="materials/Rawski_LNPSS_Draft.pdf">Rawski (under review)</a>; do not distribute</li>
+   </ul></li>
+</ul>
+<hr>
+
+
+<h4>03 Jul 2019</h4>
+
+<ul> 
+  <li> We went over <a href="materials/class4.pdf">class 4 slides</a>. </li> 
+   <li> Read for next time.
+   <ul>
+     <li> <a href="materials/dcp03.pdf">Doing Computational Phonology, Chapter 3</a></li>
+   </ul>
+</ul>
+<hr>
+
+<h4>01 Jul 2019</h4>
+
+<ul> 
+  <li> We went over <a href="materials/class3.pdf">class 3 slides</a>. (fixed!) </li> 
+  <li> Supplementary Materials
+    <ul>
+      <li><a href="materials/logic-handout-2.pdf">Handout on Weighted MSO logic</a>.</li>
+      <li> <a href="materials/wmso-examples.pdf">Weighted MSO examples</a>.</li>
+    </ul>
+</ul>
+<hr>
+
+
+<h4>27 Jun 2019</h4>
+
+ <ul> 
+   <li> We went over <a href="materials/class2.pdf">class 2 slides</a>. </li> 
+   <li> Read for next time.
+   <ul>
+     <li> <a href="materials/dcp02.pdf">Doing Computational Phonology, Chapter 2</a>. Note: DRAFT! Comments/corrections welcome!</li>
+     <li> <a href="materials/dcpbib.pdf">Doing Computational Phonology, references</a> (updated)</li>
+   </ul>
+   </li>
+      <li> Supplementary Material: <a href="materials/logic-handout-1.pdf">Handout on MSO and FO logic</a>.</li>
+ </ul>
+
+ <hr>
+
+
+<h4>24 Jun 2019</h4>
+
+ <ul> 
+   <li> We went over <a href="materials/class1.pdf">class 1 slides</a>. </li> 
+   <li> Read for next time.
+   <ul>
+     <li> <a href="materials/dcp01.pdf">Doing Computational Phonology, Chapter 1</a></li>
+     <li> <a href="materials/dcpbib.pdf">Doing Computational Phonology, references</a></li>
+   </ul>
+   </li>
+ </ul>
+
+ <hr>
+   
+<p><i><script language="Javascript">
+document.write("Last updated: " + document.lastModified +"");
+</SCRIPT></i></p>
