@@ -1,0 +1,45 @@
+/* ------------------
+   styling for the tables 
+   ------------------   */
+
+
+body
+{
+    line-height: 2em /* 1.6em; */
+}
+
+table{
+    /* font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif; */
+    /* font-size: 12px; */
+    background: #fff;
+    margin: 45px;
+    /* width: 480px; */
+    width: 100%
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr:nth-child(odd)		{ background-color:#eee; }
+tr:nth-child(even)		{ background-color:#fff; }
+
+/* th */
+/* { */
+/* 	font-size: 14px; */
+/* 	font-weight: normal; */
+/* 	color: #039; */
+/* 	padding: 10px 8px; */
+/* 	border-bottom: 2px solid #6678b1; */
+/* } */
+
+td{
+    /* color: #669; */
+    padding: 9px 8px 8px 8px;
+/* border-bottom: 1px solid #6678b1 */
+}
+
+/* tbody */
+/* tr:hover{ */
+/* 	color: #009; */
+/* } */
+
+
