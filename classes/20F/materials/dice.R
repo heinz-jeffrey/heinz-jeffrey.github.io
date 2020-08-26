@@ -1,0 +1,5 @@
+die <- c(1:6)
+roll1 <- sample(die,100,1)
+roll2 <- sample(die,100,1)
+diceRolls <- data.frame(x=roll1,y=roll2,z=roll1+roll2)
+write.csv(diceRolls,file="dice.csv")
