@@ -1,0 +1,64 @@
+---
+title: "R Notebook on Regression (based on Winter 2020)"
+output: html_notebook
+---
+
+First we load the tidyverse and read the "poverty.csv" as a tibble.
+
+```{r}
+library(tidyverse)
+poverty <- read_csv('poverty.csv')
+```
+
+
+Next we identify the x and y variables we will use in our regression analysis.
+```{r}
+x <- poverty$PovPct
+y <- poverty$Brth15to17
+# y <- poverty$Brth18to19
+# y <- poverty$ViolCrime
+# y <- poverty$TeenBrth
+```
+
+Let's plot them!
+
+```{r}
+plot(x, y, pch=19)
+```
+Next we make our linear model, which essentially just finds the coefficients that minimize the residuals.
+```{r}
+model <- lm(y ~x)
+coef(model)
+```
+This means that the equation it found is y = ax + b with a being the value under x and b being the intercept.
+So we can check to see what we might expect if the poverty rate is 15% like this.
+```{r}
+a <- coef(model)[2]
+b <- coef(model)[1] 
+a*15 + b
+```
+We can ignore the 'x' there -- that is just a leftover label from the coef data frame.
+
+The summary function summarizes key aspects of the model.
+```{r}
+summary(model)
+```
+
+
+The broom library provides more visually appealing ways to examine your data.
+
+```{r}
+library(broom)
+tidy(model)
+```
+```{r}
+glance(model)
+```
+
+Finally, let's plot the model using Winter 2020's plotting recommendations.
+```{r}
+poverty %>% ggplot(aes(x = x, y = y)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
