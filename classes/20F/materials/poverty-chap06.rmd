@@ -1,0 +1,80 @@
+---
+title: "R Notebook on Regression (based on Winter 2020)"
+output: html_notebook
+---
+
+First we load the tidyverse and read the "poverty.csv" as a tibble.
+
+```{r}
+library(broom)
+library(tidyverse)
+poverty <- read_csv('poverty.csv')
+```
+Here are the variables we will use in our regression analysis.
+poverty$PovPct
+poverty$Brth15to17
+poverty$Brth18to19
+poverty$ViolCrime
+poverty$TeenBrth
+
+Next we make our linear model, which essentially just finds the coefficients that minimize the residuals.
+```{r}
+model <- lm(poverty$Brth15to17 ~ poverty$PovPct)
+coef(model)
+summary(model)
+```
+
+Finally, let's plot the model using Winter 2020's plotting recommendations.
+```{r}
+poverty %>% ggplot(aes(x = poverty$PovPct, y = poverty$Brth15to17)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
+That's all review of what we did before. 
+
+Next let's try to predict birth rate given poverty level and violent crime level.
+```{r}
+model <- lm(poverty$Brth15to17 ~ poverty$PovPct + poverty$ViolCrime)
+coef(model)
+summary(model)
+```
+let's examine this using the tidy package.
+```{r}
+tidy(model) %>% select(term, estimate)
+```
+
+We can round the values as follows.
+
+```{r}
+tidy(model) %>% select(term, estimate) %>% mutate(estimate = round(estimate,2))
+```
+This means the predicted birth rate for ages 15-17 is given by the equation 
+
+Brth15to17 = 5.98 + 1.04PovPct + 0.34ViolCrime
+
+Let's standardize the predictors.
+```{r}
+poverty <- mutate(poverty, PovPct_z = scale(PovPct), ViolCrime_z = scale(ViolCrime))
+tibble(poverty)
+```
+
+So we make a standardized model.
+```{r}
+model_z <- lm(poverty$Brth15to17 ~ poverty$PovPct_z + poverty$ViolCrime_z)
+tidy(model_z) %>% select(term, estimate) %>% mutate(estimate = round(estimate,2))
+```
+This means for each increase in PovPct by 1 standard deviation (holding other variables constant) birth rate increases by 4.43. Similarly, for each increase in ViolCrime by 1 standard deviation (holding other variables constant) birth rate increases by 3.07. This implies that poverty has a larger impact on birth rate of 15-17 year olds than violent crime.
+
+
+```{r}
+res <- residuals(model_z)
+plot(fitted(model_z),res)
+```
+
+```{r}
+cor(poverty$PovPct,poverty$ViolCrime)
+cor(poverty$PovPct,poverty$Brth15to17)
+cor(poverty$Brth15to17,poverty$ViolCrime)
+```
+Correlation is not causation!!

@@ -1,0 +1,116 @@
+---
+title: "R Notebook on Regression (based on Winter 2020)"
+output: html_notebook
+---
+
+First we load the tidyverse and read the "fishCatchData.csv" as a tibble.
+
+```{r}
+library(broom)
+library(tidyverse)
+fish <- read_csv('fishCatchData.csv')
+tibble(fish)
+mean(fish$Weight_g)
+```
+
+Let's plot it!
+
+```{r}
+plot(fish$Length_cm, fish$Weight_g, pch=19)   # (plot(x,y) puts x on x-axis and y on y-axis)
+```
+Next we make our linear model, which essentially just finds the coefficients that minimize the residuals.
+```{r}
+model <- lm(Weight_g ~ Length_cm, fish)
+coef(model)
+```
+
+The summary function summarizes key aspects of the model.
+```{r}
+summary(model)
+```
+
+Finally, let's plot the model using Winter 2020's plotting recommendations.
+```{r}
+fish %>% ggplot(aes(x = Length_cm, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
+Now we add columns to the fish tibble to get our centered Length values and normalized 'z' length values.
+```{r}
+fish <- mutate(fish, LengthCenter = Length_cm - mean(Length_cm), LengthZ = LengthCenter / sd(LengthCenter))
+tibble(fish)
+```
+Note in the future the R function scale(x) will compute x/sd(x).
+
+
+Next we create linear models with the centered and z predictors
+
+```{r}
+model_c <- lm (Weight_g ~ LengthCenter, fish)
+model_z <- lm (Weight_g ~ LengthZ, fish)
+```
+
+When comparing model and model_c, the intercepts are different but the slopes are the same. This is because only difference is centering (shifting the line over).
+```{r}
+coef(model)
+coef(model_c)
+```
+
+When comparing model_c and model_z, the intercepts are the same but the slopes are different. This is because the units have changed from centimeters to standard deviations.
+
+```{r}
+coef(model_c)
+coef(model_z)
+```
+However, the quantitative measure of the variance each models captures is identical. They are basically the same under these linear transformations.
+```{r}
+glance(model)$r.squared
+glance(model_c)$r.squared
+glance(model_z)$r.squared
+```
+
+Finally, let's plot these models using Winter 2020's plotting recommendations.
+
+```{r}
+fish %>% ggplot(aes(x = LengthCenter, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+fish %>% ggplot(aes(x = LengthZ, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+
+```
+
+
+Let's do a nonlinear transformation on the weight and see what that does.
+```{r}
+fish <- mutate(fish, LogWeight = log(Weight_g,10))
+tibble(fish)
+```
+
+```{r}
+plot(fish$Length_cm, fish$LogWeight, pch=19)   # (plot(x,y) puts x on x-axis and y on y-axis)
+```
+Let's try to predict the log weight from the length.
+
+```{r}
+model_log_z <- lm (LogWeight ~ LengthZ, fish)
+fish %>% ggplot(aes(x = LengthZ, y = LogWeight)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+glance(model_log_z)$r.squared
+```
+
+
+We can check for correlation by cestimating how much change in y standard units results in a corresponding change in x standard units. The resulting slope has a special name, it is Pearson's r, the "correlation coefficient".
+```{r}
+fish <- mutate(fish, WeightZ = scale(Weight_g))
+tibble(fish)
+```
+Use the cor function to find the correlation. It is always between -1 and 1 with values close to 0 indicating little to no correlation.
+
+```{r}
+cor(fish$WeightZ,fish$LengthZ)
+```
+
