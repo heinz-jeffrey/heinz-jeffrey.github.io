@@ -1,0 +1,193 @@
+---
+title: "R Notebook on Regression (based on Winter 2020)"
+output: html_notebook
+---
+
+First we load the tidyverse and read the "fishCatchData.csv" as a tibble.
+
+```{r}
+library(broom)
+library(tidyverse)
+fish <- read_csv('fishCatchData.csv')
+tibble(fish)
+mean(fish$Length_cm)
+```
+
+Let's plot it!
+
+```{r}
+plot(fish$Length_cm, fish$Weight_g, pch=19)   # (plot(x,y) puts x on x-axis and y on y-axis)
+```
+
+
+Next we make our linear model, which essentially just finds the coefficients that minimize the residuals.
+weight = intercept + x*length
+
+```{r}
+model <- lm(Weight_g ~ Length_cm, fish)
+coef(model)
+```
+
+The summary function summarizes key aspects of the model.
+```{r}
+summary(model)
+```
+
+Finally, let's plot the model using Winter 2020's plotting recommendations.
+```{r}
+fish %>% ggplot(aes(x = Length_cm, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
+Now we add columns to the fish tibble to get our centered Length values and normalized 'z' length values.
+```{r}
+fish <- mutate(fish, LengthCenter = Length_cm - mean(Length_cm), LengthZ = LengthCenter / sd(LengthCenter))
+tibble(fish)
+```
+Note in the future the R function scale(x) will compute x/sd(x).
+
+
+```{r}
+fish %>% ggplot(aes(x = LengthCenter, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
+
+
+Next we create linear models with the centered and z predictors
+
+```{r}
+model_c <- lm (Weight_g ~ LengthCenter, fish)
+model_z <- lm (Weight_g ~ LengthZ, fish)
+```
+
+When comparing model and model_c, the intercepts are different but the slopes are the same. This is because only difference is centering (shifting the line over).
+```{r}
+coef(model)
+coef(model_c)
+```
+
+When comparing model_c and model_z, the intercepts are the same but the slopes are different. This is because the units have changed from centimeters to standard deviations.
+
+```{r}
+coef(model_c)
+coef(model_z)
+```
+However, the quantitative measure of the variance each models captures is identical. They are basically the same under these linear transformations.
+```{r}
+glance(model)$r.squared
+glance(model_c)$r.squared
+glance(model_z)$r.squared
+```
+
+Finally, let's plot these models using Winter 2020's plotting recommendations.
+
+```{r}
+fish %>% ggplot(aes(x = LengthZ, y = Weight_g)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+```
+
+
+Let's do a nonlinear transformation on the weight and see what that does.
+```{r}
+fish <- mutate(fish, LogWeight = log(Weight_g,10))
+tibble(fish)
+```
+
+```{r}
+plot(fish$Length_cm, fish$LogWeight, pch=19)   # (plot(x,y) puts x on x-axis and y on y-axis)
+```
+Let's try to predict the log weight from the length.
+
+```{r}
+model_log_z <- lm (LogWeight ~ LengthZ, fish)
+fish %>% ggplot(aes(x = LengthZ, y = LogWeight)) +
+  geom_point() + geom_smooth(method = 'lm') +
+  theme_minimal()
+glance(model_log_z)$r.squared
+```
+
+
+We can check for correlation by estimating how much change in y standard units results in a corresponding change in x standard units. The resulting slope has a special name, it is Pearson's r, the "correlation coefficient".
+```{r}
+fish <- mutate(fish, WeightZ = scale(Weight_g))
+tibble(fish)
+```
+Use the cor function to find the correlation. It is always between -1 and 1 with values close to 0 indicating little to no correlation.
+
+```{r}
+cor(fish$WeightZ,fish$LengthZ)
+```
+
+
+Next we want to see if the type of fish canhelp us predict the weight. We need to make the "Name" a *factor*. 
+```{r}
+fish <- mutate(fish, Name=factor(Name))
+tibble(fish)
+```
+
+
+We can also use the function 'str' to see the structure of the tibble. Note also that 'summary' reports the factor column differently than before.
+```{r}
+str(fish)
+summary(fish)
+```
+
+```{r}
+table(fish$Name)
+```
+
+We can also group our data by the levels in the factors. Remember, in statistics speak, the factors contain levels.
+```{r}
+fish %>% group_by(Name) %>% summarize(M=mean(Weight_g), SD = sd(Weight_g))
+```
+The reference level is the first factor in alphanumeric order. In our case, this is 'bream'. We can change this later.
+
+
+Don't forget that the whiskers in the boxplots correspond to the maximum of Q3 + 1.5 * IQR and the minimum of Q1 − 1.5 * IQR 
+where IQR is the interquartile range. The middle line is the median, not the mean! Boxplots...
+
+```{r}
+fish %>% ggplot(aes(x = Name, y = Weight_g, fill = Name)) +
+geom_boxplot() + theme_minimal() +
+scale_fill_brewer(palette = 'PuOr')
+```
+
+We can now see how well we can predict the weight if we know the name (and only the name).
+```{r}
+model_name <- lm (Weight_g ~ Name , fish)
+summary(model_name)
+```
+What does the above mean? The bream is the origin of a 6 dimensional space. There is Parkki dimension, Perch dimension, Pike dimension and so on. The estimates are the coefficients of the linear equation.
+weight_g = 626 -471.18Parkki -243.76Perch +92.71Pike -465.95Roach -614.82Smelt -95.00Whitefish
+
+The values of Parkki, Perch etc can only take on values of 0 or 1. 
+
+We can only compare the rows directly to the intercept. So knowing a fish is a Parkki means its weight will be significantly less than a bream and so on.
+
+
+Next let's look at Name and Length together. We get a much better fit!
+```{r}
+model_name_ln <- lm (Weight_g ~ Name + Length_cm, fish)
+summary(model_name_ln)
+```
+
+
+Finally, we can center the Length which makes the intercept more interpretable. It will tell us now what the expected weight of a bream is that is of the same length as the mean of all the fist.
+```{r}
+model_name_lnc <- lm (Weight_g ~ Name + LengthCenter, fish)
+summary(model_name_lnc)
+```
+In this linear equation, if LengthCenter is 10cm it means we are considering fish that 10cmn longer than the mean of the length of all the fish.
+
+
+Here we can visualize the line in 7 dimensional space projected by fish type onto 2 dimensions...
+```{r}
+ggplot(data=fish, aes(x=LengthCenter, y=Weight_g,color=Name)) + geom_point() + geom_smooth(method='lm') 
+```
+
+
+
