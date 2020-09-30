@@ -1,0 +1,530 @@
+$ DIR=/your/path/to/the/ngramprograms/
+$ $DIR./ngramsymbols laughed.txt laughed.syms
+$ more laughed.syms 
+<epsilon>	0
+<s>	1
+John	2
+laughed	3
+.	4
+</s>	5
+and	6
+Mary	7
+<UNK>	8
+$ $DIR./farcompilestrings --fst_type=compact --symbols=laughed.syms --keep_symbols laughed.txt laughed.far
+$ $DIR./farprintstrings laughed.far
+<s> John laughed . </s>
+<s> John laughed and laughed . </s>
+<s> John and Mary laughed . </s>
+<s> John laughed and laughed and laughed . </s>
+<s> Mary laughed . </s>
+<s> Mary and John laughed . </s>
+$ $DIR./ngramcount --order=2 laughed.far laughed.2cnts
+$ $DIR./ngramcount --order=3 laughed.far laughed.3cnts
+$ $DIR./ngramcount --order=4 laughed.far laughed.4cnts
+$ $DIR./ngramcount --order=5 laughed.far laughed.5cnts
+$ $DIR./ngrammake laughed.2cnts laughed.2mod
+$ $DIR./ngrammake laughed.3cnts laughed.3mod
+$ $DIR./ngrammake laughed.4cnts laughed.4mod
+$ $DIR./ngrammake laughed.5cnts laughed.5mod
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> John laughed and Mary and laughed . </s>
+$ $DIR./ngramrandgen laughed.2mod | $DIR./farprintstrings 
+<s> Mary laughed and laughed and Mary and Mary laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John and Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John and Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> Mary and John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed and laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John laughed and laughed and laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.3mod | $DIR./farprintstrings 
+<s> John and Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> Mary laughed <epsilon> <epsilon> and laughed and laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> John and Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> Mary laughed <epsilon> <epsilon> and laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> John laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> Mary and <epsilon> <epsilon> laughed . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> Mary <epsilon> <epsilon> <epsilon> . </s>
+$ $DIR./ngramrandgen laughed.4mod | $DIR./farprintstrings 
+<s> John laughed and laughed <epsilon> <epsilon> <epsilon> </s>
+$ $DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> Mary and John laughed . <epsilon> <epsilon> <epsilon> <epsilon> <s> Mary and John <epsilon> <epsilon> <epsilon> and Mary laughed . </s>
+$ $DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> John laughed <epsilon> <epsilon> <epsilon> <epsilon> </s>
+$ <s> John laughed <epsilon> <epsilon> <epsilon> <epsilon> </s>
+$DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> John laughed <epsilon> <epsilon> <epsilon> <epsilon> </s>
+$ $DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> John laughed <epsilon> <epsilon> <epsilon> <epsilon> </s>
+$ $DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> John <epsilon> <epsilon> <epsilon> Mary and John laughed . </s>
+$ $DIR./ngramrandgen laughed.5mod | $DIR./farprintstrings 
+<s> John and Mary laughed <epsilon> <epsilon> <epsilon> and laughed and laughed . </s> <epsilon> <epsilon> <epsilon> <epsilon> . </s>
+$ ngraminfo laughed.2mod 
+# of states                                       9
+# of ngram arcs                                   20
+# of backoff arcs                                 8
+initial state                                     1
+unigram state                                     0
+# of final states                                 2
+ngram order                                       2
+# of 1-grams                                      8
+# of 2-grams                                      14
+well-formed                                       y
+normalized                                        y
+$ ngraminfo laughed.3mod 
+# of states                                       22
+# of ngram arcs                                   37
+# of backoff arcs                                 21
+initial state                                     1
+unigram state                                     0
+# of final states                                 3
+ngram order                                       3
+# of 1-grams                                      8
+# of 2-grams                                      14
+# of 3-grams                                      18
+well-formed                                       y
+normalized                                        y
+$ ngraminfo laughed.4mod 
+# of states                                       39
+# of ngram arcs                                   57
+# of backoff arcs                                 38
+initial state                                     1
+unigram state                                     0
+# of final states                                 4
+ngram order                                       4
+# of 1-grams                                      8
+# of 2-grams                                      14
+# of 3-grams                                      18
+# of 4-grams                                      21
+well-formed                                       y
+normalized                                        y
+$ ngraminfo laughed.5mod 
+# of states                                       59
+# of ngram arcs                                   76
+# of backoff arcs                                 58
+initial state                                     1
+unigram state                                     0
+# of final states                                 7
+ngram order                                       5
+# of 1-grams                                      8
+# of 2-grams                                      14
+# of 3-grams                                      18
+# of 4-grams                                      21
+# of 5-grams                                      22
+well-formed                                       y
+normalized                                        y
+$ cat laughed.test | $DIR./farcompilestrings --generate_keys=1 -symbols=laughed.syms --keep_symbols | $DIR./ngramperplexity --v=1 laughed.2mod -
+WARNING: OOV probability = 0; OOVs will be ignored in perplexity calculation
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( and | John ...)                   = [2gram]  0.699405
+        p( Mary | and ...)                   = [2gram]  0.699405
+        p( laughed | Mary ...)               = [2gram]  0.176526
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -1.92969;  perplexity = 1.74265
+
+<s> John and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( and | John ...)                   = [2gram]  0.699405
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 6 words, 0 OOVs
+logprob(base 10)= -1.27604;  perplexity = 1.52157
+
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( and | John ...)                   = [2gram]  0.699405
+        p( Mary | and ...)                   = [2gram]  0.699405
+        p( laughed | Mary ...)               = [2gram]  0.176526
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -1.92969;  perplexity = 1.74265
+
+<s> John and Mary and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( and | John ...)                   = [2gram]  0.699405
+        p( Mary | and ...)                   = [2gram]  0.699405
+        p( and | Mary ...)                   = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 8 words, 0 OOVs
+logprob(base 10)= -2.453;  perplexity = 1.87308
+
+<s> John laughed and laughed and laughed and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( laughed | John ...)               = [2gram]  0.0973445
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -3.95089;  perplexity = 1.76576
+
+<s> John laughed and laughed and Mary laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( laughed | John ...)               = [2gram]  0.0973445
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( Mary | and ...)                   = [2gram]  0.699405
+        p( laughed | Mary ...)               = [2gram]  0.176526
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 14 words, 0 OOVs
+logprob(base 10)= -3.9047;  perplexity = 1.82102
+
+<s> John laughed and laughed and Mary and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [2gram]  0.176526
+        p( laughed | John ...)               = [2gram]  0.0973445
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( Mary | and ...)                   = [2gram]  0.699405
+        p( and | Mary ...)                   = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( and | laughed ...)                = [2gram]  0.477556
+        p( laughed | and ...)                = [2gram]  0.222283
+        p( . | laughed ...)                  = [2gram]  0.176526
+        p( </s> | . ...)                     = [2gram]  0.000434512
+        p( </s> | </s> ...)                  = [2gram]  0.000434512
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -4.42802;  perplexity = 1.89126
+
+7 sentences, 72 words, 0 OOVs
+logprob(base 10)= -19.872;  perplexity = 1.78462
+
+$ cat laughed.test | $DIR./farcompilestrings --generate_keys=1 -symbols=laughed.syms --keep_symbols | $DIR./ngramperplexity --v=1 laughed.3mod -
+WARNING: OOV probability = 0; OOVs will be ignored in perplexity calculation
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [3gram]  0.602495
+        p( Mary | and ...)                   = [3gram]  0.000434512
+        p( laughed | Mary ...)               = [3gram]  0.000434512
+        p( . | laughed ...)                  = [3gram]  0.000434512
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -0.781627;  perplexity = 1.25229
+
+<s> John and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [3gram]  0.602495
+        p( laughed | and ...)                = [2gram]  3.12548
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 6 words, 0 OOVs
+logprob(base 10)= -4.08233;  perplexity = 3.82992
+
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [3gram]  0.602495
+        p( Mary | and ...)                   = [3gram]  0.000434512
+        p( laughed | Mary ...)               = [3gram]  0.000434512
+        p( . | laughed ...)                  = [3gram]  0.000434512
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -0.781627;  perplexity = 1.25229
+
+<s> John and Mary and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [3gram]  0.602495
+        p( Mary | and ...)                   = [3gram]  0.000434512
+        p( and | Mary ...)                   = [2gram]  3.0013
+        p( laughed | and ...)                = [2gram]  3.12548
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 8 words, 0 OOVs
+logprob(base 10)= -7.08407;  perplexity = 6.12518
+
+<s> John laughed and laughed and laughed and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [3gram]  0.125373
+        p( and | laughed ...)                = [3gram]  0.301465
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -2.69359;  perplexity = 1.4735
+
+<s> John laughed and laughed and Mary laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [3gram]  0.125373
+        p( and | laughed ...)                = [3gram]  0.301465
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( Mary | and ...)                   = [2gram]  3.30212
+        p( laughed | Mary ...)               = [3gram]  0.000434512
+        p( and | laughed ...)                = [2gram]  3.0013
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 14 words, 0 OOVs
+logprob(base 10)= -8.04146;  perplexity = 3.43635
+
+<s> John laughed and laughed and Mary and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [3gram]  0.125373
+        p( and | laughed ...)                = [3gram]  0.301465
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( Mary | and ...)                   = [2gram]  3.30212
+        p( and | Mary ...)                   = [2gram]  3.0013
+        p( laughed | and ...)                = [2gram]  3.12548
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [3gram]  0.000434512
+        p( </s> | </s> ...)                  = [3gram]  0.000434512
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -11.6441;  perplexity = 5.34262
+
+7 sentences, 72 words, 0 OOVs
+logprob(base 10)= -35.1088;  perplexity = 2.78237
+
+$ cat laughed.test | $DIR./farcompilestrings --generate_keys=1 -symbols=laughed.syms --keep_symbols | $DIR./ngramperplexity --v=1 laughed.5mod -
+WARNING: OOV probability = 0; OOVs will be ignored in perplexity calculation
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [4gram]  0.669007
+        p( Mary | and ...)                   = [5gram]  0.124939
+        p( laughed | Mary ...)               = [5gram]  0.124939
+        p( . | laughed ...)                  = [5gram]  0.124939
+        p( </s> | . ...)                     = [5gram]  0.124939
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -1.94778;  perplexity = 1.75175
+
+<s> John and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [4gram]  0.669007
+        p( laughed | and ...)                = [2gram]  0.727542
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [4gram]  0.000434512
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 6 words, 0 OOVs
+logprob(base 10)= -2.35253;  perplexity = 2.16808
+
+<s> John and Mary laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [4gram]  0.669007
+        p( Mary | and ...)                   = [5gram]  0.124939
+        p( laughed | Mary ...)               = [5gram]  0.124939
+        p( . | laughed ...)                  = [5gram]  0.124939
+        p( </s> | . ...)                     = [5gram]  0.124939
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 7 words, 0 OOVs
+logprob(base 10)= -1.94778;  perplexity = 1.75175
+
+<s> John and Mary and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( and | John ...)                   = [4gram]  0.669007
+        p( Mary | and ...)                   = [5gram]  0.124939
+        p( and | Mary ...)                   = [2gram]  0.603362
+        p( laughed | and ...)                = [2gram]  3.12548
+        p( . | laughed ...)                  = [3gram]  0.176526
+        p( </s> | . ...)                     = [4gram]  0.000434512
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 8 words, 0 OOVs
+logprob(base 10)= -5.47877;  perplexity = 4.06212
+
+<s> John laughed and laughed and laughed and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [4gram]  0.125373
+        p( and | laughed ...)                = [5gram]  0.778151
+        p( laughed | and ...)                = [5gram]  0.60206
+        p( and | laughed ...)                = [5gram]  0.425969
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( and | laughed ...)                = [4gram]  0.669875
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( and | laughed ...)                = [4gram]  0.669875
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( and | laughed ...)                = [4gram]  0.669875
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( . | laughed ...)                  = [5gram]  0.124939
+        p( </s> | . ...)                     = [5gram]  0.60206
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -5.94695;  perplexity = 2.35334
+
+<s> John laughed and laughed and Mary laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [4gram]  0.125373
+        p( and | laughed ...)                = [5gram]  0.778151
+        p( laughed | and ...)                = [5gram]  0.60206
+        p( and | laughed ...)                = [5gram]  0.425969
+        p( Mary | and ...)                   = [2gram]  0.904175
+        p( laughed | Mary ...)               = [3gram]  0.000434512
+.        p( and | laughed ...)                = [2gram]  0.8464
+        p( laughed | and ...)                = [3gram]  0.000434512
+        p( and | laughed ...)                = [4gram]  0.544068
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( . | laughed ...)                  = [5gram]  0.124939
+        p( </s> | . ...)                     = [5gram]  0.60206
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 14 words, 0 OOVs
+logprob(base 10)= -5.85802;  perplexity = 2.45773
+
+<s> John laughed and laughed and Mary and laughed and laughed and laughed . </s>
+                                                ngram  -logprob
+        N-gram probability                      found  (base10)
+        p( <s> | <s> )                       = [2gram]  0.000434512
+        p( John | <s> ...)                   = [3gram]  0.176526
+        p( laughed | John ...)               = [4gram]  0.125373
+        p( and | laughed ...)                = [5gram]  0.778151
+        p( laughed | and ...)                = [5gram]  0.60206
+        p( and | laughed ...)                = [5gram]  0.425969
+        p( Mary | and ...)                   = [2gram]  0.904175
+        p( and | Mary ...)                   = [2gram]  3.0013
+        p( laughed | and ...)                = [2gram]  3.12548
+        p( and | laughed ...)                = [3gram]  0.477556
+        p( laughed | and ...)                = [4gram]  0.0669468
+        p( and | laughed ...)                = [4gram]  0.669875
+        p( laughed | and ...)                = [5gram]  0.124939
+        p( . | laughed ...)                  = [5gram]  0.124939
+        p( </s> | . ...)                     = [5gram]  0.60206
+        p( </s> | </s> ...)                  = [5gram]  0.60206
+1 sentences, 15 words, 0 OOVs
+logprob(base 10)= -11.8078;  perplexity = 5.47004
+
+7 sentences, 72 words, 0 OOVs
+logprob(base 10)= -35.3397;  perplexity = 2.80116
+
+$ 
