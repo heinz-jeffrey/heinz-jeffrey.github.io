@@ -1,0 +1,319 @@
+`<h2>Statistics for Linguists (LIN 538)</h2>
+
+<table>
+<TR>
+  <TD align="" colspan=""><b>Course: </b></TD>
+  <TD align="" colspan="">LIN 538, MW 14:40-16:00, ZOOM</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor:</b></TD>
+  <TD align="" colspan=""> <a href="https://jeffreyheinz.net/">Jeff Heinz</a> (<a href="mailto:jeffrey.heinz@stonybrook.edu">jeffrey.heinz@stonybrook.edu</a>)</TD>
+</TR>
+<TR>
+  <TD align="" colspan=""><b>Instructor's office hours:&nbsp;&nbsp;</b></TD>
+  <TD align="" colspan="">Tue 13:00-16:00</TD>
+</TR>
+</table>
+
+<br>
+
+<hr>
+
+<p><a href="materials/syllabus-stats-LIN538-20F-Heinz.pdf">Syllabus</a> </p>
+
+<hr>
+
+
+<h4>07 Dec 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li>Update from students on final projects.</li>
+</ul>
+
+
+<h4>02 Dec 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Kallmeyer 2011 on MCS formalisms <a href="materials/mcs.pdf">[slides]</a>   </li>
+  <li> Schabes 1992 on Stochastic TAGS <a href="materials/SLTAGs.pdf">[pdf]</a>   </li>
+  <li> <a href="https://www.cis.upenn.edu/~xtag/">XTAG project at UPenn</a></li>
+  <li> Shen 2006 <a href="https://www.cis.upenn.edu/~xtag/spinal/index.html">Statistical LTAG Parsing</a></li>
+</ul>
+
+<h4>30 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> <a href="materials/intro-only.pdf">Intro to TAGs</a></li>
+</ul>
+
+<h4>18 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> We finished up the discussion of CART from the previous class.</li>
+</ul>
+
+
+<h4>16 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Here are Joanne and Derek's materials on CART:
+    <ul>
+      <li><a href="https://colab.research.google.com/drive/14HS-0ccOUYgjT4reaYwHzeoLp8eBh4Ms?usp=sharing">Jupiter Notebook</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1zERhM9AvC7pZL8COQq_up1brrZOpJDXfNyVPVzx6VTs/edit?usp=sharing"></a>Presentation Slides</li>
+      <li><a href="https://github.com/serengil/chefboost/blob/master/README.md">Github Repository</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+<h4>11 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Meshary's presentation on Naive Bayes.</li>
+    <li>  <a href="materials/final-paper-ideas.pdf">ideas for final papers</a></li>
+</ul>
+
+
+<h4>09 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Karina's <a href="materials/RNN-Hu.pdf">slides on NNs and RNNs</a></li>
+  <li> Chia-Chi's <a href="materials/NLM-LSTM-Chia-Chi-Yu.pdf">slides on NNs and LSTMs</a></li>
+</ul>
+
+<h4>04 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Dakotah's <a href="materials/Lambert-cky.pdf">slides on CKY Parsing</a></li>
+</ul>
+
+
+<h4>02 Nov 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li> Kelsey and Victoria's <a href="https://docs.google.com/presentation/d/1f7Tg2Fxq0TMUhM_dcl11zReh4tAdh_n23FoplrIo_fo/edit?usp=sharing&ts=5fa06f6b">slides on PCFGs</a></li>
+    <li> Kelsey's <a href="materials/Kelsey-Wanket-PCFG.md">[md]</a>
+    and <a href="materials/Kelsey-Wanket-PCFG.html">[html]</a> files
+    on CFGs with NLTK.</li>
+</ul>
+
+<h4>28 Oct 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li><a href="materials/delaHiguera-tutorialslides.pdf">De la Higuera's tutorial (RPNI begins on slide 88)</a></li>
+  <li><a href="materials/delaHiguera2010Chap12.pdf">De la Higuera 2010 Chapter 12 (for RPNI, section 12.4)</a></li>
+  <li><a href="materials/delaHiguera2010Chap16.pdf">De la Higuera 2010 Chapter 16 (for Allegria) </a></li>
+  <li><a href="https://github.com/alenaks/SigmaPie">SigmaPie</a>
+  provides a Python implementation of OSTIA, which is the transducer
+  learnign algorithm based on RPNI. Allegria is probably just a small
+  modification of that...</li>
+</ul>
+
+<h4>26 Oct 2020</h4>
+<ul>
+  <li> [<a href="">Lecture</a>] with Passcode: </li>
+  <li><a href="https://colab.research.google.com/drive/1e_ipdWiPwqe6Ignj9KnWewmU26H5eIOF?usp=sharing">Cody's colab notebook on dynamic programming</a></li>
+</ul>
+
+<h4>21 Oct 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/nuChoMYk-4P5rfFOgG36OLeCe_x-wFv2rHQ6HI0pC-ZQbOoo6-A_DOZIuIZFUEu5.lwRcDO1wQwuaApMQ">Lecture</a>] with Passcode: 4+xbVg+2</li>
+  <li><a href="materials/Markowska-PAutomaC.pdf">Magda's slides on PAutomaC</a></li>
+</ul>
+
+
+<h4>19 Oct 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/sSUzVHH7avuLJx8Lqz1gA39ylfItGvxkmOAkI05SuZcpdt5HAiDHqr5E8E5gj18U.xHntLo5Ev8BIg8EU">Lecture</a>] with Passcode: 7*^&amp;Z2xv</li>
+  <li>Files about HMMs
+    <ul>
+      <li><a href="materials/HiddenMarkovModels-Ha.md">Jihyeon's notes on HMMs (markdown)</a></li>
+      <li><a href="materials/HiddenMarkovModels-Cz.pptx">Vinny's notes on HMMs (pptx)(</a></li>
+      <li><a href="materials/plot_hmm_sampling.py"> hmm sampling (python)</a> from <a href="https://hmmlearn.readthedocs.io/en/latest/auto_examples/plot_hmm_sampling.html#sphx-glr-auto-examples-plot-hmm-sampling-py">hmmlearn</a></li>
+      <li><a href="materials/SequencingExample-pomegranate.py">sequencing example (python)</a> from <a href="https://pomegranate.readthedocs.io/en/latest/HiddenMarkovModel.html"> pomegranate</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+<h4>14 Oct 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/gGT6KP1-V-Y55T7mvLOoSinhoPeAwrIomY-KFlPL6WArKTaby8I1aCiuuuY2PvTC.fbRw3PAps7Gn5lk4">Lecture</a>] with Passcode: 1J7GEf!v</li>
+  <li> Factored Regular Deterministic Stochastic Languages <a href="http://jeffreyheinz.net/talks/Shibata-Heinz-2019-MLEFRDSL-slides.pdf">slides</a>
+    and <a href="http://jeffreyheinz.net/papers/Shibata-Heinz-2019-MLEFRDSL.pdf">paper</a></li>
+  <li> Huteng Dai's talk at AMP 2020 uses this paper to learn
+  non-local
+  phonotactics. <a href="https://www.youtube.com/watch?v=kU0eU6NqhdQ&feature=youtu.be">The
+  video is here</a></li>
+  <li> <a href="materials/DoBatzoglou2008-EM.pdf">What is Expectation
+  Maximization?</a> </li>
+</ul>
+
+
+<h4>12 Oct 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/2IpPHlxzbpHMT3V_s39rFVoQeCo2z3WvBNMaxjnt5IC8BT6BGiaL6URVOXnNSc2R.0i_6xNMXPz5WigfT">Lecture</a>] with Passcode: F8Kp^?b.</li>
+  <li> <a href="materials/pfms.pdf">Notes on PFMs</a> </li>
+  <li> <a href="materials/a2.pdf">Assignment 2 on regression</a>. Deadline Monday Nov 9, 2020. </li>
+</ul>
+
+
+<h4>07 Oct 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/j7wCFFi-aB2OZoBz9WEO1BbEFnWycXKNmpcl43usvlNMjIZl4Nb8oBbnZ7x-qWrH.2dzHQDJx6SP_N6-m">Lecture</a>] with Passcode: #aCb9zZv</li>
+  <li> Stacie and Scott's notes
+  on <a href="materials/MixedEffectModels.pdf">Mixed Effects Models
+  (pdf)</a> and the <a href="materials/MixedEffectModels.Rmd">Rmd
+  file</a> </li>
+</ul>
+
+
+<h4>05 Oct 2020</h4>
+<ul>
+
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/YoMFhPW0AZ7irkZNOFiLEArqVm5DJu33_lN3uFEh_uPC7ll2wouA0BeU7QOQMcDh.6T75P9IebxyZA8v5">Lecture</a>] with Passcode: nmwg=4.q</li>
+  <li> We reviewed chapter 4 of Jurafksy and Martin on the data sparsity problem. </li>
+  <li> Read <a href="materials/Yang-2013-Whos-Afraid-of-Zipf.pdf">Yang 2013</a> for more on this issue. </li>
+  <li> Some <a href="materials/ngram.pdf">brief notes</a> on language models which generalize n-gram models.</li>
+  <li> </li>
+</ul>
+
+
+<h4>30 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/gJv_cwnuQ6mub5aXJJhWBK2-T8fcY3tis98qJGWTTe4FHJmfQiMZvHvta2IdD2XD.hCJuKDbHCtTRHu9x">Lecture</a>] with Passcode: qua#K!7y</li>
+  <li> We reviewed perplexity as discussed in Jurafsky/Martin and at <a href="https://towardsdatascience.com/perplexity-in-language-models-87a196019a94">this website</a>.</li>
+  <li> We reviewed installation of openfst and the ngram library using anaconda (I prefer miniconda).</li>
+  <li> We reviewed the Quick Tour of the ngram programs.
+    <ul>
+      <li><a href="materials/laughed.txt"> The short "laughed" example</a> I used in class. (or pick some book from <a href="https://www.gutenberg.org/browse/scores/top">Project Gutenberg</a> if you like)</li>
+      <li><a href="materials/laughed.test">Some "laughed" test sentences</a> </li>
+      <li><a href="materials/laughed.cmds">Example shell session</a> Be sure to replace DIR with the path to your ngram programs.</li>
+    </ul>
+  </li>
+</ul>
+
+
+<h4>28 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/05Iz9_CRIGfIC6EIiC3jbM4saIDLvKbCjOsKinHjeA6t1CG-sdBC6Ymi15GLxTX4.TgDTNb2HaW8jgbfe">Lecture</a>] with Passcode: 0i?F3#C7</li>
+  <li> Today we left Regression behind and begin our second unit on Language Modeling.</li>
+  <li> <a href="materials/Collins-lm-spring2013.pdf">Notes from Michael Collins circa 2013</a> on language modeling.</li>
+  <li> We begin with n-gram models.
+    <ul>
+      <li><a href="materials/JurafskyMartin2007Chap04.pdf">Chapter 4 of Jurafsky and Martin 2008</a></li>
+      <li><a href="http://www.openfst.org/twiki/bin/view/FST/WebHome">OpenFst Library</a></li>
+      <li><a href="http://www.opengrm.org/twiki/bin/view/GRM/NGramLibrary">OpenGrm NGram Library</a></li>
+    </ul>
+  </li>
+  <li><a href="https://docs.google.com/spreadsheets/d/1qmY4rho5bXeuIc59dRV1NIxbWQvYZVdNVJwTQztpX0o/edit?usp=sharing">Google Sign Up Sheet for presentations</a></li>
+</ul>
+
+<h4>23 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/pb9ABlY29iYxKYOjyhgg3_KfrqXUiySLr3PGbdrH4hLkMOdAE_yqPvOBaYHijh7b.P_nUa2uCllH6KDfY">Lecture</a>] with Passcode: m@3Vg+%7</li>
+  <li> Everything you want to know about logistic regression and analysis with categorical variables: <a href="http://users.stat.ufl.edu/~aa/">Alan Agresti (U Florida)</a></li>
+</ul>
+
+
+<h4>21 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/16pDbnn6LGAzZDoxibYZcUIvY1NeEt7CM13y6a_n0JKeqv2wC4UbFplsPJd2MMzC.rrlqFARW4L7iPFjQ">Lecture</a>] with Passcode: F6aC9#+k </li>
+  <li> We discussed Scott Nelson's super helpful handout [<a href="materials/InteractionVsNonInteraction.pdf">pdf</a>] [<a href="materials/InteractionVsNonInteraction.Rmd">Rmd</a>] on differences between non-interactive and interactive models with one continous and one categorical predictor. </li>
+  <li>We discussed logistic regression (chapter 12 of the Winter book). Please read chapter 12 for next time, and here is a brief [<a href="materials/logistic-regression.rmd">rmd</a>] file looking at the logistic and logit functions.</li>
+</ul>
+
+<h4>16 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/jbag2gmh8GNTxYvBRaFKIMyhyjp1e_vCWtLjoRTweUOnkMUajhWYiUMFIOe0j8Ae.Wk_sOH_Zk-HcsRUF">Lecture</a>] with Passcode: ^!!?B^S3 </li>
+  <li> We discussed categorical predictors discussed in Chapter 7 of Winter 2020.</li>
+  <li> Here are some files you can experiment with:
+    <a href="materials/fish-chap07.rmd">fish-chap07.rmd</a> 
+  </li>
+</ul>
+
+<h4>14 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/H6ghSXRQKCbkMnXOog7EL0oBi_hzROkXOsQyfzRk-tYYxZ5PYMIu7zxLWLCKqAaD.1t8n3SCodXI8v_lW
+">Lecture</a>] with Passcode: .Lq!3b#a </li>
+  <li> We reviewed linear and nonlinear transformations discussed in Chapter 5 of Winter 2020.</li>
+  <li> We reviewed multilinear regressions discussed in Chapter 6 of Winter 2020.</li>
+  <li> Here are some files you can experiment with:
+    <a href="materials/fish-chap05.rmd">fish-chap05.rmd</a> 
+    <a href="materials/poverty-chap06.rmd">poverty-chap06.rmd</a>
+  </li>
+</ul>
+
+<h4>09 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/oZ-i-bHYZZY1O0_5u5-0-LbDD8W6RJjet85U5rUsJXtq2slYRiT_0FjwNq8H-2wz.lRSvP67lEhzKZSU-">Lecture</a>] with Passcode: s2PN=ZPX </li>
+  <li> Here is an overview of <a href="materials/regression.pdf">regression</a>.</li>
+  <li> We reviewed simple linear regressions in Chapter 4 of Winter 2020.</li>
+  <li> Here are some files you can experiment with:
+    <a href="materials/poverty.csv">poverty.csv</a> (Utts and Heckard 3rd edition),
+    <a href="materials/fishCatchData.csv">fishCatchData.csv</a> (classic data from 1917 Finland), and
+    <a href="materials/poverty.rmd">poverty.rmd</a> (which is the R markdown file I used in class).
+  </li>
+</ul>
+
+
+<h4>02 Sep 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/puI5Nqji34dqWMV3Ai2j4OkhZfgDM6e0p-b3FrypXfWb6k0ZGE5hghDoB8rZT6gv.5ERC1YJiDXpKKdHA?startTime=1599071751000">Lecture</a>] with Passcode: 4qj^kd2U</li>
+  <li> We discussed Winter 2020, Chapter 3.</li>
+  <li> <a href="materials/a1.pdf">Assignment 1</a>. Deadline September 21, 2020.</li>
+  <li> <a href="materials/a1-answers.pdf">Assignment 1 answers</a></li>
+  
+</ul>
+
+
+<h4>31 Aug 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/5-FEIYnrzF1La9L99x3BQ6wNT6Huaaa80XUd_fVbxUgvRzMQdiy__inUDpcoqG3f">Lecture</a>] with Passcode: 7hUJv9&! </li>
+  <li> We discussed Koller and Friedman 2009, Chapter 2, pages 25-33 (up to  2.1.5).</li>
+  <li> Reading for Wednesday: <a href="materials/readings/Bodo2020-Chap03.pdf">Winter 2020, Chapter 3</a>, pages 25-34 (up to 2.2)</li>
+  <li> To Do by Friday Sept 4: Install R, RStudio, as described in <a href="materials/readings/Bodo2020-FrontMatter.pdf">Winter 2020, Preface</a> </li>
+  <li> Some Materials:
+    <ul>
+      <li> Familiarize yourself with R following <a href="materials/readings/Bodo2020-Chap01.pdf">Winter 2020, Chapter 1</a> </li>
+      <li> Familiarize yourself with the R tidyverse following <a href="materials/readings/Bodo2020-Chap02.pdf">Winter 2020, Chapter 2</a> </li>
+  </ul></li>
+</ul>
+
+<h4>26 Aug 2020</h4>
+<ul>
+  <li> [<a href="https://stonybrook.zoom.us/rec/share/vpVNJYHJ2F5LcM_o5GbWVP4zFZ7ZX6a81yBN-qUEmE14DvHYj1N9e32-om9Oasr-">Lecture</a>] with Passcode: &3Wc4s&? </li>
+  <li> We discussed Koller and Friedman 2009, Chapter 2, pages 15-25 (up to  2.1.5).</li>
+  <li> <a href="https://seeing-theory.brown.edu">Seeing Theory</a>: Visualizing Probability and Statistics
+  <li> Reading for Monday: <a href="materials/readings/KollerFriedman2009-Chap02.pdf">Koller and Friedman 2009, Chapter 2</a>, pages 25-34 (up to 2.2)</li>
+  <li> To Do by Friday Sept 4: Install R, RStudio, as described in <a href="materials/readings/Bodo2020-FrontMatter.pdf">Winter 2020, Preface</a> </li>
+  <li> Some Materials:
+    <ul>
+      <li> Familiarize yourself with R following <a href="materials/readings/Bodo2020-Chap01.pdf">Winter 2020, Chapter 1</a> </li>
+      <li><a href="https://github.com/bodowinter/applied_statistics_book_data">Data files for Winter 2020</a>
+      <li><a href="materials/dice.py">simple python script</a> and <a href="materials/dice.R">R script</a> for generating random dice rolls and storing the results in a csv file.
+  </ul></li>
+
+</ul>
+
+<h4>24 Aug 2020</h4>
+<ul>
+  <li> We went over the syllabus.</li>
+  <li> Reading for Wednesday: <a href="materials/readings/KollerFriedman2009-Chap02.pdf">Koller and Friedman 2009, Chapter 2</a>, pages 15-25 (up to  2.1.5)</li>
+  <li> To Do by Friday Sept 4: Install R, RStudio, as described in <a href="materials/readings/Bodo2020-FrontMatter.pdf">Winter 2020, Preface</a> </li>
+  <li> Optional Readings:
+    <ul>
+      <li><a href="materials/readings/KollerFriedman2009-Chap01.pdf">Koller and Friedman 2009, Chapter 1</a> </li>
+      <li><a href="materials/readings/Bodo2020-Chap01.pdf">Winter 2020, Chapter 1</a> </li>
+  </ul></li>
+
+</ul>
+
+
+
+
+ <hr>
+   
+<p><i><script language="Javascript">
+document.write("Last updated: " + document.lastModified +"");
+</SCRIPT></i></p>
