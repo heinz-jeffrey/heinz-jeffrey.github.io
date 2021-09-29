@@ -1,0 +1,105 @@
+<h1 id="why-formalize">Why formalize?</h1>
+<p>Formalization allows us to more carefully and precisely state our hypotheses and check them.</p>
+<h1 id="phonological-rules">Phonological Rules</h1>
+<p>So far, we have used the term <em>phonological rule</em> synonymously with phonological process, phonological change, and phonological transformation.</p>
+<p>From now on, we will use the term <em>phonological rule</em> to refer to our formal grammatical description.</p>
+<p>A phonological rule has three parts: the what, the how, and the where. A formal rule says what changes, how it changes and the context in which the change takes place. Here is the general form of the rule: A → B / C _ D.</p>
+<ul>
+<li>We read this rule as &quot;A becomes B between C and D&quot;.</li>
+<li>A is the <em>target</em> of the rule (the what)</li>
+<li>B is the <em>structural change</em> of the rule (the how)</li>
+<li>C _ D is the <em>structural description</em> of the rule (the where). The structural description is also called the rule's <em>environment</em> or <em>context</em>.</li>
+</ul>
+<h2 id="examples">Examples</h2>
+<ol style="list-style-type: decimal">
+<li>Kerewe</li>
+</ol>
+<ul>
+<li>h → p / m _</li>
+<li>&quot;h becomes p after m&quot;</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Finnish</li>
+</ol>
+<ul>
+<li>e → i / _ #</li>
+<li>&quot;e raises to i at the end of words&quot;</li>
+</ul>
+<h2 id="rules-for-insertion-and-deletion">Rules for Insertion and Deletion</h2>
+<ol style="list-style-type: decimal">
+<li>Insertion</li>
+</ol>
+<ul>
+<li>∅ → A / C _ D</li>
+<li>&quot;Insert A after C and before D&quot;</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Deletion</li>
+</ol>
+<ul>
+<li>A → ∅ / C _ D</li>
+<li>&quot;Delete A whenever it occurs between C and D&quot;</li>
+</ul>
+<h1 id="multiple-targets-describing-the-target">Multiple targets: describing the target</h1>
+<p>Fijian. &quot;Consonants delete word finally.&quot; How would we write this? One way is to just have a rule for each consonant.</p>
+<ul>
+<li>ð → ∅ / _ #</li>
+<li>r → ∅ / _ #</li>
+<li>t→ ∅ / _ #</li>
+<li>...</li>
+</ul>
+<p>Another way would be to put the consonants in curly braces like this.</p>
+<ul>
+<li>{ð, r, t, ...} → ∅ / _ #</li>
+</ul>
+<p>A better way however is to use the phonetic descriptive term in square brackets.</p>
+<ul>
+<li>[consonant] → ∅ / _ #</li>
+</ul>
+<p>A common abbreviation is to use capital C for [consonant].</p>
+<ul>
+<li>C → ∅ / _ #</li>
+</ul>
+<p>Paamese. &quot;Vowels delete word finally.&quot; How would we write this?</p>
+<ul>
+<li>[vowel] → ∅ / _ #</li>
+<li>V → ∅ / _ #</li>
+</ul>
+<h1 id="multiple-targets-describing-the-change">Multiple targets: describing the change</h1>
+<p>Russian. Devoicing: &quot;Stops devoice word finally.&quot; If we have a rule for each stop, we would write something like this.</p>
+<ul>
+<li>g → k / _ #</li>
+<li>d → t / _ #</li>
+<li>b → p / _ #</li>
+</ul>
+<p>We want to write this as a single rule. We can write the target of the rule as [stop]. But how do we write its structural change? The idea is that when [g] becomes [k] the only change is the voicing. The manner and place of articulation stay the same. <strong>The structural change should only refer to the phonetic properties that change.</strong> Conventionally, we write what it becomes.</p>
+<ul>
+<li>[stop] → [voiceless] / _ #</li>
+</ul>
+<p>This changes [g] to [k], [d] to [t], and [b] to [p] word-finally.</p>
+<h1 id="when-phonological-changes-have-multiple-environments">When phonological changes have multiple environments</h1>
+<p>Recall the analysis of the regular English plural. We posited two rules.</p>
+<ol style="list-style-type: decimal">
+<li>Devoicing: &quot;z becomes s after voiceless stops&quot;</li>
+<li>Schwa Insertion: &quot;a schwa is inserted between two sibilants&quot;</li>
+</ol>
+<p>Consider Devoicing. There are three voiceless stops in English [p, t, k]. So we could write three rules like this.</p>
+<ul>
+<li>z → [voiceless] / p _</li>
+<li>z → [voiceless] / t _</li>
+<li>z → [voiceless] / k _</li>
+</ul>
+<p>As before, we want to combine these into a single rule. Again, one way is to use curly braces.</p>
+<ul>
+<li>z → [voiceless] / {p,t,k} _</li>
+</ul>
+<p>A better way is to list the phonetic properties that picks out those elements.</p>
+<ul>
+<li>z → [voiceless] / [voiceless,stop] _</li>
+</ul>
+<p>How would you write the rule for Schwa Insertion?</p>
+<h1 id="discussion">Discussion</h1>
+<ol style="list-style-type: decimal">
+<li>In the rule for English Devoicing, we wrote [voiceless,stop] in the rule's environment. Is this list of phonetic properties interpreted conjunctively or disjunctively? For a list [X,Y] &quot;conjunctively&quot; means &quot;X and Y&quot; whereas &quot;disjunctively&quot; means &quot;X or Y&quot;.</li>
+<li>In Russian Devoicing we wrote [stop] for the rule's target. This suggests that the rule applies to both voiced and voiceless stops. What happens when the rule &quot;applies&quot; to a voiceless stop?</li>
+</ol>
