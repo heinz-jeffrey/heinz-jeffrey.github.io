@@ -15,6 +15,15 @@
 
 # Course Log
 
+## 27 Jan 2022
+
+* We discussed Chapter 1 of Sonderegger 2022.
+* We reviewed Franke Section 2.1 and part of 2.2
+* For Tuesday 2/1:
+  * Complete [exercises 1.17.1 - 1.17.5](materials/exercises.pdf) from Winter 2019
+  * Finish reading chapter 2 of [Franke 2021](https://michael-franke.github.io/intro-data-analysis/index.html).
+  * Bring questions on Tuesday
+
 ## 25 Jan 2022
 
 * We went over the syllabus.
