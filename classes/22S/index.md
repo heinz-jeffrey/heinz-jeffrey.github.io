@@ -15,6 +15,15 @@
 
 # Course Log
 
+## 01 Feb 2022
+
+* We went over the HW exercises.
+* We reviewed sections 2.5, 2.6 and part of 2.4 of Franke.
+* For Thursday 2/3:
+  * Do the [R markdown tutorial](https://rmarkdown.rstudio.com/articles_intro.html)
+  * Review 2.3 and 2.4 and come prepared with questions.
+  * Review chapter 4 (at least 4.1 and 4.2 - I hope to also get to 4.3 on Thursday)
+
 ## 27 Jan 2022
 
 * We discussed Chapter 1 of Sonderegger 2022.
