@@ -15,6 +15,16 @@
 
 # Course Log
 
+## 03 Feb 2022
+
+* We went over ...
+* For Tuesday 2/8:
+  * In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
+    1. In `nettle`, what are the minimum, maximum, and average number of languages (per country)?
+	2. In `nettle`, what are the minimum, maximum, and average number the average Mean Growing Season (per country)?
+	2. In `fish`, what are the minimum, maximum, and average weight for each *kind* of fish? 
+	2. In `fish`, what are the minimum, maximum, and average length for each *kind* of fish? 
+
 ## 01 Feb 2022
 
 * We went over the HW exercises.
