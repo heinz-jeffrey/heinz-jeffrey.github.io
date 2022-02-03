@@ -19,7 +19,7 @@
 
 * We went over Franke's 2.2. and 2.3 and studied anonymous functions and map functions.
 * We went over some parts of Franke's chapter 4. 
-* For Tuesday 2/8: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
+* For Tuesday 2/8: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](materials/nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
     1. In `nettle`, what are the minimum, maximum, and average number of languages (per country)?
 	2. In `nettle`, what are the minimum, maximum, and average number the average Mean Growing Season (per country)?
 	2. In `fish`, what are the minimum, maximum, and average weight for each *kind* of fish? 
