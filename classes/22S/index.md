@@ -15,6 +15,12 @@
 
 # Course Log
 
+
+## 08 Feb 2022
+
+* We went over the HW.
+* We went over parts of [Franke](https://michael-franke.github.io/intro-data-analysis/index.html) chapters 3 and 4.
+
 ## 03 Feb 2022
 
 * We went over Franke's 2.2. and 2.3 and studied anonymous functions and map functions.
