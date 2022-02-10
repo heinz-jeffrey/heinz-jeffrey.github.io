@@ -15,6 +15,15 @@
 
 # Course Log
 
+## 10 Feb 2022
+
+* We went over Franke chapter 5.
+* For Tuesday 2/15: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](materials/nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
+    1. In `nettle`, what is the mean and standard deviation of the number of languages (per country)?
+	2. In `nettle`, what the mean and standard deviation of the average Mean Growing Season (per country)?
+	2. In `fish`, calculate the covariance and correlation for each *kind* of fish? 
+	2. In `fish`, change the weight and length of each fish to the imperial units (pounds and inches). Calculate the covariance and correlation for each *kind* of fish now. What has changed?
+
 
 ## 08 Feb 2022
 
