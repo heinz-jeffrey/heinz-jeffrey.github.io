@@ -15,6 +15,20 @@
 
 # Course Log
 
+## 17 Feb 2022
+
+* We went over Franke chapter 6.
+* For Tuesday 2/22: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) file, and write some R commmands to draw the following plots.
+	1. Draw a bar chart showing the average weights of each kind of fish.
+	2. Draw a histogram with 50 bins showing the weights of the fish. Color the different kinds of fish.
+	2. Draw a boxplot showing the weights of the different kinds of fish. 
+
+## 15 Feb 2022
+
+* We finished discussing covariance and correlation from Franke chapter 5.
+* We discussed visualization including part of 6.3. 
+* For Thursday 2/17: finish reading 6.3, 6.4, and 6.5.
+
 ## 10 Feb 2022
 
 * We went over Franke chapter 5.
