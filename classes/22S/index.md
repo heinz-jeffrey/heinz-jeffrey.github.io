@@ -11,9 +11,16 @@
 # Materials
 
 * [Syllabus](materials/syllabus-stats-LIN538-22S-Heinz.pdf)
-* 
+* Books we are using:
+  * [Franke 2021](https://michael-franke.github.io/intro-data-analysis/index.html)
+  * [Sonderegger 2022](http://osf.io/pnumg) 
 
 # Course Log
+
+## 22 Feb 2022
+
+* We discussed the first part of Sonderegger Chapter 2.
+* [Seeing Theory](https://seeing-theory.brown.edu/)
 
 ## 17 Feb 2022
 
