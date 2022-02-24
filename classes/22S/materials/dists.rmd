@@ -1,0 +1,114 @@
+---
+title: "Probability Distributions and Standard Error"
+author: "Jeffrey Heinz"
+date: "2/24/2022"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+R has built-in functions for different kinds of probability distributions. These often come in families. (Replace *name* with the keyword associated with the distribution)
+
+* rname: generates a random sample according to the distribution.
+* dname: returns the value of the probability density function
+* pname: returns the value of the cumulative density function
+* qname: returns the value of the inverse cumulative density function
+  
+We won't study the inverse cumlative density function here.
+
+Let's see some examples.
+
+```{r seed}
+library(tidyverse)
+set.seed(101)
+```
+
+## Normal
+
+```{r normal}
+data <- rnorm(1000,mean=100,sd=10)
+data %>% as_tibble() %>% ggplot(aes(x=data)) + geom_histogram(bins=20)
+```
+
+
+Let's look at the probability density.
+
+```{r normal df}
+x <- 1:200
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) dnorm(x, mean = 100, sd = 25))
+```
+
+Let's look at the cumulative probability density.
+
+```{r normal cdf}
+x <- 1:200
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) pnorm(x, mean = 100, sd = 25))
+```
+## Chi Square
+
+```{r Chi Square}
+data <- rchisq(1000,df=5)
+data %>% as_tibble() %>% ggplot(aes(x=data)) + geom_histogram()
+```
+Let's look at the probability density.
+
+```{r chisq df}
+x <- 0:20
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) dchisq(x, df=5))
+```
+
+Let's look at the cumulative probability density.
+
+```{r chisq cdf}
+x <- 0:20
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) pchisq(x, df=5))
+```
+
+## T distribution
+
+```{r student t }
+data <- rt(1000,df=10,ncp = 10)
+data %>% as_tibble() %>% ggplot(aes(x=data)) + geom_histogram()
+```
+Let's look at the probability density.
+
+```{r student df}
+x <- 0:20
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) dt(x, df=10,ncp=10))
+```
+
+Let's look at the cumulative probability density.
+
+```{r student cdf}
+x <- 0:20
+x %>% as_tibble() %>% ggplot(aes(x)) + 
+  stat_function(fun = function(x) pchisq(x, df=10,ncp=10))
+```
+
+## Bernoulli (discrete)
+
+```{r Bernoulli}
+data <- rbernoulli(1000,p=.5)
+data %>% as_tibble() %>% ggplot(aes(x=data)) + geom_bar()
+```
+
+
+
+## Possion (discrete)
+
+```{r Poisson}
+data <- rpois(1000,lambda = 5)
+data %>% as_tibble() %>% ggplot(aes(x=data)) + geom_bar()
+```
+
+
+
+
+

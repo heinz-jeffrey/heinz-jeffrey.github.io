@@ -17,10 +17,22 @@
 
 # Course Log
 
+## 24 Feb 2022
+
+* We reviewed different kinds of probability distributions.
+* We reviewed standard error.
+* We studied section 2.4 on hypothesis testing.
+* For Tuesday:
+  1. Do exercise 1 in Sonderegger Chapter 2 (p.44)
+  2. Consider the Tati vowel data (will be sent in an email). Draw a vowel plot with F1 and F2 values forming the axes. 
+  3. Conduct a Welch two sample t-test to see whether the mean heights of the [i] and [u] vowels are equal.
+
+
 ## 22 Feb 2022
 
 * We discussed the first part of Sonderegger Chapter 2.
 * [Seeing Theory](https://seeing-theory.brown.edu/)
+<!-- * https://stats.oarc.ucla.edu/r/modules/probabilities-and-distributions/ -->
 
 ## 17 Feb 2022
 
