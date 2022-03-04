@@ -17,6 +17,20 @@
 
 # Course Log
 
+## 03 Mar 2022
+
+* We discussed effect size and the incomplete neutralization example
+  (chapter 3 sections 1 and 2 of Sonderegger).
+* For Tuesday:
+  - Do exercise 1 in Sonderegger Chapter 3 (p.81)
+
+## 01 Mar 2022
+
+* Today we discussed z-tests, one-sample and two-saple t-tests,
+  Wilcoxon tests, and checking normality.
+* For Thursday:
+  - Finish reading chapter 2 of Sonderegger.
+
 ## 24 Feb 2022
 
 * We reviewed different kinds of probability distributions 
@@ -25,8 +39,11 @@
 * We studied section 2.4 on hypothesis testing.
 * For Tuesday:
   1. Do exercise 1 in Sonderegger Chapter 2 (p.44)
-  2. Consider the Tati vowel data (will be sent in an email). Draw a vowel plot with F1 and F2 values forming the axes. 
-  3. Conduct a Welch two sample t-test to see whether the mean heights of the [i] and [u] vowels are equal. (Update: No need to to do this one -- we will do in class on Tuesday)
+  2. Consider the Tati vowel data (will be sent in an email). Draw a
+     vowel plot with F1 and F2 values forming the axes.
+  3. Conduct a Welch two sample t-test to see whether the mean heights
+     of the [i] and [u] vowels are equal. (Update: No need to to do
+     this one -- we will do in class on Tuesday)
 
 
 ## 22 Feb 2022
