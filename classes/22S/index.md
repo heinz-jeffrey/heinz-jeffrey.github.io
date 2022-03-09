@@ -17,6 +17,21 @@
 
 # Course Log
 
+## 08 Mar 2022
+
+* We discussed power and the incomplete neutralization example
+  (chapter 3 section 3 of Sonderegger).
+* For Thursday:
+  - Using ggplot, draw a plot like the one in Figure 3.3 on page 61 of
+    Sonderegger. As in Figure 3.3, the power should be plotted on the
+    y-axis and sample size on the x-axis. However, instead of
+    considering three effect sizes (5,10,30) just consider the effect
+    size (delta) to be 10. And instead of considering fixing the
+    standard deviation to 45ms, consider three possibilities: 15, 45,
+    and 135. So your plot should have three lines in it like Figure
+    3.3, but each one corresponding to one of the standard deviations
+    instead of to the effect sizes.
+
 ## 03 Mar 2022
 
 * We discussed effect size and the incomplete neutralization example
