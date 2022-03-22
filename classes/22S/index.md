@@ -17,6 +17,15 @@
 
 # Course Log
 
+
+
+## 22 Mar 2022
+
+* We reviewed simple linear regression and this [fish
+  example](materials/fish-lm.rmd).
+* We discussed the NN/subreg data set.
+* We began to look at regression with categorical variables.
+
 ## 10 Mar 2022
 
 * We began discussion of regression. [Regression
