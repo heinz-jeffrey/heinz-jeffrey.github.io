@@ -17,6 +17,12 @@
 
 # Course Log
 
+## 10 Mar 2022
+
+* We began discussion of regression. [Regression
+  Handout](materials/regression.pdf)
+* We covered the first couple of sections of Sonderegger chapter 4.
+
 ## 08 Mar 2022
 
 * We discussed power and the incomplete neutralization example
