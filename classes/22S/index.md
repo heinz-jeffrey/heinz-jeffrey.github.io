@@ -18,6 +18,24 @@
 # Course Log
 
 
+## 24 Mar 2022
+
+* We reviewed multiple linear regression (4.4 in Sonderegger).
+* We discussed the NN/subreg data set.
+* Homework for next Tuesday: Recall the Tati vowel data. Let us see
+  how well we can predict the duration of a vowel from some its
+  properties. Write a rmd file which conducts simple linear and
+  multiple regressions to answer the following questions. For each
+  regression conducted, make sure to present the summary (or tidy) of
+  the model obtained, and include 1-2 sentences explaining what it
+  means.
+  1. Conduct a simple linear regression predicting the vowel duration from the F1. 
+  1. Conduct a simple linear regression predicting the vowel duration from the F2. 
+  1. Conduct a simple linear regression predicting the vowel duration from the pitch. 
+  1. Conduct a multiple linear regression predicting the vowel duration from the F1 + F2 + pitch.
+  1. Conduct a simple linear regression predicting the vowel duration from the stress (S or U).
+  1. Conduct a mulitple linear regression predicting the vowel duration from the Segment and stress.
+  1. What are your overall conclusions about vowel duration in Tati?
 
 ## 22 Mar 2022
 
