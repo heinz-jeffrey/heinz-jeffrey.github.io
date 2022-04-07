@@ -13,10 +13,28 @@
 * [Syllabus](materials/syllabus-stats-LIN538-22S-Heinz.pdf)
 * Books we are using:
   * [Franke 2021](https://michael-franke.github.io/intro-data-analysis/index.html)
-  * [Sonderegger 2022](http://osf.io/pnumg) 
+  * [Sonderegger 2022](http://osf.io/pnumg)
 
 # Course Log
 
+## 07 Apr 2022
+
+* We finished issues with linear regression (Sonderegger chapter 5).
+* Homework for next Thursday: chapter 5, exercises 1-3 (page 172 in
+  Sonderegger)
+
+## 05 Apr 2022
+
+* We discussed issues with linear regression (up to 5.6 in Sonderegger).
+
+## 31 Mar 2022
+
+* We spent the day exploring linear models of the preliminary
+  NN/subregular lg data set.
+
+## 29 Mar 2022
+
+* We finished chapter 4 of Sonderegger.
 
 ## 24 Mar 2022
 
@@ -29,9 +47,9 @@
   regression conducted, make sure to present the summary (or tidy) of
   the model obtained, and include 1-2 sentences explaining what it
   means.
-  1. Conduct a simple linear regression predicting the vowel duration from the F1. 
-  1. Conduct a simple linear regression predicting the vowel duration from the F2. 
-  1. Conduct a simple linear regression predicting the vowel duration from the pitch. 
+  1. Conduct a simple linear regression predicting the vowel duration from the F1.
+  1. Conduct a simple linear regression predicting the vowel duration from the F2.
+  1. Conduct a simple linear regression predicting the vowel duration from the pitch.
   1. Conduct a multiple linear regression predicting the vowel duration from the F1 + F2 + pitch.
   1. Conduct a simple linear regression predicting the vowel duration from the stress (S or U).
   1. Conduct a mulitple linear regression predicting the vowel duration from the Segment and stress.
@@ -56,14 +74,14 @@
   (chapter 3 section 3 of Sonderegger).
 * For Thursday:
   - Using ggplot, draw a plot like the one in Figure 3.3 on page 61 of
-    Sonderegger. As in Figure 3.3, the power should be plotted on the
-    y-axis and sample size on the x-axis. However, instead of
-    considering three effect sizes (5,10,30) just consider the effect
-    size (delta) to be 10. And instead of considering fixing the
-    standard deviation to 45ms, consider three possibilities: 15, 45,
-    and 135. So your plot should have three lines in it like Figure
-    3.3, but each one corresponding to one of the standard deviations
-    instead of to the effect sizes.
+	Sonderegger. As in Figure 3.3, the power should be plotted on the
+	y-axis and sample size on the x-axis. However, instead of
+	considering three effect sizes (5,10,30) just consider the effect
+	size (delta) to be 10. And instead of considering fixing the
+	standard deviation to 45ms, consider three possibilities: 15, 45,
+	and 135. So your plot should have three lines in it like Figure
+	3.3, but each one corresponding to one of the standard deviations
+	instead of to the effect sizes.
 
 ## 03 Mar 2022
 
@@ -81,17 +99,17 @@
 
 ## 24 Feb 2022
 
-* We reviewed different kinds of probability distributions 
+* We reviewed different kinds of probability distributions
   ([dists.rmd](materials/dists.rmd)).
 * We reviewed standard error.
 * We studied section 2.4 on hypothesis testing.
 * For Tuesday:
   1. Do exercise 1 in Sonderegger Chapter 2 (p.44)
   2. Consider the Tati vowel data (will be sent in an email). Draw a
-     vowel plot with F1 and F2 values forming the axes.
+	 vowel plot with F1 and F2 values forming the axes.
   3. Conduct a Welch two sample t-test to see whether the mean heights
-     of the [i] and [u] vowels are equal. (Update: No need to to do
-     this one -- we will do in class on Tuesday)
+	 of the [i] and [u] vowels are equal. (Update: No need to to do
+	 this one -- we will do in class on Tuesday)
 
 
 ## 22 Feb 2022
@@ -106,21 +124,21 @@
 * For Tuesday 2/22: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) file, and write some R commmands to draw the following plots.
 	1. Draw a bar chart showing the average weights of each kind of fish.
 	2. Draw a histogram with 50 bins showing the weights of the fish. Color the different kinds of fish.
-	2. Draw a boxplot showing the weights of the different kinds of fish. 
+	2. Draw a boxplot showing the weights of the different kinds of fish.
 
 ## 15 Feb 2022
 
 * We finished discussing covariance and correlation from Franke chapter 5.
-* We discussed visualization including part of 6.3. 
+* We discussed visualization including part of 6.3.
 * For Thursday 2/17: finish reading 6.3, 6.4, and 6.5.
 
 ## 10 Feb 2022
 
 * We went over Franke chapter 5.
 * For Tuesday 2/15: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](materials/nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
-    1. In `nettle`, what is the mean and standard deviation of the number of languages (per country)?
+	1. In `nettle`, what is the mean and standard deviation of the number of languages (per country)?
 	2. In `nettle`, what the mean and standard deviation of the average Mean Growing Season (per country)?
-	2. In `fish`, calculate the covariance and correlation for each *kind* of fish? 
+	2. In `fish`, calculate the covariance and correlation for each *kind* of fish?
 	2. In `fish`, change the weight and length of each fish to the imperial units (pounds and inches). Calculate the covariance and correlation for each *kind* of fish now. What has changed?
 
 
@@ -132,12 +150,12 @@
 ## 03 Feb 2022
 
 * We went over Franke's 2.2. and 2.3 and studied anonymous functions and map functions.
-* We went over some parts of Franke's chapter 4. 
+* We went over some parts of Franke's chapter 4.
 * For Tuesday 2/8: In a Rmarkdown file, load the [fish](materials/fishCatchData.csv) and [nettle](materials/nettle_1999_climate.csv) files, and write some R commmands which answer the following questions.
-    1. In `nettle`, what are the minimum, maximum, and average number of languages (per country)?
+	1. In `nettle`, what are the minimum, maximum, and average number of languages (per country)?
 	2. In `nettle`, what are the minimum, maximum, and average number the average Mean Growing Season (per country)?
-	2. In `fish`, what are the minimum, maximum, and average weight for each *kind* of fish? 
-	2. In `fish`, what are the minimum, maximum, and average length for each *kind* of fish? 
+	2. In `fish`, what are the minimum, maximum, and average weight for each *kind* of fish?
+	2. In `fish`, what are the minimum, maximum, and average length for each *kind* of fish?
   (Hint: For #3 and #4, use the `group_by` and `summarize` commands in 4.4 of Franke.)
 
 ## 01 Feb 2022
@@ -166,7 +184,7 @@
   * Install [R](https://cran.r-project.org/) and [R Studio](https://www.rstudio.com/products/rstudio/download/)
   * Open up RStudio and install the tidyverse in R: `install.packages('tidyverse')`
   * Read Chapter 1 of [Sonderegger 2022](http://osf.io/pnumg) (look for the file `rmld_V1.0.pdf` in the `output` folder).
-  * Read Chapter 1 to section 2.3 of [Franke 2021](https://michael-franke.github.io/intro-data-analysis/index.html). 
+  * Read Chapter 1 to section 2.3 of [Franke 2021](https://michael-franke.github.io/intro-data-analysis/index.html).
 
 
 -------------------------------------------------------------------------------
