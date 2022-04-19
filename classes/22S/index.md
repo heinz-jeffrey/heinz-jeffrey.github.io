@@ -17,6 +17,26 @@
 
 # Course Log
 
+## 21 Apr 2022
+
+* Class canceled.
+
+## 19 Apr 2022
+
+* We clarified any issues with the paper presentation.
+* We finished issues with logistic regression (Sonderegger chapter 6).
+* We briefly reviewed some aspects of Sonderegger chapter 7.
+
+## 14 Apr 2022
+
+* We continued discussion of logistic regression (Sonderegger chapter 6).
+* We discussed the paper presentation you need to do in the last week of the course.
+
+## 12 Apr 2022
+
+* We discussed HW exercises in chapter 5.
+* We began discussion of logistic regression (Sonderegger chapter 6).
+
 ## 07 Apr 2022
 
 * We finished issues with linear regression (Sonderegger chapter 5).
