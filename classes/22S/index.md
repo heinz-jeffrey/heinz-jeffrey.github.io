@@ -17,6 +17,17 @@
 
 # Course Log
 
+## 26 Apr 2022
+
+* We determined the order of the presentations of the following papers for next week.
+  - [Durvasula and Nelson 2020](https://www.sciencedirect.com/science/article/abs/pii/S0095447020301108)
+  - [Kwon 2016](https://www.sciencedirect.com/science/article/abs/pii/S0095447016300869)
+  - [Sprouse 2012](https://www.jonsprouse.com/papers/Sprouse%20et%20al.%202012a.pdf)
+  - [Sprouse 2016](https://www.jonsprouse.com/papers/Sprouse%20et%20al.%202016.pdf)
+
+* We discussed Mixed Effects Models (Sonderegger chapter 7).
+  - Chadwick and Nelson's explainer ([pdf](materials/MixedEffectModels.pdf)) and ([rmd](materials/MixedEffectModels.Rmd)) files.
+
 ## 21 Apr 2022
 
 * Class canceled.
