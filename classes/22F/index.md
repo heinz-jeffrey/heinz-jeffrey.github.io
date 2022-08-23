@@ -2,7 +2,7 @@
 
 # Course Information
 
-**Course:** TThu 15:00-16:20, Humanities 2030
+**Course:** TThu 15:00-16:20, Frey Hall 326
 
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
