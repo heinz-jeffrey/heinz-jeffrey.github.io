@@ -17,6 +17,7 @@
 ## 23 Aug 2022
 
 * We went over the syllabus.
+* We studied [language learning on planet Verorez](materials/verorez.pdf).
 
 
 -------------------------------------------------------------------------------
