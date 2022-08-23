@@ -18,6 +18,12 @@
 
 * We went over the syllabus.
 * We studied [language learning on planet Verorez](materials/verorez.pdf).
+* For next time
+  - Read chapters 1 and 2 of [Valiant 2013 "Probably Approximately Correct"](materials/Valiant2014-Chaps1-2.pdf)
+  - Write answers to [these
+    questions](materials/01-pac-chaps-01-02.html) and send them to me
+    [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu). Remember,
+    conciseness is a virtue.
 
 
 -------------------------------------------------------------------------------
