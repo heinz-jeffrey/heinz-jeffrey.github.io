@@ -16,7 +16,7 @@
 
 ## 25 Aug 2022
 
-* We discussed the reading.
+* We discussed chapters 1 and 2 of Valiant 2013.
 * We finished discussing [language learning on planet Verorez](materials/verorez.pdf).
 * For next time
   - Read chapter 3 of [Valiant 2013 "Probably Approximately Correct"](materials/Valiant2014-Chaps1-2.pdf)
