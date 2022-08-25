@@ -19,7 +19,7 @@
 * We discussed chapters 1 and 2 of Valiant 2013.
 * We finished discussing [language learning on planet Verorez](materials/verorez.pdf).
 * For next time
-  - Read chapter 3 of [Valiant 2013 "Probably Approximately Correct"](materials/Valiant2014-Chaps1-2.pdf)
+  - Read chapter 3 of [Valiant 2013 "Probably Approximately Correct"](materials/Valiant2014-Chap3.pdf)
   - Write answers to [these questions](materials/02-pac-chap-03.html)
     and send them to me
     [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu). Remember,
