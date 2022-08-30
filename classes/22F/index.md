@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 30 Aug 2022
+
+* We discussed chapter 3 of Valiant 2013.
+* We explained enumerability and why there are [too few
+  grammars](materials/toofewgrammars.pdf).
+* For next time
+  - Read [chapter 4 and up to 5.5](materials/Valiant2014-Chaps4-5.pdf)
+    of Valiant 2013 "Probably Approximately Correct"
+  - Here are the [footnotes, glossary and
+    index](materials/Valiant2014-NotesGlossaryIndex.pdf) of Valiant
+    2013 "Probably Approximately Correct"
+
 ## 25 Aug 2022
 
 * We discussed chapters 1 and 2 of Valiant 2013.
