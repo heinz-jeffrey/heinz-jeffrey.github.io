@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 01 Sep 2022
+
+* We finished the handout on enumerability and computability.
+* We discussed the first part of chapter 5 of Valiant 2013 "Probably Approximately Correct".
+* For next time
+  - Write answers to [these
+    questions](materials/03-pac-chap-05-1.html) and send them to me
+    [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu). Show
+    and explain your work.
+  - Read [up to 5.7](materials/Valiant2014-Chaps4-5.pdf)
+    of Valiant 2013 "Probably Approximately Correct"
+
 ## 30 Aug 2022
 
 * We discussed chapter 3 of Valiant 2013.
