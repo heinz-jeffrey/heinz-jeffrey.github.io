@@ -14,6 +14,12 @@
 
 # Course Log
 
+## 06 Sep 2022
+
+* We went over HW03. 
+* We discussed up to 5.7 in Valiant 2013.
+* We defined PAC learning formally.
+
 ## 01 Sep 2022
 
 * We finished the handout on enumerability and computability.
