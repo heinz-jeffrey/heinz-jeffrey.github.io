@@ -14,11 +14,22 @@
 
 # Course Log
 
+## 13 Sep 2022
+
+* We went over this [handout](materials/pacproofs.pdf) that reviewed
+  the proof that the tightest-fit rectangle algorithm pac-learns the
+  class of axis-aligned rectangles and the proof that the elimination
+  algoritm pac-learns the class of monomials.
+* For Thursday, read sections 1, 2 and 3 of chapter 3 KV94 on the VC
+  dimension.
+
 ## 08 Sep 2022
 
 * We reviewed the preliminary definition of PAC learnability.
-* We discussed and explained the PAC learnability of axis-aligned rectangles.
-* We discussed the modified definition of PAC learnability which takes into account the size of the representation of the concepts.
+* We discussed and explained the PAC learnability of axis-aligned
+  rectangles.
+* We discussed the modified definition of PAC learnability which takes
+  into account the size of the representation of the concepts.
 * We established a plan for the next several classes
   - Tue Sep 13: Jeff on PAC learning monomials (1.3 in KV94)
   - Thu Sep 15: John on the VC dimension (3.1, 3.2, 3.3 in KV94 and theorems 3.3,3.4)
