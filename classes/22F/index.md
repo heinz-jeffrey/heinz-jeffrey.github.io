@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 22 Sep 2022
+
+* Class cancelled. Try to check out the learning talks on Friday at [this workshop](https://www.jeffreyheinz.net/events/WMTRPprogram.html)
+
+## 20 Sep 2022
+
+* Magda presented on Angluin and Laird's 1988 paper "Learning from Noisy Examples."
+
+## 15 Sep 2022
+
+* John on the VC dimension. Slides forthcoming.
+
 ## 13 Sep 2022
 
 * We went over this [handout](materials/pacproofs.pdf) that reviewed
