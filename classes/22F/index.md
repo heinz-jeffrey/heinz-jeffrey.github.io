@@ -14,17 +14,26 @@
 
 # Course Log
 
+## 27 Sep 2022
+
+* Sarah presents on Lignos and Yang 2016.
+* Read the rest of Valiant 2013 chapter 5 and write answers to [these
+  questions](materials/04-pac-chap05-2.html) and send them to me
+  [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu).
+
 ## 22 Sep 2022
 
 * Class cancelled. Try to check out the learning talks on Friday at [this workshop](https://www.jeffreyheinz.net/events/WMTRPprogram.html)
 
 ## 20 Sep 2022
 
-* Magda presented on Angluin and Laird's 1988 paper "Learning from Noisy Examples."
+* Magda [presented](materials/NoisyExamplesMarkowska.pdf) on Angluin
+  and Laird's 1988 paper "Learning from Noisy Examples."
 
 ## 15 Sep 2022
 
-* John on the VC dimension. Slides forthcoming.
+* John presents on the VC
+  dimension. ([Slides](materials/VC-Dimension-Murzaku.pdf))
 
 ## 13 Sep 2022
 
