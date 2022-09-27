@@ -16,7 +16,7 @@
 
 ## 27 Sep 2022
 
-* Sarah presents on Lignos and Yang 2016.
+* Sarah [presents](materials/Morphology-Language-Acquisition-Slides-Payne.pdf) on Lignos and Yang 2016.
 * Read the rest of Valiant 2013 chapter 5 and write answers to [these
   questions](materials/04-pac-chap05-2.html) and send them to me
   [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu).
