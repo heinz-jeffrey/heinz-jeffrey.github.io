@@ -14,6 +14,11 @@
 
 # Course Log
 
+## 29 Sep 2022
+
+* We discussed the rest of Chapter 5 of Valiant 2013.
+* Jeff presented his talk [what does learning mean](materials/whatdoeslearningmean.pdf)
+
 ## 27 Sep 2022
 
 * Sarah [presents](materials/Morphology-Language-Acquisition-Slides-Payne.pdf) on Lignos and Yang 2016.
