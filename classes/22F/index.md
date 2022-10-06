@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 06 Oct 2022
+
+* We began our study of [identification in the limit](materials/idlimit.pdf).
+
+## 04 Oct 2022
+
+* Class canceled.
+
 ## 29 Sep 2022
 
 * We discussed the rest of Chapter 5 of Valiant 2013.
