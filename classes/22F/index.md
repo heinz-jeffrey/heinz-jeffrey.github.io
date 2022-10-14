@@ -14,9 +14,38 @@
 
 # Course Log
 
+## 13 Oct 2022
+
+* Eric [presented](materials/Sclafani-LLP2.pdf) and led discussion on
+  Heinz 2010.
+* Jeff finished going over the last several slides from his [what does
+  learning mean](materials/whatdoeslearningmean.pdf) talk, which
+  emphasized how deterministic finite state machines define a
+  parameterized concept class, and whether the concepts are formal
+  (boolean) languages, stochastic languages, or string-to-string
+  functions -- so whether the parameter values are boolean, reals, or
+  strings -- the learning of these classes is conducted
+  similarly. Papers exist which make these connections explicit for
+  DFA more generally and k-SL and k-SP classes in particular.
+* For next Tuesday, review the first 10 pages (up to 4.7) of the notes
+  on identification in the limit. (We have already discussed up to 4.5
+  on Oct 06).
+* Also for those who are enrolled and have not yet presented yet,
+  please think about which papers you would be interested in
+  presenting over the next few weeks as I would like to schedule. Feel
+  free to get in touch if you need pointers.
+
+## 11 Oct 2022
+
+* Fall break
+
+
 ## 06 Oct 2022
 
-* We began our study of [identification in the limit](materials/idlimit.pdf).
+* We began our study of [identification in the
+  limit](materials/idlimit.pdf).
+* Read [Heinz 2010](http://jeffreyheinz.net/papers/Heinz-2010-LLP.pdf)
+  for next Thursday. Eric will present.
 
 ## 04 Oct 2022
 
@@ -25,11 +54,14 @@
 ## 29 Sep 2022
 
 * We discussed the rest of Chapter 5 of Valiant 2013.
-* Jeff presented his talk [what does learning mean](materials/whatdoeslearningmean.pdf)
+* Jeff presented his talk [what does learning
+  mean](materials/whatdoeslearningmean.pdf)
 
 ## 27 Sep 2022
 
-* Sarah [presents](materials/Morphology-Language-Acquisition-Slides-Payne.pdf) on Lignos and Yang 2016.
+* Sarah
+  [presents](materials/Morphology-Language-Acquisition-Slides-Payne.pdf)
+  on Lignos and Yang 2016.
 * Read the rest of Valiant 2013 chapter 5 and write answers to [these
   questions](materials/04-pac-chap05-2.html) and send them to me
   [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu).
