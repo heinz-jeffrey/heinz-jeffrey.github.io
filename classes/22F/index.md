@@ -1,5 +1,5 @@
 % Learnability (LIN 629)
-
+65;6203;1c
 # Course Information
 
 **Course:** TThu 15:00-16:20, Frey Hall 326
@@ -13,6 +13,24 @@
 * [Syllabus](materials/learnability-LIN629-22F-Heinz.pdf)
 
 # Course Log
+
+## 18 Oct 2022
+
+* We continued our study of [identification in the limit
+  paradigms](materials/idlimit.pdf).
+* Reminder that project proposals are to be approved by
+  November 1. Please talk to me if you need help coming up with a good
+  project.
+* Here is the schedule we developed over the next several weeks.
+  - Tue Oct 25: Nick on distributional learning [Clark and Eyraud 2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
+  - Thu Oct 27: Han on string extension learning [Heinz 2010](https://aclanthology.org/P10-1092.pdf)
+  - Tue Nov 01: Jack, TBD
+  - Thu Nov 03: Gillian, TBD
+  - Tue Nov 08: Rita, TBD
+  - Thu Nov 10: Logan on evolution and learnability [Komorova et al. 2002]()
+  - Thu Nov 15: Salam on learning ISL [Jardine et al 2014]()
+  - Thu Nov 17: Kenneth on learning TSL [Lambert 2021]()
+  - Yola, Adil: TBD
 
 ## 13 Oct 2022
 
