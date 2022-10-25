@@ -14,6 +14,20 @@
 
 # Course Log
 
+## 25 Oct 2022
+
+* Nick presented on distributional learning (Clark and Eyraud
+  2007). The slides are here.
+* For those interested, here is [(Clark
+  2013)](materials/Clark2013.pdf) which builds on the prior work of
+  the subsitutable language learning algorithm to remove much (all?)
+  of the ambiguity in the derivations. Consequently, syntactic
+  structures are learned. For example, he can recover the syntactic
+  structure underlying propositional logic.
+* For Thu Oct 27 read string extension learning [Heinz
+    2010](https://aclanthology.org/P10-1092.pdf) (Han presenting)
+
+
 ## 20 Oct 2022
 
 * We concluded the handout on [identification in the
