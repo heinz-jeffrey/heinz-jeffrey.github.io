@@ -74,19 +74,6 @@
   - Thu Nov 17: Kenneth on learning TSL [Lambert 2021](https://proceedings.mlr.press/v153/lambert21a.html)
   - Adil, TBD
 
-* Here is the schedule we developed over the next several weeks.
-  - Tue Oct 25: Nick on distributional learning [Clark and Eyraud
-    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
-  - Thu Oct 27: Han on string extension learning [Heinz
-    2010](https://aclanthology.org/P10-1092.pdf)
-  - Tue Nov 01: Jack, TBD
-  - Thu Nov 03-08: Gillian,  TBD
-  - Tue Nov 08: Rita, TBD
-  - Thu Nov 10: Logan on evolution and learnability [Komorova et
-    al. 2002]()
-  - Thu Nov 15: Salam on learning ISL [Jardine et al 2014]()
-  - Thu Nov 17: Kenneth on learning TSL [Lambert 2021]()
-w
 ## 13 Oct 2022
 
 * Eric [presented](materials/Sclafani-LLP2.pdf) and led discussion on
