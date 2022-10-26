@@ -77,7 +77,7 @@
 ## 13 Oct 2022
 
 * Eric [presented](materials/Sclafani-LLP2.pdf) and led discussion on
-  Heinz 2010.
+  Heinz 2010 "Learning Long-distance Phonotactics".
 * Jeff finished going over the last several slides from his [what does
   learning mean](materials/whatdoeslearningmean.pdf) talk, which
   emphasized how deterministic finite state machines define a
