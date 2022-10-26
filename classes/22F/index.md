@@ -17,16 +17,22 @@
 ## 25 Oct 2022
 
 * Nick presented on distributional learning (Clark and Eyraud
-  2007). The slides are here.
-* For those interested, here is [(Clark
-  2013)](materials/Clark2013.pdf) which builds on the prior work of
-  the subsitutable language learning algorithm to remove much (all?)
-  of the ambiguity in the derivations. Consequently, syntactic
-  structures are learned. For example, he can recover the syntactic
-  structure underlying propositional logic.
+  2007). The [slides are here](materials/Nick-presentation.pdf).
 * For Thu Oct 27 read string extension learning [Heinz
     2010](https://aclanthology.org/P10-1092.pdf) (Han presenting)
-
+* For those interested:
+  - Here is [(Clark 2013)](materials/Clark2013.pdf) which builds on
+    the prior work of the subsitutable language learning algorithm to
+    remove much (all?)  of the ambiguity in the
+    derivations. Consequently, syntactic structures are learned. For
+    example, he basically recovers the syntactic structure underlying
+    propositional logic. And here is Clark and Yoshinaka's [2016
+    review](materials/ClarkYoshinaka2016.pdf) of several extensions to
+    the distributional learning framework since 2007.
+  - Here are [slides](materials/Heinz-MLRegTest-2022.pdf) from my talk
+    on investigating the generalization powers of NNs on regular
+    languages at the "All Things Language and Computation" series last
+    Friday.
 
 ## 20 Oct 2022
 
@@ -55,15 +61,32 @@
     2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
   - Thu Oct 27: Han on string extension learning [Heinz
     2010](https://aclanthology.org/P10-1092.pdf)
+  - Tue Nov 01: Jack on extracting automata from recurrent neural
+    networks [Weiss et al. 2018](https://arxiv.org/pdf/1711.09576.pdf)
+  - Thu Nov 3 - Tue Nov 8: Rita, Gillian, Yola
+    - Generative linguistics and neural networks at 60 [Pater 2019](https://doi.org/10.1353/lan.2019.0009)
+    - Response by Dunbar [The implementational mapping problem](https://doi.org/10.1353/lan.2019.0013)
+    - Response by Rawski and Heinz [No free lunch](https://doi.org/10.1353/lan.2019.0021)
+    - The [whole issue](https://muse.jhu.edu/issue/40022)
+  - Thu Nov 10: Logan on evolution and learnability [Komorova et
+    al. 2002](materials/NowakKomarovaNiyogi2002.pdf)
+  - Thu Nov 15: Salam on learning classes of DFTs [Jardine et al 2014](https://proceedings.mlr.press/v34/jardine14a.html)
+  - Thu Nov 17: Kenneth on learning TSL [Lambert 2021](https://proceedings.mlr.press/v153/lambert21a.html)
+  - Adil, TBD
+
+* Here is the schedule we developed over the next several weeks.
+  - Tue Oct 25: Nick on distributional learning [Clark and Eyraud
+    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
+  - Thu Oct 27: Han on string extension learning [Heinz
+    2010](https://aclanthology.org/P10-1092.pdf)
   - Tue Nov 01: Jack, TBD
-  - Thu Nov 03: Gillian, TBD
+  - Thu Nov 03-08: Gillian,  TBD
   - Tue Nov 08: Rita, TBD
   - Thu Nov 10: Logan on evolution and learnability [Komorova et
     al. 2002]()
   - Thu Nov 15: Salam on learning ISL [Jardine et al 2014]()
   - Thu Nov 17: Kenneth on learning TSL [Lambert 2021]()
-  - Yola, Adil: TBD
-
+w
 ## 13 Oct 2022
 
 * Eric [presented](materials/Sclafani-LLP2.pdf) and led discussion on
