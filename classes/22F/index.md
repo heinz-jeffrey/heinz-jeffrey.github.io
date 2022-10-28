@@ -16,7 +16,8 @@
 
 ## 27 Oct 2022
 
-* Han presented on Heinz 2010.
+* Han presented on string extension learning (Heinz 2010). Slides are
+  here.
   - For those interested, [this 2012
     paper](materials/Heinz-KasprzikEtAl-2012-LLHS.pdf) presents a
     deeper analysis of the lattice structure of string-extension
