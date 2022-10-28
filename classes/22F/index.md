@@ -21,7 +21,7 @@
 * For Thu Oct 27 read string extension learning [Heinz
     2010](https://aclanthology.org/P10-1092.pdf) (Han presenting)
 * For those interested:
-  - Here is [(Clark 2013)](materials/Clark2013.pdf) which builds on
+  - Here is [(Clark 2013)](https://jmlr.csail.mit.edu/papers/volume14/clark13a/clark13a.pdf) which builds on
     the prior work of the subsitutable language learning algorithm to
     remove much (all?)  of the ambiguity in the
     derivations. Consequently, syntactic structures are learned. For
