@@ -14,6 +14,20 @@
 
 # Course Log
 
+## 27 Oct 2022
+
+* Han presented on Heinz 2010.
+  - For those interested, [this 2012
+    paper](materials/Heinz-KasprzikEtAl-2012-LLHS.pdf) presents a
+    deeper analysis of the lattice structure of string-extension
+    learnable hypothesis spaces, and shows that many other classes of
+    languages languages that are identifiable in the limit (including
+    the zero reversible languages) have this lattice structure. It
+    also characterizes which of these classes are also PAC learnable.
+* For Tuesday, please read Weiss et al. 2018 on extracting automata
+    from recurrent neural networks [Weiss et
+    al. 2018](https://arxiv.org/pdf/1711.09576.pdf) (Jack presenting).
+
 ## 25 Oct 2022
 
 * Nick presented on distributional learning (Clark and Eyraud
@@ -21,9 +35,10 @@
 * For Thu Oct 27 read string extension learning [Heinz
     2010](https://aclanthology.org/P10-1092.pdf) (Han presenting)
 * For those interested:
-  - Here is [(Clark 2013)](https://jmlr.csail.mit.edu/papers/volume14/clark13a/clark13a.pdf) which builds on
-    the prior work of the subsitutable language learning algorithm to
-    remove much (all?)  of the ambiguity in the
+  - Here is [(Clark
+    2013)](https://jmlr.csail.mit.edu/papers/volume14/clark13a/clark13a.pdf)
+    which builds on the prior work of the subsitutable language
+    learning algorithm to remove much (all?)  of the ambiguity in the
     derivations. Consequently, syntactic structures are learned. For
     example, he basically recovers the syntactic structure underlying
     propositional logic. And here is Clark and Yoshinaka's [2016
