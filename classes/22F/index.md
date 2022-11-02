@@ -14,6 +14,17 @@
 
 # Course Log
 
+## 01 Nov 2022
+
+* Jack [presented](materials/LIN629_Presentation_Jack.pdf) on on
+    extracting automata from recurrent neural networks (Weiss et
+    al. 2018).
+* For next Tuesday, please read the following (Rita, Yola, and Gillian presenting next Tue and Thu)
+    - Generative linguistics and neural networks at 60 [Pater 2019](https://doi.org/10.1353/lan.2019.0009)
+    - Response by Dunbar [The implementational mapping problem](https://doi.org/10.1353/lan.2019.0013)
+    - Response by Rawski and Heinz [No free lunch](https://doi.org/10.1353/lan.2019.0021)
+* In case you are interested, here is the [whole issue](https://muse.jhu.edu/issue/40022)
+
 ## 27 Oct 2022
 
 * Han presented on string extension learning (Heinz 2010). Slides are
