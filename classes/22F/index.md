@@ -14,6 +14,10 @@
 
 # Course Log
 
+## 03 Nov 2022
+
+* Jeff on [different approaches to evaluating ML systems](materials/studyinglearning.pdf)
+
 ## 01 Nov 2022
 
 * Jack [presented](materials/LIN629_Presentation_Jack.pdf) on on
