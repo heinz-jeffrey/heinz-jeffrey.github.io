@@ -14,6 +14,21 @@
 
 # Course Log
 
+## 10 Nov 2022
+
+* Yola presents on Rawski and Heinz's response to Pater.
+* Gillian presents on Dunbar's response to Pater.
+* For Tuesday please read [Nowak et
+  al. 2002](materials/NowakKomarovaNiyogi2002.pdf) (Logan presenting)
+
+## 08 Nov 2022
+
+* Rita [presents](materials/Pater2019presentation.pdf) on Pater 2019
+* For those interested, here is [Kodner and Khalifa
+  2022](https://aclanthology.org/2022.sigmorphon-1.18.pdf) which
+  discusses the past tense debate in the context of the 2022
+  SIGMORPHON shared task on modeling inflection.
+
 ## 03 Nov 2022
 
 * Jeff on [different approaches to evaluating ML systems](materials/studyinglearning.pdf)
