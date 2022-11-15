@@ -14,6 +14,16 @@
 
 # Course Log
 
+## 17 Nov 2022
+
+* Jeff
+
+## 15 Nov 2022
+
+* Logan presents on Nowak et al. 2022.
+* For next Tuesday Nov 22 please read [Jardine et al
+  2014](https://proceedings.mlr.press/v34/jardine14a.html) (Salam and Adil presenting)
+
 ## 10 Nov 2022
 
 * Yola presents on Rawski and Heinz's response to Pater.
