@@ -16,7 +16,7 @@
 
 ## 17 Nov 2022
 
-* Jeff
+* Jeff [presents](materials/stochasticstringsets.pdf) on learning stochastic stringsets.
 
 ## 15 Nov 2022
 
