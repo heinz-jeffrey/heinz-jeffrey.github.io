@@ -17,6 +17,7 @@
 ## 17 Nov 2022
 
 * Jeff [presents](materials/stochasticstringsets.pdf) on learning stochastic stringsets.
+* For those interested here is [Halmos on writing](materials/Halmos1973-How-to-write-mathematics.pdf)
 
 ## 15 Nov 2022
 
@@ -26,7 +27,8 @@
 
 ## 10 Nov 2022
 
-* Yola presents on Rawski and Heinz's response to Pater.
+* Yola [presents](materials/Yola-No-Free-Lunch.pdf) on Rawski and
+  Heinz's response to Pater.
 * Gillian presents on Dunbar's response to Pater.
 * For Tuesday please read [Nowak et
   al. 2002](materials/NowakKomarovaNiyogi2002.pdf) (Logan presenting)
