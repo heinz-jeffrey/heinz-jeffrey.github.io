@@ -21,7 +21,7 @@
 
 ## 15 Nov 2022
 
-* Logan presents on Nowak et al. 2022.
+* Logan [presents](materials/Logan-Nowaketal2022.pdf] on Nowak et al. 2022.
 * For next Tuesday Nov 22 please read [Jardine et al
   2014](https://proceedings.mlr.press/v34/jardine14a.html) (Salam and Adil presenting)
 
