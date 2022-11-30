@@ -14,6 +14,17 @@
 
 # Course Log
 
+## Dec 1
+* Jeff concludes the course.
+
+## 29 Nov 2022
+* Kenneth [presents](lin629-lambert-pres.pdf) on Lambert 2021.
+
+## 22 Nov 2022
+
+* Adil [presents](materials/LIN629-Presentation-sosfia.pdf) on SOSFIA.
+* Salam [presents](materials/) on SOSFIA.
+
 ## 17 Nov 2022
 
 * Jeff [presents](materials/stochasticstringsets.pdf) on learning stochastic stringsets.
