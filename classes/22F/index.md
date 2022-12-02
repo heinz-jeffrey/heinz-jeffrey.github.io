@@ -15,7 +15,7 @@
 # Course Log
 
 ## Dec 1
-* Jeff concludes the course.
+* Jeff [concludes](materials/conclusion.pdf) the course.
 
 ## 29 Nov 2022
 * Kenneth [presents](lin629-lambert-pres.pdf) on Lambert 2021.
@@ -23,7 +23,7 @@
 ## 22 Nov 2022
 
 * Adil [presents](materials/LIN629-Presentation-sosfia.pdf) on SOSFIA.
-* Salam [presents](materials/) on SOSFIA.
+* Salam [presents](materials/LIN629-Jardine14-Khalifa.pdf) on SOSFIA.
 
 ## 17 Nov 2022
 
