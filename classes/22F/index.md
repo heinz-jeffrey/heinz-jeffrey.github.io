@@ -18,7 +18,7 @@
 * Jeff [concludes](materials/conclusion.pdf) the course.
 
 ## 29 Nov 2022
-* Kenneth [presents](lin629-lambert-pres.pdf) on Lambert 2021.
+* Kenneth [presents](materials/lin629-lambert-pres.pdf) on Lambert 2021.
 
 ## 22 Nov 2022
 
