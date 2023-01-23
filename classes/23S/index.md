@@ -14,10 +14,10 @@
 
 # Course Log
 
-## 23 Aug 2022
+## 23 Jan 2023
 
 * We went over the syllabus.
-* We went over this [introduction to phonology](materials/01-intro.pdf)
-
+* We went over this [introduction to phonology](materials/01-intro.pdf).
+* Squib 1 on [Toba Batak](materials/HW01-TobaBatak.pdf) is due February 1, 2023.
 
 -------------------------------------------------------------------------------
