@@ -10,7 +10,7 @@
 
 # Materials
 
-* [Syllabus](materials/learnability-LIN629-23S-Heinz.pdf)
+* [Syllabus](materials/phonology-LIN623-23S-Heinz.pdf)
 
 # Course Log
 
