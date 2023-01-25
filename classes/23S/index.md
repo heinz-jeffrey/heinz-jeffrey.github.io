@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 25 Jan 2023
+* We finished discussing the [introduction to phonology](materials/01-intro.pdf).
+* We began discussing [McCarthy 2007, chapters 1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf).
+* For Monday, read McCarthy 2007 through page 36 up to 2.3.4.2. Take
+  notes which identify McCarthy's main points and identify questions
+  to raise in class on Monday.
+* FYI we will finish reading this chapter by Wednesday if you want a
+  head start (reminder squib 1 is due then too).
+
 ## 23 Jan 2023
 
 * We went over the syllabus.
