@@ -14,6 +14,20 @@
 
 # Course Log
 
+## 01 Feb 2023
+
+* We continued discussing [McCarthy 2007, chapters
+  1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf).
+* Squib 2 on [Polish](materials/HW02-Polish.pdf) is due February 15, 2023.
+
+## 30 Jan 2023
+* We reviewed [Kager's (1999) sections 1.5 and 1.6](materials/Kager1999-Ch01.pdf) on complementary
+  distribution and lexicon optimization, and discussed its implications
+  for phonemes.
+* We continued discussing [McCarthy 2007, chapters
+  1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf).
+* For Wednesday: finish reading this chapter and squib 1 is due.
+
 ## 25 Jan 2023
 * We finished discussing the [introduction to phonology](materials/01-intro.pdf).
 * We began discussing [McCarthy 2007, chapters 1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf).
