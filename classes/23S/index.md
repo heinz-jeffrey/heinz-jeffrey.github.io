@@ -14,6 +14,21 @@
 
 # Course Log
 
+
+## 03 Feb 2023
+
+* We discussed some lessons from squib 1.
+* We continued discussing [McCarthy 2007, chapters
+  1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf) in
+  particular the following approaches to opacity in OT:
+  representational, local constraint conjunction, and 2-level constraints.
+* On Wed we will discuss harmonic serialism, stratal OT, sympathy
+  theory, contrast preservation.
+* Also note: on the [Polish assignment](materials/HW02-Polish.pdf)
+  there was a typo: the nom.pl. of 'room' is [pokoje]. It has been
+  corrected.
+
+
 ## 01 Feb 2023
 
 * We continued discussing [McCarthy 2007, chapters
