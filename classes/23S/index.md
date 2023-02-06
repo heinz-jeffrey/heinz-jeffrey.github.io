@@ -25,9 +25,10 @@
 * On Wed we will discuss harmonic serialism, stratal OT, sympathy
   theory, contrast preservation.
 * Also note: on the [Polish assignment](materials/HW02-Polish.pdf)
-  there was a typo: the nom.pl. of 'room' is [pokoje]. It has been
-  corrected.
-
+  there was a typo: the nom.pl. of 'room' is not [pokoji]. The HW has
+  been fixed. You only need to account for the alternations in the
+  noun stems. You do not need to account for the alternations in the
+  plural suffix.
 
 ## 01 Feb 2023
 
