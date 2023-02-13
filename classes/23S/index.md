@@ -15,7 +15,22 @@
 # Course Log
 
 
-## 03 Feb 2023
+## 13 Feb 2023
+
+* We had some Q&A about the assignment due Wednesday.
+* We had some discussion about descriptive and explanatory goals and what counts as descriptive and/or explanatory.
+* Jeff questioned whether intermediary representations are necessary to account for opaque patterns contra McCarthy's (2008) claim.
+* We began reviewing [Vaux's (2008) critique of OT](materials/VauxNevins2008.pdf), identified his main objections, and began talking specifically about his critique of OT wrt optionality.
+* To do: complete reading Vaux's chapter by next Monday.
+
+## 08 Feb 2023
+
+* We finished discussing [McCarthy 2007, chapters
+  1-2](materials/McCarthy-Hidden-Generalizations-Ch1-2.pdf) in
+  particular the following approaches to opacity in OT:
+  harmonic serialism and stratal OT.
+
+## 06 Feb 2023
 
 * We discussed some lessons from squib 1.
 * We continued discussing [McCarthy 2007, chapters
