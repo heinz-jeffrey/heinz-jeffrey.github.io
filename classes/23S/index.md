@@ -15,6 +15,13 @@
 # Course Log
 
 
+## 15 Feb 2023
+
+* We continuned discussing [Vaux's (2008) critique of
+  OT](materials/VauxNevins2008.pdf), in particular optionality.
+* Squib 3 on [Ilokano](materials/HW03-Ilokano.pdf) is due March 1,
+  2023.
+
 ## 13 Feb 2023
 
 * We had some Q&A about the assignment due Wednesday.
