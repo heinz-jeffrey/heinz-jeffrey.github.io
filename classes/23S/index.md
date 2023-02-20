@@ -15,12 +15,24 @@
 # Course Log
 
 
+## 22 Feb 2023
+
+* Some revised deadlines: 1-1s to discuss potential projects should be
+  completed by March 3 and project proposals are due by April 7.
+* Squib 3 on [Ilokano](materials/HW03-Ilokano.pdf) is due Friday March 24, 2023.
+
+
+## 20 Feb 2023
+
+* We finished discussing [Vaux's (2008) critique of
+  OT](materials/VauxNevins2008.pdf), in particular optionality,
+  ineffability, unnaturalness, and the "too many solutions" problem.
+* For next class, read sections 2.1 and chapter 3 of [McCarthy 2008
+  Doing OT](materials/McCarthy2008-DoingOT.pdf)
+
 ## 15 Feb 2023
 
-* We continuned discussing [Vaux's (2008) critique of
-  OT](materials/VauxNevins2008.pdf), in particular optionality.
-* Squib 3 on [Ilokano](materials/HW03-Ilokano.pdf) is due March 1,
-  2023.
+* Class cancelled; instructor ill.
 
 ## 13 Feb 2023
 
