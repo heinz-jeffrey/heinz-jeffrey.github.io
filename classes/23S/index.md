@@ -18,7 +18,7 @@
 ## 22 Feb 2023
 
 * Some revised deadlines: 1-1s to discuss potential projects should be
-  completed by March 3 and project proposals are due by April 7.
+  completed by March 3 and project proposals are due by March 31.
 * Squib 3 on [Ilokano](materials/HW03-Ilokano.pdf) is due Friday March 24, 2023.
 
 
