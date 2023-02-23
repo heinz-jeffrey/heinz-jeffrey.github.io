@@ -21,6 +21,10 @@
   completed by March 3 and project proposals are due by March 31.
 * We discussed 2.1 of [McCarthy 2008
   Doing OT](materials/McCarthy2008-DoingOT.pdf)
+* We observed a parallel between McCarthy's highlighting of linguistic
+  generalizations in analysis development and the "verbal" and
+  "formal" in [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf)
+  (see figure).
 * Squib 3 on [Ilokano](materials/HW03-Ilokano.pdf) is due Friday March 24, 2023.
 * We discussed some of the linguistic generalizations in Ilokano.
 
