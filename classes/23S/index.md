@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 27 Feb 2023
+
+* We discussed Chapter 3 of [McCarthy 2008 Doing
+  OT](materials/McCarthy2008-DoingOT.pdf)
+* We discussed the [Ilokano assignment](materials/HW03-Ilokano.pdf) a
+  little bit more.
+* For Wednesday, please read [Hyman 2011 on
+  tone](materials/Hyman-2011-Tone-is-it-different.pdf), and map out
+  the argument structure of this chapter.
 
 ## 22 Feb 2023
 
