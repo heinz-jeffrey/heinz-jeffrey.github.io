@@ -14,6 +14,12 @@
 
 # Course Log
 
+## 01 Mar 2023
+
+* We examined the arguments made by [Hyman 2011 on
+  tone](materials/Hyman-2011-Tone-is-it-different.pdf).
+* HW: Work on Ilokano
+
 ## 27 Feb 2023
 
 * We discussed Chapter 3 of [McCarthy 2008 Doing
