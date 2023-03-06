@@ -14,6 +14,12 @@
 
 # Course Log
 
+
+## 06 Mar 2023
+
+* Stress Week! Here are some [notes on stress](materials/intro-to-stress.pdf).
+* In class exercise: [Nanti](materials/exercise-Nanti.pdf)
+
 ## 01 Mar 2023
 
 * We examined the arguments made by [Hyman 2011 on
