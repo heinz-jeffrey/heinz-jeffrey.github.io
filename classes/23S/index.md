@@ -14,11 +14,18 @@
 
 # Course Log
 
+## 13 - 15 Mar 2023
+
+* Stress Free Week! It's Spring Break, no class.
+
+## 08 Mar 2023
+
+* In class exercise: [Nanti](materials/exercise-Nanti.pdf)
+* We also scheduled presentations after spring break.
 
 ## 06 Mar 2023
 
 * Stress Week! Here are some [notes on stress](materials/intro-to-stress.pdf).
-* In class exercise: [Nanti](materials/exercise-Nanti.pdf)
 
 ## 01 Mar 2023
 
