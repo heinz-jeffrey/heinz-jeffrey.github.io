@@ -8,6 +8,8 @@
 
 **Office Hours:** TTh 11:20-13:00, SBS N237
 
+[Back to Course Log](index.html)
+
 # Post Spring Break Paper Schedule
 
 ## Mon 3/20

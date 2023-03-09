@@ -11,6 +11,7 @@
 # Materials
 
 * [Syllabus](materials/phonology-LIN623-23S-Heinz.pdf)
+* [Post Spring Break Paper Schedule](schedule.html)
 
 # Course Log
 
