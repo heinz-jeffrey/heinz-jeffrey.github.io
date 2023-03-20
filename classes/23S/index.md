@@ -19,7 +19,7 @@
 * Today we discussed some issues with the Ilokano assignment (due
   Friday).
 * Today we discussed some aspects of computational phonology with
-  [these slides](../davis2019/materials/class1.pdf) from [the
+  [slides 7-18](../davis2019/materials/class1.pdf) from [the
   course](../davis2019/) I gave on computational phonology at the LSA
   Summer Institute in 2019 at UC Davis.
 * For Wednesday, read Dell and Elemdaoui (see the
