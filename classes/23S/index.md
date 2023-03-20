@@ -15,6 +15,16 @@
 
 # Course Log
 
+## 20 Mar 2023
+* Today we discussed some issues with the Ilokano assignment (due
+  Friday).
+* Today we discussed some aspects of computational phonology with
+  [these slides](../davis2019/materials/class1.pdf) from [the
+  course](../davis2019/) I gave on computational phonology at the LSA
+  Summer Institute in 2019 at UC Davis.
+* For Wednesday, read Dell and Elemdaoui (see the
+  [schedule](schedule.html)) on syllabification in Berber.
+
 ## 13 - 15 Mar 2023
 
 * Stress Free Week! It's Spring Break, no class.
