@@ -15,6 +15,15 @@
 
 # Course Log
 
+
+## 27 Mar 2023
+* Abdullah and Jack discussed Prince and Smolensky's analysis of
+  syllabification in ITB ([slides](materials/ps93_itb_abdullah_jack.pdf))
+
+## 22 Mar 2023
+* Felix and Ryan discussed Dell and Elemdaoui's analysis of
+  syllabification in ITB ([slides](materials/DellElmedlaoui-ITB-slides.pdf))
+
 ## 20 Mar 2023
 * Today we discussed some issues with the Ilokano assignment (due
   Friday).
