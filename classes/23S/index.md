@@ -15,6 +15,9 @@
 
 # Course Log
 
+## 29 Mar 2023
+* Anastassia and Logan discussed Strother-Garcia's analysis of
+  syllabification in ITB ([slides](materials/Strother-Garcia-ITB-anastasiia-logan.pdf))
 
 ## 27 Mar 2023
 * Abdullah and Jack discussed Prince and Smolensky's analysis of
