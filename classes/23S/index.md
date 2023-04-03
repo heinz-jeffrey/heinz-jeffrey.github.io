@@ -15,6 +15,11 @@
 
 # Course Log
 
+## 03 Apr 2023
+* Elizabeth and Sarah discussed Chandlee and Jardine 2021 on locality
+  and autosegmentality
+  ([slides](materials/ChandleeJardine2021-elizabeth-sarah.pdf))
+
 ## 29 Mar 2023
 * Anastassia and Logan discussed Strother-Garcia's analysis of
   syllabification in ITB ([slides](materials/Strother-Garcia-ITB-anastasiia-logan.pdf))
