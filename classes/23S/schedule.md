@@ -50,12 +50,12 @@ handbook of phonological theory,
 100-134.](https://ling.auf.net/lingbuzz/003118) (Allison, Abdullah)
 
 ## Mon 4/17
-[Eric Raimy. 2000. The Phonology and Morphology of
-Reduplication. (Chapter 1,2)](materials/) (Alexa, Erica)
+[Eric Raimy. 1999. Representing Reduplication. (Chapters
+1,2)](materials/Raimy-1999-Diss-uptoCH02.pdf) (Alexa, Erica)
 
 ## Wed 4/19
-[TBD](materials/)
-(Allison, Jack)
+[Eric Raimy. 2000. Phonology and Morphology of Reduplication. Chapter
+2.](materials/Raimy2000.pdf) (Allison, Jack)
 
 ## Mon 4/24
 [Bruce Hayes, Robert Kirchner, and Donca Steriade,
