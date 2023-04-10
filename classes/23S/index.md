@@ -15,6 +15,14 @@
 
 # Course Log
 
+## 10 Apr 2023
+* Elnaz and William discussed Kayes 1980 on the 10th vowel of Dida.
+  ([slides](materials/kaye_1980_elnaz_william.pdf))
+
+## 05 Apr 2023
+* Alexa, Leo, and Logan discussed Chandlee and Jardine 2021 on Boolean Recursive Monadic Schemes.
+  ([slides](materials/BMRS-agathos-cheng-swanson.pdf))
+
 ## 03 Apr 2023
 * Elizabeth and Sarah discussed Chandlee and Jardine 2021 on locality
   and autosegmentality
