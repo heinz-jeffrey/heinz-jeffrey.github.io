@@ -15,6 +15,19 @@
 
 # Course Log
 
+## 19 Apr 2023
+* Allison and Jack discussed Raimy's theory of reduplication.
+  ([slides](materials/allison_jack_phonology_of_reduplication_slides.pdf))
+
+## 17 Apr 2023
+* Alexa and Erica discussed Raimy's history of issues in, and theories
+  of, reduplication.
+  ([slides](materials/erica_alexa_Rereduplication.pdf))
+
+## 12 Apr 2023
+* Allison and Abdullah discussed Bermúdez-Otero on stratal OT.
+  ([slides](materials/allison_abdullah_stratal_phonology_presentation.pdf))
+
 ## 10 Apr 2023
 * Elnaz and William discussed Kayes 1980 on the 10th vowel of Dida.
   ([slides](materials/kaye_1980_elnaz_william.pdf))
