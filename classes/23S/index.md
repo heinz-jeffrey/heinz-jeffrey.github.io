@@ -15,6 +15,15 @@
 
 # Course Log
 
+## 26 Apr 2023
+* William and Leo presented Belvin's on Evolutionary Phonology.
+  ([slides](materials/))
+
+## 24 Apr 2023
+* Elnaz and Felix presented on the first 2 chapters of
+  Phonetically-Based Phonology.
+  ([slides](materials/))
+
 ## 19 Apr 2023
 * Allison and Jack discussed Raimy's theory of reduplication.
   ([slides](materials/allison_jack_phonology_of_reduplication_slides.pdf))
