@@ -15,6 +15,10 @@
 
 # Course Log
 
+## 01 May 2023
+* Erica hosted a debate between ELizabeth and Sarah on Substance Free Phonology
+  ([slides](materials/SFP_phonology_presentation_Erica_Elizabeth_Sarah.pdf))
+
 ## 26 Apr 2023
 * William and Leo presented Belvin's on Evolutionary Phonology.
   ([slides](materials/))
