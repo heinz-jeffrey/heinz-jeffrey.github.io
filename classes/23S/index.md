@@ -15,18 +15,23 @@
 
 # Course Log
 
+## 03 May 2023
+* Anastasiia and Ryan presented a SF analysis of vowel harmony in Votic. 
+  ([slides](materials/anastasiia_ryan_Votic_Vowel_Harmony_in_SFLP.pdf)
+
+
 ## 01 May 2023
 * Erica hosted a debate between ELizabeth and Sarah on Substance Free Phonology
   ([slides](materials/SFP_phonology_presentation_Erica_Elizabeth_Sarah.pdf))
 
 ## 26 Apr 2023
 * William and Leo presented Belvin's on Evolutionary Phonology.
-  ([slides](materials/))
+  ([slides](materials/leo_william_blevins_presentation.pdf))
 
 ## 24 Apr 2023
 * Elnaz and Felix presented on the first 2 chapters of
   Phonetically-Based Phonology.
-  ([slides](materials/))
+  ([slides](materials/elnaz_felix_Phonetic_Bases_of_Phonological_Markedness.pdf))
 
 ## 19 Apr 2023
 * Allison and Jack discussed Raimy's theory of reduplication.
