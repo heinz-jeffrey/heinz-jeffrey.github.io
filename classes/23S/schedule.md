@@ -61,13 +61,13 @@ handbook of phonological theory,
 [Bruce Hayes, Robert Kirchner, and Donca Steriade,
 editors. Phonetically-Based Phonology. 2004. (Chapters
 1,2)](<materials/Hayes Kirchner Steriade 2004 Phonetically-based
-Phonology.pdf>) (Felix, William)
+Phonology.pdf>) (Felix, Elnaz)
 
 ## Wed 4/26
 [Juliette Blevins. A theoretical synopsis of Evolutionary
 Phonology. Theoretical Linguistics 32-2 (2006),
 117--166.](<materials/Blevins_2006b_Synopsis_evolutionary_phonology.pdf>)
-(Elnaz, Leo)
+(William, Leo)
 
 ## Mon 5/1
 [Charles Reiss. 2017. Substance free
