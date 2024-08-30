@@ -14,6 +14,11 @@
 
 # Course Log
 
+## 29 Aug 2024
+
+* We finished the Phonology Forum talk. Next Tuesday we discuss
+  Chapter 1.
+
 ## 27 Aug 2024
 
 * We went over the [syllabus](materials/LIN655_Syllabus_Fall2024.pdf).
