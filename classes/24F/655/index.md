@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 03 Sep 2024
+
+* We discussed Chapter 1 and began discussion of models of strings and
+  FO logic in Chapter 2.
+* For Thursday, please read up to section 2.6 (p.43) in [Part
+  1](materials/dcpPart1.pdf) of DCP/DPC. (Note it has been updated to
+  fix some errors).
+
 ## 29 Aug 2024
 
 * We finished the Phonology Forum talk. Next Tuesday we discuss
