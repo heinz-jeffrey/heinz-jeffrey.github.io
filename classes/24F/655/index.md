@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 05 Sep 2024
+
+* We discussed the Chapter up to 2.6. In particular, how the successor
+  model of strings, with and without features, can be combined with FO
+  logic to provides a way to define well-formedness constraints. The
+  representational primitives can be thought of as claims regarding
+  the psychologically real primitives. They are the aspects of the
+  representation that can be "looked up" for free.
+* For Tuesday, please finish reading chapter 2 in [Part
+  1](materials/dcpPart1.pdf) of DCP/DPC. (Note it has been updated
+  **again** to fix more errors).
+
 ## 03 Sep 2024
 
 * We discussed Chapter 1 and began discussion of models of strings and
