@@ -14,6 +14,20 @@
 
 # Course Log
 
+## 12 Sep 2024
+
+* We discussed logical transductions as they can be applied to phonological processes.
+
+## 07 Sep 2024
+
+* We finished discussing Chapter 2.
+* If you are interested in attending the [Rutgers workshop on
+  subregular
+  phoonology](https://rucll.github.io/workshop2024/index.html), please
+  let me know this week.
+* For Thursday, please finish read up to Chapter 3.3 in [Part
+  1](materials/dcpPart1.pdf) of DCP/DPC.
+
 ## 05 Sep 2024
 
 * We discussed the Chapter up to 2.6. In particular, how the successor
