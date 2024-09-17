@@ -14,9 +14,16 @@
 
 # Course Log
 
+## 17 Sep 2024
+
+* We finished discussing Chapter 3.
+* We made a plan for the next few weeks.
+* Upated DCP/DPC [Parts 1 and 2](materials/dcpParts1-2.pdf)
+
 ## 12 Sep 2024
 
 * We discussed logical transductions as they can be applied to phonological processes.
+* We got through the deletion example in Chapter 3.
 
 ## 07 Sep 2024
 
