@@ -14,10 +14,25 @@
 
 # Course Log
 
+## 24 Sep 2024
+
+* We finished discussing chapter 5.
+* On Thursday we will review the BUFIA learning algorithm in [this
+  paper](https://aclanthology.org/W19-5708/).
+
+## 19 Sep 2024
+
+* We discussed section 5.1 and 5.2.
+* We made a plan for the next few weeks.
+  - Oct 1: Presentation on chapter 10 Lamba by Ola
+  - Oct 1: Presentation on chapter 10 Turkish by Geonhee
+  - Oct 3: Presentation on chapter 11 Tibetan by Elizabeth
+  - Oct 3: Presentation on chapter 12 Zigula and Shambaa by Shigeto
+* For Tuesday, please finish reading chapter 5.
+
 ## 17 Sep 2024
 
 * We finished discussing Chapter 3.
-* We made a plan for the next few weeks.
 * Upated DCP/DPC [Parts 1 and 2](materials/dcpParts1-2.pdf)
 
 ## 12 Sep 2024
