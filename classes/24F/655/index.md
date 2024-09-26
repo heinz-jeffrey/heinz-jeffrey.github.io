@@ -14,6 +14,16 @@
 
 # Course Log
 
+## 26 Sep 2024
+
+* A few more words were said about suffix substitution closure,
+  subsequence closure, and tier-based successor signatures.
+* We then discussed BUFIA, using [slides from a
+  minicourse](https://www.jeffreyheinz.net/talks/Heinz-2021-minicourse-LCORYOC-slides.pdf)
+  a few years back.
+* Next week, please read chapters 9-12 in DCP/DPC and support your
+  classmates as they present!
+
 ## 24 Sep 2024
 
 * We finished discussing chapter 5.
@@ -24,7 +34,7 @@
 
 * We discussed section 5.1 and 5.2.
 * We made a plan for the next few weeks.
-  - Oct 1: Presentation on chapter 10 Lamba by Ola
+  - Oct 1: Presentation on chapter 9 Lamba by Ola
   - Oct 1: Presentation on chapter 10 Turkish by Geonhee
   - Oct 3: Presentation on chapter 11 Tibetan by Elizabeth
   - Oct 3: Presentation on chapter 12 Zigula and Shambaa by Shigeto
