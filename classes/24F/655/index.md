@@ -19,7 +19,7 @@
 * **Short Paper Assignment** (for students enrolled in 3 credits):
   Please turn in no later than Tuesday October 22, 2024 (in
   class). Please print your assignment and hand it in to me.
-  
+
   For this assignment, choose a morpho-phonological data set and
   provide an analysis of it. Your analysis should formalize the
   analysis using the logical transductions we have studied in
@@ -28,7 +28,7 @@
   formalization to some other framework. It is necessary to be clear
   about the representations you are positing in the underlying and
   surface forms.
-  
+
   You **may not choose** one of the datasets in chapters 7 through 14
   (unless you are proposing a radically different analysis.) You **may
   choose** a dataset you have previously analyzed using a different
@@ -39,8 +39,18 @@
   not the purpose of this assignment, and may be more appropriate for
   a final project.
 
+  A [collection of tex files](materials/texsupport.tar.gz) providing
+  macros and examples for your convenience. I commpiled the pdf in
+  there with the command `latexmk dolatian-russian.tex`.
+
 * Ola presented Chapter 9 on Lamba.
 * Geonhee presented Chapter 10 on Turkish.
+
+* We developed a plan for next week.
+  - Oct 8: Presentation on chapter 15 Syllabls by Sarah
+  - Oct 8: Presentation on chapter 16 Stress by Jacob
+  - Oct 10: Presentation on chapter 18 Phonetically-grounded representations by Logan
+  - Oct 10: Presentation on chapter 17 Correspondence Theory by M
 
 ## 26 Sep 2024
 
