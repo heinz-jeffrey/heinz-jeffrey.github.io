@@ -14,6 +14,34 @@
 
 # Course Log
 
+## 01 Oct 2024
+
+* **Short Paper Assignment** (for students enrolled in 3 credits):
+  Please turn in no later than Tuesday October 22, 2024 (in
+  class). Please print your assignment and hand it in to me.
+  
+  For this assignment, choose a morpho-phonological data set and
+  provide an analysis of it. Your analysis should formalize the
+  analysis using the logical transductions we have studied in
+  class. Chapters 7 through 14 in Part 2 of DCP/DPC are samples of the
+  kind of short paper expected. It is not necessary to compare your
+  formalization to some other framework. It is necessary to be clear
+  about the representations you are positing in the underlying and
+  surface forms.
+  
+  You **may not choose** one of the datasets in chapters 7 through 14
+  (unless you are proposing a radically different analysis.) You **may
+  choose** a dataset you have previously analyzed using a different
+  set of formal tools (such as with rules or OT). For example,
+  datasets from Phonology 1 or 2 can be used, or even a dataset from
+  an undergraduate phonology class or introductory textbook. You may
+  choose a dataset you have collected, but such original research is
+  not the purpose of this assignment, and may be more appropriate for
+  a final project.
+
+* Ola presented Chapter 9 on Lamba.
+* Geonhee presented Chapter 10 on Turkish.
+
 ## 26 Sep 2024
 
 * A few more words were said about suffix substitution closure,
