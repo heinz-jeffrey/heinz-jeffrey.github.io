@@ -46,7 +46,7 @@
 * Ola presented Chapter 9 on Lamba.
 * Geonhee presented Chapter 10 on Turkish.
 
-* We developed a plan for next week.
+* We developed a plan for next week. [Updated DCP/DPC text here](materials/dcpChaps1-20.pdf)
   - Oct 8: Presentation on chapter 15 Syllabls by Sarah
   - Oct 8: Presentation on chapter 16 Stress by Jacob
   - Oct 10: Presentation on chapter 18 Phonetically-grounded representations by Logan
