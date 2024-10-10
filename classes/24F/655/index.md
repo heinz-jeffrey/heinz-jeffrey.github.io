@@ -20,11 +20,16 @@
 
 ## 10 Oct 2025
 
+* M presented Chapter 17 on Correspondence Theory.
+* Jake began presenting on Chapter 16 on Primitive Constraints for
+  Nonlexical Stress Patterns.
+* Jake will finish presenting next Thursday before Alina's
+  presentation.
 
 ## 08 Oct 2025
 
-* Sarah presented Chapter on Syllable Struture and the SSP.
-* Logan presented Chapter on Phonetically-based Phonology.
+* Sarah presented Chapter 15 on Syllable Struture and the SSP.
+* Logan presented Chapter 18 on Phonetically-based Phonology.
 * Next Thursday Oct 15, Alina will present Chapter 19 Representations
   of Gradual Oppositions.
 
