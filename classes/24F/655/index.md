@@ -14,6 +14,26 @@
 
 # Course Log
 
+## 15 Oct 2025
+
+**FALL BREAK -- NO CLASS**
+
+## 10 Oct 2025
+
+
+## 08 Oct 2025
+
+* Sarah presented Chapter on Syllable Struture and the SSP.
+* Logan presented Chapter on Phonetically-based Phonology.
+* Next Thursday Oct 15, Alina will present Chapter 19 Representations
+  of Gradual Oppositions.
+
+## 03 Oct 2025
+
+* Shigeto's presented Chapter on Zigula and Shambaa.
+* Elizabeth presented Chapter on Tibetan.
+
+
 ## 01 Oct 2024
 
 * **Short Paper Assignment** (for students enrolled in 3 credits):
