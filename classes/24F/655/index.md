@@ -14,11 +14,22 @@
 
 # Course Log
 
-## 15 Oct 2025
+## 22 Oct 204
+
+* [Related Work (references)](materials/relatedwork.pdf)
+* [Learning handout 1](materials/learning1.pdf)
+
+## 17 Oct 204
+
+* Jake finished his presentation.
+* Alina presented on  Chapter 19 Representations
+  of Gradual Oppositions.
+
+## 15 Oct 2024
 
 **FALL BREAK -- NO CLASS**
 
-## 10 Oct 2025
+## 10 Oct 2024
 
 * M presented Chapter 17 on Correspondence Theory.
 * Jake began presenting on Chapter 16 on Primitive Constraints for
@@ -26,14 +37,14 @@
 * Jake will finish presenting next Thursday before Alina's
   presentation.
 
-## 08 Oct 2025
+## 08 Oct 2024
 
 * Sarah presented Chapter 15 on Syllable Struture and the SSP.
 * Logan presented Chapter 18 on Phonetically-based Phonology.
 * Next Thursday Oct 15, Alina will present Chapter 19 Representations
   of Gradual Oppositions.
 
-## 03 Oct 2025
+## 03 Oct 2024
 
 * Shigeto's presented Chapter on Zigula and Shambaa.
 * Elizabeth presented Chapter on Tibetan.
