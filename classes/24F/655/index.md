@@ -18,9 +18,13 @@
 
 * We continued our discussion of learning problems, and developed one
   related to learning strictly k-local languages. Those techniques
-  have been generalized and developed
-  [here](http://www.aclweb.org/anthology/P10-1092) and
-  [here](https://www.sciencedirect.com/science/article/pii/S0304397512007128).
+  have been generalized and developed in the papers [String Extension
+  Learning](http://www.aclweb.org/anthology/P10-1092) and [Learning
+  with Lattice-Structured Hypothesis
+  Spaces](https://www.sciencedirect.com/science/article/pii/S0304397512007128). See
+  also [Typology emerges from simplicity in representations and
+  learning](https://jlm.ipipan.waw.pl/index.php/JLM/article/view/262).
+
 * On November 7, Jack will present [Computing and classifying
   reduplication with 2-way finite-state
   transducers](https://jlm.ipipan.waw.pl/index.php/JLM/article/view/245). Then
@@ -35,7 +39,8 @@
   (references)](materials/relatedwork.pdf). Students were asked to
   review those papers and think about which ones they would be
   interested in for class.
-* We began discussing how to formulate learning problems. [Learning handout 1](materials/learning1.pdf)
+* We began discussing how to formulate learning problems. [Learning
+  handout 1](materials/learning1.pdf)
 
 ## 17 Oct 204
 
