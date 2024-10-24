@@ -21,6 +21,13 @@
   have been generalized and developed
   [here](http://www.aclweb.org/anthology/P10-1092) and
   [here](https://www.sciencedirect.com/science/article/pii/S0304397512007128).
+* On November 7, Jack will present [Computing and classifying
+  reduplication with 2-way finite-state
+  transducers](https://jlm.ipipan.waw.pl/index.php/JLM/article/view/245). Then
+  Anton will present [Computational universals in linguistic theory:
+  Using recursive programs for phonological
+  analysis](materials/ChandleeJardine2021.pdf).
+
 
 ## 22 Oct 204
 
