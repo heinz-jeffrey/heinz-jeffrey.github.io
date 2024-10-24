@@ -14,10 +14,21 @@
 
 # Course Log
 
+## 24 Oct 204
+
+* We continued our discussion of learning problems, and developed one
+  related to learning strictly k-local languages. Those techniques
+  have been generalized and developed
+  [here](http://www.aclweb.org/anthology/P10-1092) and
+  [here](https://www.sciencedirect.com/science/article/pii/S0304397512007128).
+
 ## 22 Oct 204
 
-* [Related Work (references)](materials/relatedwork.pdf)
-* [Learning handout 1](materials/learning1.pdf)
+* We discussed [related work
+  (references)](materials/relatedwork.pdf). Students were asked to
+  review those papers and think about which ones they would be
+  interested in for class.
+* We began discussing how to formulate learning problems. [Learning handout 1](materials/learning1.pdf)
 
 ## 17 Oct 204
 
