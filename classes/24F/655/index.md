@@ -16,9 +16,9 @@
 
 ## 29 Oct 204
 
-* Using his [handout](materials/learning2.pdf). we formally introduced
-  two learning criteria: identification in the limit from positive
-  data and PAC.
+* Using this [handout](materials/learning2.pdf), we formally
+  introduced two learning criteria: identification in the limit from
+  positive data and PAC.
 * We discussed compared the two frameworks and thought about what
   choices in a learning criterion make it easier or harder.
 * Supporting reading material: ["Computational Theories of Learning
