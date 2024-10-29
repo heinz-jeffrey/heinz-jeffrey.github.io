@@ -14,6 +14,17 @@
 
 # Course Log
 
+## 29 Oct 204
+
+* Using his [handout](materials/learning2.pdf). we formally introduced
+  two learning criteria: identification in the limit from positive
+  data and PAC.
+* We discussed compared the two frameworks and thought about what
+  choices in a learning criterion make it easier or harder.
+* Supporting reading material: ["Computational Theories of Learning
+  and Developmental Psycholinguistics" (Heinz
+  2016)](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf)
+
 ## 24 Oct 204
 
 * We continued our discussion of learning problems, and developed one
