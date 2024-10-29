@@ -24,6 +24,10 @@
 * Supporting reading material: ["Computational Theories of Learning
   and Developmental Psycholinguistics" (Heinz
   2016)](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf)
+* Please read ["Strict Locality and Phonological Maps" (Chandlee and
+  Heinz
+  2018)](http://jeffreyheinz.net/papers/Chandlee-Heinz-2018-SLPM.pdf)
+  for Thursday.
 
 ## 24 Oct 204
 
