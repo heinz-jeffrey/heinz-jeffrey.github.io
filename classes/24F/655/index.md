@@ -40,6 +40,12 @@
   Heinz
   2018)](http://jeffreyheinz.net/papers/Chandlee-Heinz-2018-SLPM.pdf)
   for Thursday.
+* Also, we had some discussion about computable and noncomputable real
+ numbers. This [recent summary from the
+ ACM](https://mathvoices.ams.org/featurecolumn/2021/12/01/alan-turing-computable-numbers/)
+ reviews some of the issues. This paper ["How real are real
+ numbers"](https://arxiv.org/pdf/math/0411418) is a bit more in depth.
+
 
 ## 24 Oct 2024
 
