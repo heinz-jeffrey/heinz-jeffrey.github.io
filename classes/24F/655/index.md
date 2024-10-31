@@ -14,7 +14,19 @@
 
 # Course Log
 
-## 29 Oct 204
+## 05 Nov 2024
+
+* Class Canceled. Office Hour by
+  [Zoom](https://stonybrook.zoom.us/my/jeffreyheinz) to catch up and
+  ask questions if needed.
+
+## 31 Oct 2024
+
+* We discussed ISL functions, ISL transductions, and QF(succ,pred) functions.
+* Here is the draft chapter of ["Logical Perspectives on Strictly Local
+  Transformations"](materials/dcpChap22.pdf) by Chandlee and Lindell.
+
+## 29 Oct 2024
 
 * Using this [handout](materials/learning2.pdf), we formally
   introduced two learning criteria: identification in the limit from
@@ -29,7 +41,7 @@
   2018)](http://jeffreyheinz.net/papers/Chandlee-Heinz-2018-SLPM.pdf)
   for Thursday.
 
-## 24 Oct 204
+## 24 Oct 2024
 
 * We continued our discussion of learning problems, and developed one
   related to learning strictly k-local languages. Those techniques
@@ -48,7 +60,7 @@
   analysis](materials/ChandleeJardine2021.pdf).
 
 
-## 22 Oct 204
+## 22 Oct 2024
 
 * We discussed [related work
   (references)](materials/relatedwork.pdf). Students were asked to
@@ -57,7 +69,7 @@
 * We began discussing how to formulate learning problems. [Learning
   handout 1](materials/learning1.pdf)
 
-## 17 Oct 204
+## 17 Oct 2024
 
 * Jake finished his presentation.
 * Alina presented on  Chapter 19 Representations
