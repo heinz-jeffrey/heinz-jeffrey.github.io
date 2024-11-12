@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 12 Nov 2024
+
+* Anton presents on BMRS.
+* [Ideas for final projects](materials/ideas.pdf) if you are still looking.
+
+## 07 Nov 2024
+
+* Jack presents on reduplication with 2 way transducers.
+
 ## 05 Nov 2024
 
 * Class Canceled. Office Hour by
