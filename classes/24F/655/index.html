@@ -37,11 +37,11 @@
 <li>&lt;(c,d)(x,y) := x&lt;y (when c &lt;= d)</li>
 <li>&lt;(c,d)(x,y) := x&lt;=y (when d &lt; c)</li>
 </ul></li>
-<li>with successor (S) and FO it is not possible when there unbounded spans in an input delete.
+<li>with successor (S) and FO it is not possible because unbounded spans in an input may delete.
 <ul>
-<li>Consider one copy: S(x,y) := xSy OR (Ex z1)[ x S z1 S y AND NOT lic(z1) ] OR (Ex z1,z2)[ x S z1 S z2 S y AND NOT lic(z1) AND NOT lic(z2)] OR .. (Ex z1,z2, .. zn)[ x S z1 S z2 S .. zn S y AND NOT lic(z1) AND NOT lic(z1) AND .. NOT lic(zn)]. The number of variables is bounded by some n but the input string can be longer than this n. Chandlee and Lindell relate this idea to finite-to-one maps.</li>
+<li>Consider one copy: S(x,y) := xSy OR (Ex z1)[ x S z1 S y AND NOT lic(z1) ] OR (Ex z1,z2)[ x S z1 S z2 S y AND NOT lic(z1) AND NOT lic(z2)] OR .. (Ex z1,z2, .. zn)[ x S z1 S z2 S .. zn S y AND NOT lic(z1) AND NOT lic(z1) AND .. NOT lic(zn)]. The number of variables is bounded by some n but the input string can be longer than this n. Recall Chandlee and Lindell relate this idea to finite-to-one maps.</li>
 </ul></li>
-<li>In summary, order-preserving maps with FO(S) entail finite-to-one map. Those entail partial functions as total functions will inevitably delete spans of unbounded length. (Consider C+V mapping to CV given by the OT grammar *ComplexOnset&gt;&gt;Max.)</li>
+<li>In summary, order-preserving maps with FO(S) entail finite-to-one maps. Those entail partial functions since total functions may delete spans of unbounded length. (Consider C+V mapping to CV given by the OT grammar *ComplexOnset&gt;&gt;Max.)</li>
 <li>Are there spans of unbounded deletion in phonology? Truncation comes close, but some truncation is clearly Reverse Definite. Ola mentioned truncation in Yoruba in the middle of words. We should look at that.</li>
 </ul></li>
 <li>For Tuesday, read <a href="https://www.glossa-journal.org/article/id/5780/">Burness et al. 2019 “Long-distance phonological processes as tier-based strictly local functions”</a>. We will discuss then.
