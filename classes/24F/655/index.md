@@ -16,9 +16,30 @@
 
 ## 14 Nov 2024
 
-* [Burness et al. 2019 "Long-distance phonological processes as
-  tier-based strictly local
-  functions"](https://www.glossa-journal.org/article/id/5780/)
+* Today we decided to discuss order preservation in string maps. We
+  learned:
+  - with precedence (<) and FO it is straightforward:
+    - <(c,d)(x,y) := x<y  (when c <= d)
+    - <(c,d)(x,y) := x<=y (when d < c)
+  - with successor (S) and FO it is not possible when there unbounded
+    spans in an input delete.
+    - Consider one copy: S(x,y) := xSy OR (Ex z1)[ x S z1 S y ] OR (Ex
+      z1,z2)[ x S z1 S z2 S y ] OR .. (Ex z1,z2, .. zn)[ x S z1 S z2 S
+      .. zn S y ]. The number of variables is bounded by some n but
+      the input string can be longer than this n. Chandlee and Lindell
+      relate this idea to finite-to-one maps.
+  - In summary, order-preserving maps with FO(S) entail finite-to-one
+    map. Those entail partial functions as total functions will
+    inevitably delete spans of unbounded length. (Consider C+V mapping
+    to CV given by the OT grammar *ComplexOnset>>Max.)
+  - Are there spans of unbounded deletion in phonology? Truncation
+    comes close, but some truncation is clearly Reverse Definite. Ola
+    mentioned truncation in Yoruba in the middle of words. We should
+    look at that.
+* For Tuesday, read [Burness et al. 2019 "Long-distance phonological
+  processes as tier-based strictly local
+  functions"](https://www.glossa-journal.org/article/id/5780/). We
+  will discuss then.
 * Tier-based OSL functions are deterministic, but do not have a fixed
   structure. This paper shows that the long-distance processes belong
   to classes which have a fixed, deterministic structure: [Lambert and
@@ -43,8 +64,9 @@
   Myhill-equivalent with respect to the language." This is for sets of
   strings; for string maps, it's the same idea but takes into account
   output behavior as well.
-* Importance of determinism for learning
-* Order preservation
+  - We do not need to read this one for Tuesday, but I will mention it.
+* On Thursday, we will discuss the importance of determinism for
+  learning.
 
 ## 12 Nov 2024
 
