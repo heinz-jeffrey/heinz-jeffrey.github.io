@@ -30,13 +30,27 @@
 <h1 id="course-log">Course Log</h1>
 <h2 id="nov-2024">14 Nov 2024</h2>
 <ul>
-<li><a href="https://www.glossa-journal.org/article/id/5780/">Burness et al. 2019 “Long-distance phonological processes as tier-based strictly local functions”</a></li>
+<li>Today we decided to discuss order preservation in string maps. We learned:
+<ul>
+<li>with precedence (&lt;) and FO it is straightforward:
+<ul>
+<li>&lt;(c,d)(x,y) := x&lt;y (when c &lt;= d)</li>
+<li>&lt;(c,d)(x,y) := x&lt;=y (when d &lt; c)</li>
+</ul></li>
+<li>with successor (S) and FO it is not possible when there unbounded spans in an input delete.
+<ul>
+<li>Consider one copy: S(x,y) := xSy OR (Ex z1)[ x S z1 S y ] OR (Ex z1,z2)[ x S z1 S z2 S y ] OR .. (Ex z1,z2, .. zn)[ x S z1 S z2 S .. zn S y ]. The number of variables is bounded by some n but the input string can be longer than this n. Chandlee and Lindell relate this idea to finite-to-one maps.</li>
+</ul></li>
+<li>In summary, order-preserving maps with FO(S) entail finite-to-one map. Those entail partial functions as total functions will inevitably delete spans of unbounded length. (Consider C+V mapping to CV given by the OT grammar *ComplexOnset&gt;&gt;Max.)</li>
+<li>Are there spans of unbounded deletion in phonology? Truncation comes close, but some truncation is clearly Reverse Definite. Ola mentioned truncation in Yoruba in the middle of words. We should look at that.</li>
+</ul></li>
+<li>For Tuesday, read <a href="https://www.glossa-journal.org/article/id/5780/">Burness et al. 2019 “Long-distance phonological processes as tier-based strictly local functions”</a>. We will discuss then.</li>
 <li>Tier-based OSL functions are deterministic, but do not have a fixed structure. This paper shows that the long-distance processes belong to classes which have a fixed, deterministic structure: <a href="https://openpublishing.library.umass.edu/scil/article/id/2137/">Lambert and Heinz (2024) “Algebraic Reanalysis of Phonological Processes Described as Output-Oriented”</a> The classes are the (left and right) reverse definite.
 <ul>
 <li>The algebraic analysis in this paper is technical. The heart of it though comes from the notion of Myhill equivalence. Lambert (under review) describes it this way: “In phonology, we often use minimal pairs to determine whether two phones represent distinct phonemes. For instance, Finnish has contrastive length on both vowels and consonants as demonstrated by the words [tːuli] ‘fire’, [t̪uːli] ‘wind’ and [t̪ulːi] ‘customs’, differing only in length. The t̪_li environment distinguishes [u] from [uː], and the t̪u_i environment distinguishes [l] from [lː]. In algebra, we do the same thing, except that rather than looking for differences in meaning, we seek differences in acceptability. Given arbitrary strings 𝑥 and 𝑦, we seek an environment 𝑢_𝑣 where 𝑢𝑥𝑣 is accepted and 𝑢𝑦𝑣 is rejected, or vice versa. If such an environment can be found, then 𝑥 and 𝑦 are distinct (Rabin &amp; Scott, 1959). Otherwise, they are Myhill-equivalent with respect to the language.” This is for sets of strings; for string maps, it’s the same idea but takes into account output behavior as well.</li>
+<li>We do not need to read this one for Tuesday, but I will mention it.</li>
 </ul></li>
-<li>Importance of determinism for learning</li>
-<li>Order preservation</li>
+<li>On Thursday, we will discuss the importance of determinism for learning.</li>
 </ul>
 <h2 id="nov-2024-1">12 Nov 2024</h2>
 <ul>
