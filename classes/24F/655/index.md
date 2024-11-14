@@ -40,6 +40,9 @@
   processes as tier-based strictly local
   functions"](https://www.glossa-journal.org/article/id/5780/). We
   will discuss then.
+  - Note there is an error in Figure 6 in Burness et al. the
+    transition from > state [s] to [ʃ] with the transition labeled ʃ:ʃ
+    should instead be from > state [s] to [s] with label ʃ:s.
 * Tier-based OSL functions are deterministic, but do not have a fixed
   structure. This paper shows that the long-distance processes belong
   to classes which have a fixed, deterministic structure: [Lambert and
