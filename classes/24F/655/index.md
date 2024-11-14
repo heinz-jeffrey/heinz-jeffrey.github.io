@@ -14,6 +14,38 @@
 
 # Course Log
 
+## 14 Nov 2024
+
+* [Burness et al. 2019 "Long-distance phonological processes as
+  tier-based strictly local
+  functions"](https://www.glossa-journal.org/article/id/5780/)
+* Tier-based OSL functions are deterministic, but do not have a fixed
+  structure. This paper shows that the long-distance processes belong
+  to classes which have a fixed, deterministic structure: [Lambert and
+  Heinz (2024) "Algebraic Reanalysis of Phonological Processes
+  Described as
+  Output-Oriented"](https://openpublishing.library.umass.edu/scil/article/id/2137/)
+  The classes are the (left and right) reverse definite.
+  - The algebraic analysis in this paper is technical. The heart of it
+  though comes from the notion of Myhill equivalence. Lambert (under
+  review) describes it this way: "In phonology, we often use minimal
+  pairs to determine whether two phones represent distinct
+  phonemes. For instance, Finnish has contrastive length on both
+  vowels and consonants as demonstrated by the words [tːuli] ‘fire’,
+  [t̪uːli] ‘wind’ and [t̪ulːi] ‘customs’, differing only in length. The
+  t̪\_li environment distinguishes [u] from [uː], and the t̪u\_i
+  environment distinguishes [l] from [lː]. In algebra, we do the same
+  thing, except that rather than looking for differences in meaning,
+  we seek differences in acceptability.  Given arbitrary strings 𝑥 and
+  𝑦, we seek an environment 𝑢\_𝑣 where 𝑢𝑥𝑣 is accepted and 𝑢𝑦𝑣 is
+  rejected, or vice versa. If such an environment can be found, then 𝑥
+  and 𝑦 are distinct (Rabin & Scott, 1959). Otherwise, they are
+  Myhill-equivalent with respect to the language." This is for sets of
+  strings; for string maps, it's the same idea but takes into account
+  output behavior as well.
+* Importance of determinism for learning
+* Order preservation
+
 ## 12 Nov 2024
 
 * Anton presents on BMRS.
