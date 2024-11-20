@@ -14,6 +14,30 @@
 
 # Course Log
 
+## 19 Nov 2024
+
+* Today we discussed [Burness et al. 2019 "Long-distance phonological
+  processes as tier-based strictly local
+  functions"](https://www.glossa-journal.org/article/id/5780/).
+  - We reviewed SL formal languages and defined TSL formal
+    languages. We observed that neutral letters (non-tier letters) can
+    be added or subtracted anywhere to any word without impacting its
+    membership status in the language. In finite-state terms, that
+    means neutral letters never change state. They are self-loops. Any
+    class of stringsets can be "tierified" ([Lambert
+    2023](https://doi.org/10.1007/s10849-023-09398-x)).
+  - We reviewed ISL and defined OSL functions. We saw why iterative
+    nasal spreading is not ISL but is OSL.
+  - We examined why sequential functions admit functions sensitive to
+    parity.
+  - We saw how Burness et al. tierify the ISL and OSL classes, and why
+    they argued that Tier ISL cannot express long-distance sibilant
+    harmony but Tier OSL can.
+  - We quickly acknowledged their treatment of more complex cases of
+    long-distance functions that they showed to be T-OSL, and also
+    quickly acknowledged the limitations they observed.
+  - On Thursday, more learning!
+  
 ## 14 Nov 2024
 
 * Today we decided to discuss order preservation in string maps. We
