@@ -14,6 +14,50 @@
 
 # Course Log
 
+
+## 21 Nov 2024
+
+* Today we discussed learning tradeoffs in the context of transducer
+  learning.
+
+  | Algortithm | Class it learns              | Time Complexity |
+  |:-----------|------------------------------|-----------------|
+  | OSTIA      | subsequential (DFTs)         | O(n^3^)         |
+  | ISLFLA     | ISL (definite DFTs)          | O(n^2^)         |
+  | OSLFIA     | OSL                          | O(n^2^)         |
+  | SOSFIA     | any class given by fixed DFT | O(n^1^)         |
+
+  Smaller, more well-structured learning classes can make learning
+  easier. The subregular program aims to find classes of patterns
+  which are both sufficiently expressive to describe natural language
+  patterns and which are sufficiently structured to enable learning
+  from small data.
+
+* [OSTIA](materials/Oncina-et-al-1993-OSTIA.pdf) and
+  [ISLFLA](http://jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2014-LSLSF.pdf)
+  are start merging algorithms (builds a prefix tree of the sample and
+  then collapses
+  states). [OSLFLA](https://www.jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2015-OSLF.pdf)
+  fills in the transitions of the DFT from the start state
+  outward. [SOSFIA](https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf)
+  recognizes that the state space and transitions are fixed and aims
+  to fill in what is unknown, which is just the outputs on the
+  transitions.
+
+* SOSFIA cannot be used to learn the OSL class since OSL is not fixed
+  by a DFT, unlike ISL-k. Many OSL functions are also (tier-based)
+  reverse definite functions which can be represented by a fixed DFT
+  [Lambert and Heinz
+  2024](https://openpublishing.library.umass.edu/scil/article/id/2137/). Anton
+  points out these cannot handle blocking. Perhaps the blocking
+  patterns are generalized definite?
+
+* We also discussed [Gildea and Jurafsky's
+  1996](materials/GildeaJurafsky1996.pdf) application of OSTIA to
+  English flapping.
+
+* On Tuesday we will study how SOSFIA works.
+
 ## 19 Nov 2024
 
 * Today we discussed [Burness et al. 2019 "Long-distance phonological
