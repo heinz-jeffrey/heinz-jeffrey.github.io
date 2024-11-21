@@ -35,35 +35,45 @@
 <thead>
 <tr class="header">
 <th style="text-align: left;">Algortithm</th>
+<th></th>
 <th>Class it learns</th>
+<th></th>
 <th>Time Complexity</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: left;">OSTIA</td>
+<td></td>
 <td>subsequential (DFTs)</td>
+<td></td>
 <td>O(n<sup>3</sup>)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">ISLFLA</td>
+<td></td>
 <td>ISL (definite DFTs)</td>
+<td></td>
 <td>O(n<sup>2</sup>)</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">OSLFIA</td>
+<td></td>
 <td>OSL</td>
+<td></td>
 <td>O(n<sup>2</sup>)</td>
 </tr>
 <tr class="even">
 <td style="text-align: left;">SOSFIA</td>
+<td></td>
 <td>any class given by fixed DFT</td>
+<td></td>
 <td>O(n<sup>1</sup>)</td>
 </tr>
 </tbody>
 </table>
 <p>Smaller, more well-structured learning classes can make learning easier. The subregular program aims to find classes of patterns which are both sufficiently expressive to describe natural language patterns and which are sufficiently structured to enable learning from small data.</p></li>
-<li><p><a href="materials/Oncina-et-al-1993-OSTIA.pdf">OSTIA</a> and <a href="http://jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2014-LSLSF.pdf">ISLFLA</a> are start merging algorithms (builds a prefix tree of the sample and then collapses states). <a href="https://www.jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2015-OSLF.pdf">OSLFLA</a> fills in the transitions of the DFT from the start state outward. <a href="https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf">SOSFIA</a> recognizes that the state space and transitions are fixed and aims to fill in what is unknown, which is just the outputs on the transitions.</p></li>
+<li><p><a href="materials/Oncina-et-al-1993-OSTIA.pdf">OSTIA</a> and <a href="http://jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2014-LSLSF.pdf">ISLFLA</a> are start merging algorithms (builds a prefix tree of the sample and then collapses states). <a href="https://www.jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2015-OSLF.pdf">OSLFLA</a> draws the transitions into the DFT from the start state outwards. <a href="https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf">SOSFIA</a> recognizes that the state space and transitions are fixed and aims to fill in what is unknown, which is just the outputs on the transitions.</p></li>
 <li><p>SOSFIA cannot be used to learn the OSL class since OSL is not fixed by a DFT, unlike ISL-k. Many OSL functions are also (tier-based) reverse definite functions which can be represented by a fixed DFT <a href="https://openpublishing.library.umass.edu/scil/article/id/2137/">Lambert and Heinz 2024</a>. Anton points out these cannot handle blocking. Perhaps the blocking patterns are generalized definite?</p></li>
 <li><p>We also discussed <a href="materials/GildeaJurafsky1996.pdf">Gildea and Jurafsky’s 1996</a> application of OSTIA to English flapping.</p></li>
 <li><p>On Tuesday we will study how SOSFIA works.</p></li>

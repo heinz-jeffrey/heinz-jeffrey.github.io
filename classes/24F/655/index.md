@@ -20,12 +20,12 @@
 * Today we discussed learning tradeoffs in the context of transducer
   learning.
 
-  | Algortithm | Class it learns              | Time Complexity |
-  |:-----------|------------------------------|-----------------|
-  | OSTIA      | subsequential (DFTs)         | O(n^3^)         |
-  | ISLFLA     | ISL (definite DFTs)          | O(n^2^)         |
-  | OSLFIA     | OSL                          | O(n^2^)         |
-  | SOSFIA     | any class given by fixed DFT | O(n^1^)         |
+  | Algortithm |   | Class it learns              |   | Time Complexity |
+  |:-----------|---|------------------------------|---|-----------------|
+  | OSTIA      |   | subsequential (DFTs)         |   | O(n^3^)         |
+  | ISLFLA     |   | ISL (definite DFTs)          |   | O(n^2^)         |
+  | OSLFIA     |   | OSL                          |   | O(n^2^)         |
+  | SOSFIA     |   | any class given by fixed DFT |   | O(n^1^)         |
 
   Smaller, more well-structured learning classes can make learning
   easier. The subregular program aims to find classes of patterns
@@ -38,8 +38,8 @@
   are start merging algorithms (builds a prefix tree of the sample and
   then collapses
   states). [OSLFLA](https://www.jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2015-OSLF.pdf)
-  fills in the transitions of the DFT from the start state
-  outward. [SOSFIA](https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf)
+  draws the transitions into the DFT from the start state
+  outwards. [SOSFIA](https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf)
   recognizes that the state space and transitions are fixed and aims
   to fill in what is unknown, which is just the outputs on the
   transitions.
