@@ -15,6 +15,10 @@
 # Course Log
 
 
+## 26 Nov 2024
+
+* Today we discussed the SOSFIA paper using the [presentation from ICGI 2014](http://jeffreyheinz.net/talks/Jardine-ChandleeEtAl-2014-VELSCSFPD-slides.pdf).
+
 ## 21 Nov 2024
 
 * Today we discussed learning tradeoffs in the context of transducer
