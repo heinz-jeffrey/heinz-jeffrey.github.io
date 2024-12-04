@@ -14,6 +14,21 @@
 
 # Course Log
 
+## 05 Dec 2024
+
+* We reviewed the class and discussed open questions.
+
+## 03 Dec 2024
+
+* Today we discussed the quality of the characteristic sample for
+  [SOSFIA](https://www.jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf), as well as the [OSL learning algorithm](https://www.jeffreyheinz.net/papers/Chandlee-EyraudEtAl-2015-OSLF.pdf).
+
+* We briefly mentioned the [Burness and McMullin](materials/burnessmcmullin2019.pdf) method for inducing
+  tiers to to tier-based OSL functions. 
+
+## 28 Nov 2024
+
+* Thanksgiving Holiday. No Class.
 
 ## 26 Nov 2024
 
