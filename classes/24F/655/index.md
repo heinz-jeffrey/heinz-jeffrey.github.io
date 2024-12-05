@@ -17,6 +17,9 @@
 ## 05 Dec 2024
 
 * We reviewed the class and discussed open questions.
+* [board left](materials/boardleft.jpeg)
+* [board right](materials/boardright.jpeg)
+
 
 ## 03 Dec 2024
 
