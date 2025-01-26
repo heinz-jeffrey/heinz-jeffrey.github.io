@@ -10,14 +10,14 @@
 
 # Materials
 
-* [Syllabus](materials/)
+* [Syllabus](materials/LIN623_Syllabus_Spring2025.pdf)
 
 # Course Log
 
 
 ## 28 Jan 2025
 
-* We went over the [syllabus](materials/).
+* We went over the [syllabus](materials/LIN623_Syllabus_Spring2025.pdf).
 * 
 
 -------------------------------------------------------------------------------
