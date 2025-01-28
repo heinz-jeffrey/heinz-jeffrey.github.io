@@ -6,7 +6,7 @@
 
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
-**Office Hours: Tuesday 11:30-1pm, Wednesday 1:30-3pm and by appointment**
+**Office Hours: Tuesday 11:30-1pm, Wednesday 2pm-3:30pm and by appointment**
 
 # Materials
 
@@ -18,6 +18,7 @@
 ## 28 Jan 2025
 
 * We went over the [syllabus](materials/LIN637_Syllabus_Spring2025.pdf).
-* 
+* We discussed Chapter 1 and began Chapter 2 of the [course's lecture
+  notes](materials/TCL-FSA.pdf).
 
 -------------------------------------------------------------------------------
