@@ -6,7 +6,7 @@
 
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
-**Office Hours: Tuesday 11:30-1pm, Wednesday 1:30-3pm and by appointment**
+**Office Hours: Tuesday 11:30-1pm, Wednesday 2pm-3:30pm and by appointment**
 
 # Materials
 
