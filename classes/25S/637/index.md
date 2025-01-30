@@ -15,6 +15,10 @@
 # Course Log
 
 
+## 30 Jan 2025
+
+* We discussed concatenation, how to define formal grammars, and REs, GREs, CUEs, SFEs in Chapter 2. 
+
 ## 28 Jan 2025
 
 * We went over the [syllabus](materials/LIN637_Syllabus_Spring2025.pdf).
