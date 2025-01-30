@@ -15,6 +15,16 @@
 # Course Log
 
 
+## 30 Jan 2025
+
+* We discussed the first three sections of Chapter 1 (McCarthy 2008).
+* We began analyzing [some words in
+  Ilokano](materials/Ilokano.pdf). This assignment (squib) is due
+  February 13. Chapter 3 of McCarthy 2008 provides very helpful advice
+  for how to write phonological analysis.
+* For next Tuesday, finish reading Chapter 1 and read sections 1 and 2
+  of chapter 2 (McCarthy 2008).
+
 ## 28 Jan 2025
 
 * We went over the [syllabus](materials/LIN623_Syllabus_Spring2025.pdf).
