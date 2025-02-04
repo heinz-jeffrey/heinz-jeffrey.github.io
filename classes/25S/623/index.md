@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 04 Feb
+
+* Today we discussed in more detail an OT analysis for the Ilokano
+  assignment. We discussed harmonic bounding, how to make ranking
+  arguments using entailed ranking conditions (W/L/e), how to
+  interpret rows of W/L/e more generally, markedness hierarchies, and
+  a couple different ways to handle optionality.
+* Finish reading chapter 2 for Thursday.
 
 ## 30 Jan 2025
 
