@@ -20,7 +20,7 @@
 
 * We defined and discussed CUEs, GREs, and SFEs and stated the facts
   (without proof) that
-  - [[GREs]] = [[REs]] ⊃ [[SFEs]] ⊃ [CUEs] = FIN
+  - [[GREs]] = [[REs]] ⊃ [[SFEs]] ⊃ [[CUEs]] = FIN
   - even-a is a formal language expressible with REs but not SFEs
   - Regular languages and SFEs have other characterizations in terms
     of logic and algebra
