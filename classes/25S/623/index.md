@@ -14,6 +14,138 @@
 
 # Course Log
 
+# #06 Feb
+
+* We discussed Chapter 2 of McCarthy 2008. Consider the following
+  excerpts. Do you Agree or Disagree and Why?
+  - p. 32.  McCarthy writes "For a phonologist to try to analyze all
+    of the alternations in the Latin third declension is a bit like a
+    syntactician trying to analyze all of the six-word sentences in a
+    language. The task isn’t meaningful." 
+  - p. 32. "Which phenomena make good research topics? [...] The
+    phenomenon should be reasonably self-contained. A pretty good test
+    of this is whether the scope of the project can be described in a
+    single sentence that uses only the terminology of the field in
+    which the paper is being written." Agree or Disagree and why?
+  - p. 33. "In OT, nonuniformity is always a consequence of constraint
+    interaction, as we saw with the Yawelmani example in §1.6."  
+  - p. 33. "A <i>descriptive generalization</i> is the essential intermediate
+    step between data and analysis. Good descriptive generalizations
+    are accurate characterizations of the systematic patterns that can
+    be observed in the data. They may not require any formalization or
+    theoretical constructs beyond the usual linguistic terminology
+    [...]  Proceeding straight from the data to the analysis, without
+    taking time to formulate an accurate descriptive generalization,
+    is never a good idea."  
+  - p. 34.  "A good descriptive generalization will foreshadow the
+    analysis. An excellent descriptive generalization will make the
+    analysis seem almost inevitable." 
+  - p.34.  "Ideally, descriptive generalizations [developed for an OT
+    analysis] will contain statements about target output
+    configurations and unfaithful mappings related to those
+    configurations."
+  - p. 37. "When the data involve phonological alternations, start with the
+    faithfulness constraints. They are the best place to start because
+    faith- fulness constraints are more limited in variety and better
+    understood than markedness constraints."
+  - p. 38. "OT itself does not say much about constraints, but it says
+    that there are only two types of them: constraints that evaluate
+    individual output forms, and constraints that require individual
+    output forms to be identical to their inputs."
+  - p. 39. "The danger with an insufficiently precise constraint
+    definition is that the interpretation and hence the effect of the
+    constraint can vary slightly as the analysis progresses."
+  - p. 42. "Because ranking arguments are so important, it’s unwise to
+    claim rankings without first doing the arguments needed to back
+    them up."
+  - p. 43. "Occasionally, someone will object: “Max >> Dep >> Onset
+    isn’t exactly wrong. Since it just overspecifies the known
+    rankings, it’s completely consistent with the data.” Regardless of
+    whether it’s “wrong,” it’s unwise to assert rankings for which
+    there is no support."
+  - p. 47 "The combination tableau is the ideal instrument for
+    constructing and presenting ranking arguments, and we will be
+    using it for that purpose throughout this book."
+  - p. 48 "We now have two main tableau formats [violation and
+    comparative]. Brasoveanu and Prince (2005: 3–5) have a good way of
+    explaining which tableau format to use depend- ing on the
+    situation. They distinguish between the ranking problem and the
+    selection problem. The comparative or combination format is best
+    for the ranking problem, whereas the violation format is best for
+    the selection problem."
+  - p. 49. "Sometimes, however, the known information about ranking
+    cannot be accurately represented in a tableau, even with the aid
+    of the broken-line convention. [...] [On the other hand, ] The
+    Hasse diagram (12) accurately represents the known rankings.
+  - p. 54 (Doing an analysis). "The first step in the analysis is to
+    formulate OT-friendly descriptive generalizations ..."
+  - p. 55 (Doing an analysis). "We could interrupt the analysis at
+    this point to research the topic of syllable-structure
+    constraints, but a better move is to put the matter aside and
+    simply formulate an ad hoc constraint that is violated by any
+    syllable that is too big."
+  - p. 55 (Doing an analysis). "Now that we have a hypothesis about
+    the constraints that are involved, we can move on to the
+    ranking. It’s easiest to begin the ranking process with a
+    faithfulness violation."
+  - p. 57 (Doing an analysis). "In general, whenever a constraint is
+    introduced into an analysis, its potential effects on all existing
+    claims about ranking need to be considered."
+  - p. 60 (Doing an analysis). "Since we have now completed an initial
+    pass through the entire descriptive generalization, it’s
+    appropriate to summarize the proven rankings in (25) and assess
+    the overall analysis."
+  - p. 60 (Doing an analysis). "The next step is to check all of the
+    pairs of constraints that aren’t ranked with respect to one
+    another. Do these constraints ever conflict? If so, the analysis
+    is incomplete until they have been ranked. Checking all of the
+    pairs of unranked constraints is an excellent way of discovering
+    interactions that we might have overlooked."
+  - p. 63 (Doing an analysis). "The best way to [chack that all of the
+    original data have been correctly analyzed] is with sum- mary
+    tableaux that challenge the full constraint hierarchy with all of
+    the relevant inputs and candidates."
+  - p. 71. "We have seen that there are three circumstances where
+    direct ranking arguments are impossible: undominated
+    constraints, constraints in a stringency relationship, and
+    constraints that only break ties. This doesn’t exhaust the
+    possibilities"
+  - p. 72. "Figuring out which losing candidates need to be considered
+    is probably the hardest thing about doing analysis in OT. There
+    are two aspects of this problem, one arising in the early stages
+    of analysis and the other arising later on. In the early stages,
+    losing candidates are needed for the ranking arguments that emerge
+    from our descriptive generalizations. In the later stages, the
+    analysis needs to be challenged with losing candidates that might
+    reveal its inadequacies."
+  - p. 73 "Given a suspected constraint ranking Const1 >> Const2 and
+    a winner [w], we want to find a loser *[l] to prove the
+    ranking. Starting from [w], eliminate one or more Const2
+    violations and add one or more Const1 violations with- out adding
+    violations of any other constraints, except for those that are
+    already known to be ranked below C ONST 1."
+  - p. 75 "[...] a constraint introduced later in the process of
+    analysis can cast a shadow on a ranking argument that had
+    previously been OK. That is why it’s so important to do summary
+    tableaux like (31)–(34). Summary tableaux provide a final check on
+    the soundness of the analysis."
+  - p. 76 "As Karttunen says, “The specter of an unexpected competitor
+    suddenly emerging to eliminate the desired winner is the bane of
+    OT analyses.” [...] Karttunen’s solution is to take the problem
+    out of the hands of the analyst by implementing a
+    candidate-generation algorithm (like Gen, but more limited) and
+    using the grammar to check all of the resulting candidates against
+    the intended winner. [...] The weakness of this analytic technique
+    is that it’s only as good as the algorithm that generates the
+    candidates."
+  - p. 82 "Harmonic bounding is important for three reasons. First,
+    harmonically bounded candidates need to be recognized as a
+    potential distraction from the task of ranking
+    constraints.... Second, discovering that the intended winner is
+    harmonically bounded by some loser is a serious problem. Third,
+    harmonic bounding is important in studying language typology."
+
+
 ## 04 Feb
 
 * Today we discussed in more detail an OT analysis for the Ilokano
