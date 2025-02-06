@@ -15,6 +15,16 @@
 
 # Course Log
 
+## 06 Feb
+
+* We looked at this [supplement](materials/nfadfa-supplement.pdf),
+  which defines NFA and DFA and how they process strings from a
+  non-recursive perspective. (This will change.)
+* We discussed how to visualize NFA and DFA as graphs.
+* We explored connections between NFA and REs.
+* We demonstrated plebby and its PLEs.
+* For Tuesday, please install plebby, and examine its tutorial,
+  especially the section titled "Building a Linguistic Pattern".
 
 ## 04 Feb
 
@@ -26,7 +36,8 @@
     of logic and algebra
   - This material is the subject of [McNaughton and Papert
     1971](https://archive.org/details/CounterFre_00_McNa/)
-* We also defined Dakotah's Lambert's Piecewise Local Expressions, which we will study further on Thursday.
+* We also defined Dakotah's Lambert's Piecewise Local Expressions,
+  which we will study further on Thursday.
   - The LTK software:
     [Git](https://github.com/vvulpes0/Language-Toolkit-2)
     [Hackage](https://hackage.haskell.org/package/language-toolkit)
