@@ -18,6 +18,8 @@
 
 * We discussed some [excerpts](materials/Chapter2discussion.txt) from
   Chapter 2 of McCarthy 2008. We got through page 48.
+* We sketched a rule-based analysis of Ilokano and discussed it vis a
+  vis our descriptive generalizations and OT.
 * For Tuesday, identify which other excerpts you would like to
   discsuss, and other items that are not on the excerpts from the
   later section.
