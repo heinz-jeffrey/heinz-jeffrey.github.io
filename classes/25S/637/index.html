@@ -28,7 +28,29 @@
 <li><a href="materials/LIN637_Syllabus_Spring2025.pdf">Syllabus</a></li>
 </ul>
 <h1 id="course-log">Course Log</h1>
-<h2 id="feb">06 Feb</h2>
+<h2 id="feb">11 Feb</h2>
+<ul>
+<li><p>We sketched how to obtain a RE from a NFA.</p></li>
+<li><p>We showed why NFA are closed under complement, intersection, and difference.</p></li>
+<li><p>Using those facts, and the notion of reachable states, we showed we can decide whether one regular language is a subset of another. And then we can decide whether two regular languages are equal.</p></li>
+<li><p>We played with plebby.</p>
+<pre><code>:display &lt;a a&gt;
+:display ~&lt;a a&gt;
+:display &lt;a,b&gt;
+:display ~&lt;a,b&gt;
+:display \/{&lt;a a&gt;, &lt;b b&gt;}
+:display /\{&lt;a a&gt;, &lt;b b&gt;}
+:display /\{&lt;a a&gt;, &lt;b b&gt;}
+:display [b,c]&lt;b b&gt;
+:display ~[b,c]&lt;b b&gt;
+:display [b,c]&lt;b b&gt;
+:display [a]*&lt;a a&gt;
+:display [a]*|%%|&lt;a a&gt;
+=bcstar *\/{%||%&lt;b&gt;, %||%&lt;c&gt;}
+:display \/{bcstar, *@{bcstar, %||%&lt;a&gt;, bcstar, %||%&lt;a&gt;, bcstar}}
+:equal \/{bcstar, *@{bcstar, %||%&lt;a&gt;, bcstar, %||%&lt;a&gt;, bcstar}} *@{bcstar, *@{%||%&lt;a&gt;, bcstar, %||%&lt;a&gt;}, bcstar}</code></pre></li>
+</ul>
+<h2 id="feb-1">06 Feb</h2>
 <ul>
 <li>We looked at this <a href="materials/nfadfa-supplement.pdf">supplement</a>, which defines NFA and DFA and how they process strings from a non-recursive perspective. (This will change.)</li>
 <li>We discussed how to visualize NFA and DFA as graphs.</li>
@@ -36,7 +58,7 @@
 <li>We demonstrated plebby and its PLEs.</li>
 <li>For Tuesday, please install plebby, and examine its tutorial, especially the section titled “Building a Linguistic Pattern”.</li>
 </ul>
-<h2 id="feb-1">04 Feb</h2>
+<h2 id="feb-2">04 Feb</h2>
 <ul>
 <li>We defined and discussed CUEs, GREs, and SFEs and stated the facts (without proof) that
 <ul>

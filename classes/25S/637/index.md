@@ -15,6 +15,34 @@
 
 # Course Log
 
+## 11 Feb
+
+* We sketched how to obtain a RE from a NFA.
+* We showed why NFA are closed under complement, intersection, and
+  difference.
+* Using those facts, and the notion of reachable states, we showed we
+  can decide whether one regular language is a subset of another.  And
+  then we can decide whether two regular languages are equal.
+* We played with plebby.
+
+  ```
+  :display <a a>
+  :display ~<a a>
+  :display <a,b>
+  :display ~<a,b>
+  :display \/{<a a>, <b b>}
+  :display /\{<a a>, <b b>}
+  :display /\{<a a>, <b b>}
+  :display [b,c]<b b>
+  :display ~[b,c]<b b>
+  :display [b,c]<b b>
+  :display [a]*<a a>
+  :display [a]*|%%|<a a>
+  =bcstar *\/{%||%<b>, %||%<c>}
+  :display \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}}
+  :equal \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}} *@{bcstar, *@{%||%<a>, bcstar, %||%<a>}, bcstar}
+  ```
+
 ## 06 Feb
 
 * We looked at this [supplement](materials/nfadfa-supplement.pdf),
