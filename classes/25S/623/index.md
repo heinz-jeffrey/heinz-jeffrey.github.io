@@ -14,7 +14,7 @@
 
 # Course Log
 
-## 08 Feb
+## 11 Feb
 
 * We finished discussing Chapter 2 of McCarthy 2008,in particular
   richness of the base, lexical optimization, and recursive constraint
