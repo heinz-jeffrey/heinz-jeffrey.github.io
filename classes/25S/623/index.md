@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 08 Feb
+
+* We finished discussing Chapter 2 of McCarthy 2008,in particular
+  richness of the base, lexical optimization, and recursive constraint
+  demotion. We also discussed chapter 3.
+* Reminder: Ilokano squib is due Feb 18, 2025 (1 week from today).
+
+
 ## 06 Feb
 
 * We discussed some [excerpts](materials/Chapter2discussion.txt) from

@@ -101,10 +101,10 @@ Consider the following excerpts. Do you Agree or Disagree and Why?
   unranked constraints is an excellent way of discovering interactions
   that we might have overlooked."
 
-- p. 63 (Doing an analysis). "The best way to [chack that all of the
-  original data have been correctly analyzed] is with summary
-  tableaux that challenge the full constraint hierarchy with all of
-  the relevant inputs and candidates."
+- p. 63 (Doing an analysis). "The best way to [check that all of the
+  original data have been correctly analyzed] is with summary tableaux
+  that challenge the full constraint hierarchy with all of the
+  relevant inputs and candidates."
 
 - p. 71. "We have seen that there are three circumstances where direct
   ranking arguments are impossible: undominated constraints,
@@ -148,3 +148,48 @@ Consider the following excerpts. Do you Agree or Disagree and Why?
   discovering that the intended winner is harmonically bounded by some
   loser is a serious problem. Third, harmonic bounding is important in
   studying language typology."
+
+- p. 88 "Faithful input–output mappings [...] are relevant to the
+  analysis because of the assumption that all constraints are
+  universally present in the grammars of all languages (§1.3). It’s
+  important to discover which markedness constraints a language
+  violates, since those constraints must be ranked below
+  faithfulness. The only way to discover these constraints is to look
+  at faithful input–output mappings.
+
+- p. 88 "One of OT’s basic hypotheses is that constraint ranking is
+  the only systematic difference between languages (§1.7). If this is
+  true, then languages cannot differ systematically in their
+  lexicons."
+
+- p. 89 "There are two main arguments in support of richness of the base.
+  One is parsimony: since ranking can differ from language to
+  language, the strongest hypothesis is that ranking is the only
+  possible difference between languages... The other argument goes
+  back to the [observation that] restrictions on the lexicon often had
+  the same effect as the phonological rules... This kind of conspiracy
+  was referred to as the Duplication Problem ...  Some researchers
+  proposed to solve the Duplication Problem by eliminating
+  restrictions on the lexicon and using just rules or output
+  constraints to account for all generalizations. Richness of the base
+  is OT’s instantiation of this idea."
+
+- p. 90 "In general, the grammar of every language has to map every
+  possible input to some well-formed output... In general, it isn’t
+  enough that the analysis works when the inputs are well-behaved; the
+  analysis has to work over all possible inputs."
+
+- p. 92 "This analysis treats the distribution of nasalized vowels in
+  Yoruba as a fact about surface forms ... In a traditional analysis,
+  neutralization of a contrast is dealt with by a restriction on the
+  inputs to the grammar."
+
+- p. 122 "In short, RCD has no way of identifying the crucial rankings
+  that make up an analysis."
+
+- p. 132 "Linguists aren’t always accustomed to the idea of studying
+  the formal foundations of a theory. As we’ve seen, however, research
+  on the formal foundations of OT has yielded practical tools for
+  analysis as well as insights of a more abstract character."
+  
+
