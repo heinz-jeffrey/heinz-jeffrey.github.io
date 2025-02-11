@@ -17,7 +17,8 @@
 
 ## 11 Feb
 
-* We sketched how to obtain a RE from a NFA.
+* We sketched how to obtain a RE from a NFA. See pages 66-76 in
+  [Chapter 1](materials/Sipser2013Chaps0-1.pdf) of Sipser's 2012 text.
 * We showed why NFA are closed under complement, intersection, and
   difference.
 * Using those facts, and the notion of reachable states, we showed we
@@ -34,6 +35,9 @@
   :display [b,c]<b b>
   :display ~[b,c]<b b>
   ```
+* For Thursday, see if you can get the visualization (graphviz)
+  installed. Also see if you can write PLEs for #12 and #13 in Example
+  1 in the course notes.
 
 ## 06 Feb
 
@@ -41,7 +45,9 @@
   which defines NFA and DFA and how they process strings from a
   non-recursive perspective. (This will change.)
 * We discussed how to visualize NFA and DFA as graphs.
-* We explored connections between NFA and REs.
+* We sketched how any RE can be expressed as a NFA because the base
+  cases correspond to NFA and the inductive cases correspond to
+  particular constructions.
 * We demonstrated plebby and its PLEs.
 * For Tuesday, please install plebby, and examine its tutorial,
   especially the section titled "Building a Linguistic Pattern".
