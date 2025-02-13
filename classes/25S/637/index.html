@@ -28,7 +28,20 @@
 <li><a href="materials/LIN637_Syllabus_Spring2025.pdf">Syllabus</a></li>
 </ul>
 <h1 id="course-log">Course Log</h1>
-<h2 id="feb">11 Feb</h2>
+<h2 id="feb">13 Feb</h2>
+<ul>
+<li><p>We reviewed some of plebby’s features.</p>
+<pre><code>:display ~[b,c]&lt;b b&gt;
+:display ~|a|&lt;b b&gt;
+:display [a]*&lt;a a&gt;
+:display [a]*|%%|&lt;a a&gt;
+=bcstar *\/{%||%&lt;b&gt;, %||%&lt;c&gt;}
+:display \/{bcstar, *@{bcstar, %||%&lt;a&gt;, bcstar, %||%&lt;a&gt;, bcstar}}
+:equal \/{bcstar, *@{bcstar, %||%&lt;a&gt;, bcstar, %||%&lt;a&gt;, bcstar}} *@{bcstar, *@{%||%&lt;a&gt;, bcstar, %||%&lt;a&gt;}, bcstar}</code></pre></li>
+<li><p>We explained how to determinize NFA (powerset construction). For a proof, see pages 54-56 in <a href="materials/Sipser2013Chaps0-1.pdf">Chapter 1</a> of Sipser’s 2012 text. See <a href="https://github.com/mmtstudio/SpringerFreeBooks/blob/maqster/Computer%20Science/Automata%20and%20Computability%20-%20Dexter%20C.%20Kozen,%201997%20-%20978-1-4612-1844-9.pdf">Kozen1997</a> Chapter 6 for a more technically complete proof.</p></li>
+<li><p>On Tuesday we will discuss how to minimize DFA (identifying distinguishable states) and we will relate this minimal DFA to the Nerode equivalence relation.</p></li>
+</ul>
+<h2 id="feb-1">11 Feb</h2>
 <ul>
 <li><p>We sketched how to obtain a RE from a NFA. See pages 66-76 in <a href="materials/Sipser2013Chaps0-1.pdf">Chapter 1</a> of Sipser’s 2012 text.</p></li>
 <li><p>We showed why NFA are closed under complement, intersection, and difference.</p></li>
@@ -44,7 +57,7 @@
 :display ~[b,c]&lt;b b&gt;</code></pre></li>
 <li><p>For Thursday, see if you can get the visualization (graphviz) installed. Also see if you can write PLEs for #12 and #13 in Example 1 in the course notes.</p></li>
 </ul>
-<h2 id="feb-1">06 Feb</h2>
+<h2 id="feb-2">06 Feb</h2>
 <ul>
 <li>We looked at this <a href="materials/nfadfa-supplement.pdf">supplement</a>, which defines NFA and DFA and how they process strings from a non-recursive perspective. (This will change.)</li>
 <li>We discussed how to visualize NFA and DFA as graphs.</li>
@@ -52,7 +65,7 @@
 <li>We demonstrated plebby and its PLEs.</li>
 <li>For Tuesday, please install plebby, and examine its tutorial, especially the section titled “Building a Linguistic Pattern”.</li>
 </ul>
-<h2 id="feb-2">04 Feb</h2>
+<h2 id="feb-3">04 Feb</h2>
 <ul>
 <li>We defined and discussed CUEs, GREs, and SFEs and stated the facts (without proof) that
 <ul>
