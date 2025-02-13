@@ -27,7 +27,6 @@
   :display \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}}
   :equal \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}} *@{bcstar, *@{%||%<a>, bcstar, %||%<a>}, bcstar}
   ```
-
 * We explained how to determinize NFA (powerset construction). For a
   proof, see pages 54-56 in [Chapter
   1](materials/Sipser2013Chaps0-1.pdf) of Sipser's 2012 text.  See [Kozen1997](https://github.com/mmtstudio/SpringerFreeBooks/blob/maqster/Computer%20Science/Automata%20and%20Computability%20-%20Dexter%20C.%20Kozen,%201997%20-%20978-1-4612-1844-9.pdf)
