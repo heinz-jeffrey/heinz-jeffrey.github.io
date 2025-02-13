@@ -14,6 +14,17 @@
 
 # Course Log
 
+## 13 Feb
+
+* We discussed Harmonic Grammar vis a vis OT, and its probabilistic
+  variants Noisy HG and MaxEnt HG, with a focus on typological
+  predictions. See [Pater 2016](materials/Pater2016.pdf) for an
+  overview and [Magri and Antilla's 2022
+  MS](https://www.dropbox.com/s/68aaxicv7453n0u/ComputationalLinguisticsVersion2022.pdf?dl=0)
+  for analysis of this topic.
+* We also reviewed the architecture of Harmonic Serialism. See
+  [McCarthy 2010](materials/McCarthy2010-HS.pdf) for an overview.
+
 ## 11 Feb
 
 * We finished discussing Chapter 2 of McCarthy 2008,in particular
