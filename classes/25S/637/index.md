@@ -17,7 +17,7 @@
 
 ## 13 Feb
 
-* We reviewed some of plebby's features.
+* We reviewed some more of plebby's features [pleb.txt](materials/pleb.txt).
 * We explained how to determinize NFA (powerset construction). For a
   proof, see pages 54-56 in [Chapter
   1](materials/Sipser2013Chaps0-1.pdf) of Sipser's 2012 text.  See
@@ -36,17 +36,7 @@
 * Using those facts, and the notion of reachable states, we showed we
   can decide whether one regular language is a subset of another.  And
   then we can decide whether two regular languages are equal.
-* We played with plebby.
-  ```
-  :display <a a>
-  :display ~<a a>
-  :display <a,b>
-  :display ~<a,b>
-  :display \/{<a a>, <b b>}
-  :display /\{<a a>, <b b>}
-  :display [b,c]<b b>
-  :display ~[b,c]<b b>
-  ```
+* We played with plebby. [pleb.txt](materials/pleb.txt)
 * For Thursday, see if you can get the visualization (graphviz)
   installed. Also see if you can write PLEs for #12 and #13 in Example
   1 in the course notes.
