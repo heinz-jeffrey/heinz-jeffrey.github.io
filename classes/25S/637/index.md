@@ -18,15 +18,6 @@
 ## 13 Feb
 
 * We reviewed some of plebby's features.
-  ```
-  :display ~[b,c]<b b>
-  :display ~|a|<b b>
-  :display [a]*<a a>
-  :display [a]*|%%|<a a>
-  =bcstar *\/{%||%<b>, %||%<c>}
-  :display \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}}
-  :equal \/{bcstar, *@{bcstar, %||%<a>, bcstar, %||%<a>, bcstar}} *@{bcstar, *@{%||%<a>, bcstar, %||%<a>}, bcstar}
-  ```
 * We explained how to determinize NFA (powerset construction). For a
   proof, see pages 54-56 in [Chapter
   1](materials/Sipser2013Chaps0-1.pdf) of Sipser's 2012 text.  See
