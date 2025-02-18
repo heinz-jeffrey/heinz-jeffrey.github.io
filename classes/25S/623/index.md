@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 18 Feb
+
+* We finished discussing HS.
+
+* Time permitting, we began discussing [data](materials/cycle-lp.pdf)
+  bearing on the notion of the cycle and lexical phonology.
+
+
 ## 13 Feb
 
 * We discussed Harmonic Grammar vis a vis OT, and its probabilistic
