@@ -15,6 +15,13 @@
 
 # Course Log
 
+## 18 Feb
+
+* We discussed how to minimize DFA (identifying
+  distinguishable states).
+* We introduced the Nerode equivalence relation.
+* We related the minimal DFA to this equivalence relation.
+
 ## 13 Feb
 
 * We reviewed some more of plebby's features [pleb.txt](materials/pleb.txt).
