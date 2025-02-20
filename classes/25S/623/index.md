@@ -14,13 +14,21 @@
 
 # Course Log
 
+
+## 20 Feb
+
+* We discussed [data](materials/cycle-lp.pdf) bearing on the notion of
+  the cycle and lexical phonology.
+
+* For Tuesday, please read sections 1 and 2 of [Bermudez-Otero
+  2018](materials/Bermudez-Otero-2018.pdf), which was published in
+  In S.J. Hannahs & Anna R. K. Bosch (eds.), 2018, The Routledge
+  handbook of phonological theory, 100-134. Abingdon: Routledge.
+
 ## 18 Feb
 
-* We finished discussing HS.
-
-* Time permitting, we began discussing [data](materials/cycle-lp.pdf)
-  bearing on the notion of the cycle and lexical phonology.
-
+* We discussed a couple more of McCathy's arguments against parallel
+  OT in favor of HS (positional faithfulness and too many solutions).
 
 ## 13 Feb
 
