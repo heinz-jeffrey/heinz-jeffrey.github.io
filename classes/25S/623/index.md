@@ -14,6 +14,11 @@
 
 # Course Log
 
+## 25 Feb
+
+* We discussed Stratal Phonology (Bermudez-Otero 2018).
+* For Thursday, read Vaux (2008), chapter 2 of [this
+  book](materials/VauxNevins2008.pdf).
 
 ## 20 Feb
 
