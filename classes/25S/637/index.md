@@ -15,6 +15,23 @@
 
 # Course Log
 
+
+## 25 Feb
+
+* We defined deterministic, bottom-up tree acceptors and looked at
+  some examples of how they work.
+* We defined deterministic, top-down tree acceptors and looked at some
+  examples of how they work.
+* We discussed the expressivity of non-deterministic BU and TD
+  acceptors with respect to the deterministic ones.
+
+## 20 Feb
+
+* We defined strings and trees as recursive data structures.
+* We showed how computations over trees such as length, size, and
+  yield, have the same structure as their inputs.
+* We began defining bottom-up tree acceptors.
+
 ## 18 Feb
 
 * We discussed how to minimize DFA (identifying
