@@ -16,6 +16,17 @@
 # Course Log
 
 
+## 27 Feb
+
+* We reviewed deterministic, bottom-up and top-down finite state
+  recognizers for tree languages.
+* We talked about the gorn addresses in a tree and definitions of
+  trees as prefix-closed sets.
+* We defined rewrite grammars, and examined right-linear, left-linear
+  and context-free grammars.
+* We examined the derivation trees of CFGs in light of recognizable
+  tree languages.
+
 ## 25 Feb
 
 * We defined deterministic, bottom-up tree acceptors and looked at
@@ -24,6 +35,10 @@
   examples of how they work.
 * We discussed the expressivity of non-deterministic BU and TD
   acceptors with respect to the deterministic ones.
+* We discussed how they are recognizable tree languages are closed
+  under intersection and union. They are not closed under complement
+  with respect to Σᵀ, but they are closed under complement with
+  respect to Σᵀⁿ, where n is the maximum branching factor.
 
 ## 20 Feb
 
