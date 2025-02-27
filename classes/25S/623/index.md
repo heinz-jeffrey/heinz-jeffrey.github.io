@@ -18,6 +18,7 @@
 
 * We discussed Vaux (2008) with a focus on issues related to opacity,
   optionality, and ineffability.
+* Time permitting: [Polish Data](materials/PolishData.pdf)
 * Assignment: [Hakha Lai](materials/HakhaLai.pdf) due March 11, 2025.
 
 ## 25 Feb
