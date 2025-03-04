@@ -14,6 +14,26 @@
 
 # Course Log
 
+
+## 04 Mar
+
+* Some generic tips on writing in response to the Ilokano assignment.
+  - Introductions should include the conclusions/results of the study
+    and explain in broad strokes the arguments that you will be making
+    to lead to those conclusions.
+  - Don't introduce your analysis all at once. Incrementally introduce
+    rules and constraints. A good rule of thumb is to proceed one
+    generalization at a time, checking how the analysis for each
+    generalization potentialy interacts with the ones previously
+    discussed.
+  - Details matter. Always gloss forms, don't mistranscribe the data,
+    use standard definitions, use comparative tableaus correctly,
+    don't make errors in OT tableaus, and so on.
+* We finished our discussed of Vaux (2008) with a focus on issues
+  related to opacity, optionality, and ineffability.
+* We began a brief discussion of the data in [Hakha
+  Lai](materials/HakhaLai.pdf) due March 11, 2025.
+
 ## 27 Feb
 
 * We discussed Vaux (2008) with a focus on issues related to opacity,
