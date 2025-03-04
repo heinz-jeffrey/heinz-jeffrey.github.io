@@ -16,6 +16,18 @@
 # Course Log
 
 
+## 04 Mar
+
+* We reviewed a definition of Strictly k-Local tree languages in terms
+  of "tiling" trees of depth k. We saw how the derivation tree
+  language of any CFG is a SL-2 tree language.
+* We discussed Theorem 18 on page 56 of the course notes.
+* Switching gears, we began talking about the Myhill Equivalence
+  relations, using section 6 of [Lambert,
+  forthcoming](materials/Lambert-2025-Multier-Phonotactics.pdf) as our
+  guide.
+
+
 ## 27 Feb
 
 * We reviewed deterministic, bottom-up and top-down finite state
