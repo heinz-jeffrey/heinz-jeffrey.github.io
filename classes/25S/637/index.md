@@ -26,7 +26,8 @@
   relations, using section 6 of [Lambert,
   forthcoming](materials/Lambert-2025-Multier-Phonotactics.pdf) as our
   guide.
-
+* For Thursday, please read section 6 up to section 6.2.1, but not
+  including 6.2.1. (so bottom of page 24 to top of page 29)
 
 ## 27 Feb
 
