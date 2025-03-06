@@ -28,9 +28,10 @@
     with logic and model theory
   - Note: [Frampton 2011](materials/Frampton\ 2011.pdf) is another
     important paper (which informed SG18).
-* For Tuesday, please read:
+* For Tuesday (3/11), please read:
   - the first three sections of Dell and Elemedlaoui (1985).
   - chapter 2 (pp. 11-23) of Prince and Smolensky (1993).
+* For Thursday (3/13), please read Strother-Garcia (2018).
 
 ## 04 Mar
 
