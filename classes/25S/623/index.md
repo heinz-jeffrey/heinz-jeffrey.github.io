@@ -14,6 +14,21 @@
 
 # Course Log
 
+## 06 Mar
+
+* We continued discussion of the Hakha Lai data.
+* We began studying syllabification in Imdlawn Tashlhiyt Berber
+  (ITB). Over the next week we will study three different views:
+  - The original description and analysis [Dell and Elemedlaoui
+    1985](materials/Dell\ Elmedlaoui\ 1985\ ITB.pdf)
+  - The constraint-based analysis in the [Prince and Smolensky
+    1993](materials/Prince and Smolensky 1993.pdf) which introduced OT
+  - [Strother-Garcia's 2018 analysis](materials/Strother-Garcia 2018
+    Imdlawn Tashlhiyt Berber Syllabification is Quantifier-Free.pdf)
+    with logic and model theory
+  - Note: [Frampton 2011](materials/Frampton\ 2011.pdf) is another
+    important paper (which informed SG18).
+
 
 ## 04 Mar
 
