@@ -14,6 +14,19 @@
 
 # Course Log
 
+## 13 Mar
+
+* We studied Strother-Garcia's analysis of ITB syllabification.
+* For background on logical transductions, see
+  - [Heinz, forthcomin](materials/PS28_FullPaper_Heinz_English_final.pdf) (a short review)
+  - [Slides](https://www.jeffreyheinz.net/classes/davis2019/index.html) from LSA 2019 Summer Institute Course
+  - [The book](https://www.jeffreyheinz.net/classes/24F/655/materials/dcpChaps1-20.pdf) (most thorough, almost done!)
+
+## 11 Mar
+
+* We finished our discusson of Dell and Elemedlaoui.
+* We studied Prince and Smolensky's analysis of ITB syllabification.
+
 ## 06 Mar
 
 * We continued discussion of the Hakha Lai data.
