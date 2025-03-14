@@ -15,6 +15,48 @@
 
 # Course Log
 
+## 13 Mar
+
+* We showed that culminativity is neither definite nor reverse definite.
+* We defined generalized definite and nilpotent (co/finite) languages
+  and the equations that characterize them.
+* We were interrupted by a fire alarm.
+* We studied tier-based and multi-tier based extensions of classes of
+  formal languages and algebraic characterizations of them.
+* We see multiple characterizations of culminativity (for instance
+  both SP and TN).
+* During break:
+  - Please read all of [Lambert,
+  forthcoming](materials/Lambert-2025-Multier-Phonotactics.pdf).
+  - Examine the associated [plebby
+    files](materials/Lambert-2025-Multier-Phonotactics-extras.zip).
+
+## 11 Mar
+
+* We reviewed the algebraic analysis of "stress penult without
+  culminativity."
+* We explained how the semigroup can also be represented with a Myhill
+  Graph (which is a DFA whose states represent blocks in a partition
+  which refines than the partition given by the Nerode relation.)
+* We reviewed the analysis from the HW "stress peninitial without
+    culminativity."
+* We reviewed reverse definite languages and the equations that
+  characterize them.
+
+## 06 Mar
+
+* We began discussing the algebraic approach to analysis of formal languages.
+  - We explained how to obtain the elements of finite semigroup from a
+    DFA by identifying the 'actions' each symbol, or sequence of
+    symbols, induces on the DFA.
+  - We explained how that semigroup can be represented with a
+    concatentation table (Cayley table).
+  - We defined k-definite languages using grammars, and showed how the
+    elements of a semigroup for k-definite languages, and definite
+    languages more generally satisfy particular equations.
+  - Homework for Tuesday: determine the DFA, semigroup elements
+    (actions), and the Cayley table for stress-peninitial without
+    culminativity.
 
 ## 04 Mar
 
