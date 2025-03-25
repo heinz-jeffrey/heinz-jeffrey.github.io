@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 25 Mar
+
+* Today we began exploring analyses of stress with
+  [Nanti](materials/nanti.pdf).
+
+## 18-20 Mar
+
+* SPRING BREAK
+
 ## 13 Mar
 
 * We studied Strother-Garcia's analysis of ITB syllabification.
