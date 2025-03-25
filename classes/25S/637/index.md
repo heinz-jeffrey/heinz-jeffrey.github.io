@@ -14,6 +14,15 @@
 * [Syllabus](materials/LIN637_Syllabus_Spring2025.pdf)
 
 # Course Log
+## 25 Mar
+
+* Today we began discussing finite-state transducers for both strings
+  and trees. We went over the first parts of both chapter 6 and 7 in
+  [these notes](materials/TCL-FSA.pdf).
+
+## 18-20 Mar
+
+* SPRING BREAK
 
 ## 13 Mar
 
