@@ -19,6 +19,8 @@
 * We reviewed basic analytical and typological facts with [this
   handout on stress](materials/intro-to-stress.pdf).
 * We revisited Nanti and tried to write down a complete analysis.
+  - Additional reading: [Crowhust and Lev
+    2005](https://muse.jhu.edu/article/180253)
 * Additional reading on computational analyses of stress:
   - [Heinz 2009](http://jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf)
   - [Lambert to
