@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 27 Mar
+
+* We reviewed basic analytical and typological facts with [this
+  handout on stress](materials/intro-to-stress.pdf).
+* We revisited Nanti and tried to write down a complete analysis.
+* Additional reading on computational analyses of stress:
+  - [Heinz 2009](http://jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf)
+  - [Lambert to
+    appear](../637/materials/Lambert-2025-Multier-Phonotactics.pdf)
+* For next Tuesday: Read [Chandlee and Heinz
+  2018](http://jeffreyheinz.net/papers/Chandlee-Heinz-2018-SLPM.pdf)
+
 ## 25 Mar
 
 * Today we began exploring analyses of stress with
