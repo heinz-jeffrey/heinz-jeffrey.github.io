@@ -14,6 +14,26 @@
 * [Syllabus](materials/LIN637_Syllabus_Spring2025.pdf)
 
 # Course Log
+
+## 27 Mar
+
+* We reviewed deterministic bottom-up tree transducers.
+* We generalized deterministic string-to-string transducers to
+  string-to-M transducers for an arbitrary monoid M.
+* We discussed the landscape of classes of finite-state string
+  transducers.
+  - Additional Reading: [Filiot and Reynier
+    2016](materials/FiliotReynier2016.pdf)
+* Some libraries for finite-state transducers
+  - [openfst](https://www.openfst.org/) and
+    [pynini](https://www.openfst.org/twiki/bin/view/GRM/Pynini)
+  - [foma](https://fomafst.github.io/) and [pyfoma](https://github.com/mhulden/pyfoma)
+  - [Helsinki Finite-State Technology](https://github.com/HFST/HFST)
+  - Nick Behrje's [tree transducer
+    library](https://github.com/nbehrje/tree_transducer)
+  - The [Lethal tree transducer
+    toolkit](https://lethal.sourceforge.net/)
+
 ## 25 Mar
 
 * Today we began discussing finite-state transducers for both strings
