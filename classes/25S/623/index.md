@@ -14,6 +14,11 @@
 
 # Course Log
 
+## 01 Apr
+
+* We finished discussing the typology of stress in the handout.
+* We began discussing ISL functions.
+
 ## 27 Mar
 
 * We reviewed basic analytical and typological facts with [this
