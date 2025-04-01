@@ -15,6 +15,23 @@
 
 # Course Log
 
+## 01 Apr
+
+* We reviewed 1-way, string-to-M transducers for an arbitrary monoid M.
+* We defined 1-way non-deterministic letter-to-letter transducers.
+* We defined 2-way transducers (see [Dolatian and Heinz
+  2020](Dolatian-Heinz-2020-CCR2FT.pdf) for application to
+  reduplication).
+* We identified five classes of interest: 1DFT  ⊂ 1fNFT  ⊂ 1NFT, 2DFT ⊂ 2NFT
+  - 1 means "1 way" and 2 mean "2 way"
+  - D means "deterministic" and N means "non-deterministic"
+  - f means "functional"
+  - FT means "finite-state transducer"
+* Compare with finite-state acceptors: 1DFA = 1NFA = 2DFA = 2NFA.
+* Note also 1DFTs come in two varieties (left and right).
+* We discussed (but little to no details provided) minimization and composition of FTs.
+* For Thursday, read [Lambert and Heinz 2023](materials/Lambert-Heinz-2023-ACISLF.pdf).
+
 ## 27 Mar
 
 * We reviewed deterministic bottom-up tree transducers.
@@ -27,7 +44,8 @@
 * Some libraries for finite-state transducers
   - [openfst](https://www.openfst.org/) and
     [pynini](https://www.openfst.org/twiki/bin/view/GRM/Pynini)
-  - [foma](https://fomafst.github.io/) and [pyfoma](https://github.com/mhulden/pyfoma)
+  - [foma](https://fomafst.github.io/) and
+    [pyfoma](https://github.com/mhulden/pyfoma)
   - [Helsinki Finite-State Technology](https://github.com/HFST/HFST)
   - Nick Behrje's [tree transducer
     library](https://github.com/nbehrje/tree_transducer)
