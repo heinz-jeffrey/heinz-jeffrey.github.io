@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 03 Apr
+
+* We finished our discussion of ISL functions.
+* Next week: Tone!
+* I will go over some basic facts about tone on Tuesday. After that,
+  we will discuss [Jardine 2017,
+  Phonology](materials/Jardine2017-LNTP.pdf), and time permitting
+  [Chandlee and Jardine 2019, TACL](materials/ChandleeJardine2019.pdf)
+
 ## 01 Apr
 
 * We finished discussing the typology of stress in the handout.
