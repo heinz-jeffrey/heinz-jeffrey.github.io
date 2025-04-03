@@ -15,6 +15,25 @@
 
 # Course Log
 
+## 03 Apr
+
+* We reviewed deterministic top-down tree transducers.
+* We discussed their expressivity re bottom-up ones.
+* We dicsussed Lamber and Heinz 2023, in particular:
+  - What the Nerode and Myhill relations mean for string-to-string functions
+  - What the minimal, deterministic, onward transducer is
+  - How to obtain the syntactic monoid from that
+  - And then algebraic analysis is the same as before!
+* Don't forget proposals are supposed to be approved by next Friday.
+* For next Tuesday, choose one process discussed in [Burness et
+  al. 2019, sections 5 and
+  6](https://www.glossa-journal.org/article/id/5780/), or for a
+  challenge, choose a FST used in NLP such as a
+  [tokenizer](https://github.com/cslu-nlp/DetectorMorse/blob/master/detectormorse/ptbtokenizer.py),
+  [stemmer](https://snowballstem.org/), or [G2P,
+  P2G](https://dmort27.github.io/subwordmodeling/assignments/project3.html),
+  something with [epitran](https://github.com/dmort27/epitran), etc.
+
 ## 01 Apr
 
 * We reviewed 1-way, string-to-M transducers for an arbitrary monoid M.
