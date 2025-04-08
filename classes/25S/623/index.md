@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 08 Apr
+
+* Some handouts on tone:
+  - [overview](materials/tone-overview.pdf) of pitch, intonation and mostly tone (with some exercises)
+  - [handout on autosegmental reps](materials/tone-ASRs.pdf)
+  - [excerpt](materials/marlo.pdf) from Marlo on OT and tone (but also see Yip's book)
+* [Squib 3: Lama](materials/Lama.pdf) is due in ONE WEEK! 
+
+
 ## 03 Apr
 
 * We finished our discussion of ISL functions.
