@@ -1,0 +1,55 @@
+CLASSIFY(1)                                                 Language Toolkit                                                CLASSIFY(1)
+
+NAME
+       classify - determine subregular class membership
+
+SYNOPSIS
+       classify [-a|-A|-j|-p] [-e|-u] [-n|-N] [-hqv?] [-s symbols] class ...
+
+DESCRIPTION
+       The  classify  utility reads a finite-state automaton and determines whether it belongs to a provided set of complexity classes.
+       The automaton is read from the standard input, and its format is determined by command-line options.  For the AT&T tabular  for‐
+       mat, an optional symbol table may be provided with the -s option.
+
+       The return value indicates whether any (-e, default) or all (-u) of the specified classes contain the pattern.
+
+       Specifying  more  than one of any set of mutually-exclusive options shall not be considered an error.  The last option specified
+       shall determine the behavior of the utility.
+
+OPTIONS
+   Formats
+       -a     AT&T tabular format, input projection.  This is the default.
+
+       -A     AT&T tabular format, output projection.
+
+       -j     Jeff format.
+
+       -p     PLEB format
+
+   Reduction
+       -e     Exit successfully iff any specified class contains the pattern.  This is the default.
+
+       -u     Exit successfully iff all specified classes contain the pattern.
+
+   Normalization
+       -n     Normalize the pattern before processing.  This is the default.
+
+       -N     Do not normalize the pattern before processing.  This is useful when dealing with an already-minimal finite-state  trans‐
+              ducer rather than an acceptor.
+
+   Other Options
+       -h, -? Show a brief help message and exit.
+
+       -q     Do not a output textual description of the membership queries.
+
+       -v     Instead of doing any processing, print the version number and exit.
+
+EXIT STATUS
+       0      The pattern was contained as desired.
+
+       >0     An error occurred, or the pattern was not contained as desired.
+
+SEE ALSO
+       fsm(5), pleb(5)
+
+Version 1.1                                                    2022-03-13                                                   CLASSIFY(1)

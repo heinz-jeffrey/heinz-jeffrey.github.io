@@ -17,9 +17,19 @@
 
 ## 03 Apr
 
+* We saw how to use the classify program in
+  [LTK](https://github.com/vvulpes0/Language-Toolkit-2) to classify
+  transducers
+  - [classify man page](materials/classify-man.txt)
+  - Example. Figure 6 in [Burness et al. 2019](https://www.glossa-journal.org/article/id/5780/)
+  - [att](fig6right.att)  [syms](materials/syms-fig6.txt)
+* We studied function composition with transducers. 
+ 
+## 03 Apr
+
 * We reviewed deterministic top-down tree transducers.
 * We discussed their expressivity re bottom-up ones.
-* We dicsussed Lamber and Heinz 2023, in particular:
+* We dicsussed Lambert and Heinz 2023, in particular:
   - What the Nerode and Myhill relations mean for string-to-string functions
   - What the minimal, deterministic, onward transducer is
   - How to obtain the syntactic monoid from that
