@@ -15,21 +15,48 @@
 
 # Course Log
 
-## 03 Apr
+## 15 Apr
 
+* We studied function composition with transducers.
+* We studied other closure operations of regular relations and
+  functions.
+
+## 10 Apr
+
+* We realized that the right FST in Figure 6 in Burness et al. 2021 is
+  not the minimum FST. The minimum one is here:
+  [att](fig6rightmin.att).
+
+  ```$ classify -N TDef TRDef < fig6rightmin.att
+     [ ("TDef",True)
+     , ("TRDef",True)
+     ]
+  ```
+* We discussed that unless we are sure that the DFT we have is
+  minimal, we should do our best to minimize it.
+  - In pynini of pyfoma, we would want to read in an ATT file,
+    minimize it, and then output a new ATT file which can be sent to
+    `classify`.
+
+* We discussed some of the differences between the FST libraries.
+
+## 08 Apr
+
+* We reviewed the Myhill relation and construction of the syntactic
+  monoid from minimal DFTs.
 * We saw how to use the classify program in
   [LTK](https://github.com/vvulpes0/Language-Toolkit-2) to classify
   transducers
   - [classify man page](materials/classify-man.txt)
-  - Example. Figure 6 in [Burness et al. 2019](https://www.glossa-journal.org/article/id/5780/)
+  - Example. Figure 6 in [Burness et al. 2021](https://www.glossa-journal.org/article/id/5780/)
   - [att](fig6right.att)  [syms](materials/syms-fig6.txt)
-* We studied function composition with transducers. 
- 
+
+
 ## 03 Apr
 
 * We reviewed deterministic top-down tree transducers.
 * We discussed their expressivity re bottom-up ones.
-* We dicsussed Lambert and Heinz 2023, in particular:
+* We discussed Lambert and Heinz 2023, in particular:
   - What the Nerode and Myhill relations mean for string-to-string functions
   - What the minimal, deterministic, onward transducer is
   - How to obtain the syntactic monoid from that
