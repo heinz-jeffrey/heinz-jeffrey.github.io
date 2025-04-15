@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 15 Apr
+
+* We began discussing harmony patterns and their analyses.
+* [Rose and Walker 2011](materials/RoseWalkerHarmonysystemsch8.pdf)
+
+## 10 Apr
+
+* to be added soon
+
 ## 08 Apr
 
 * Some handouts on tone:
