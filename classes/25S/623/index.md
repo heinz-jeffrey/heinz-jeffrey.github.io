@@ -14,6 +14,19 @@
 
 # Course Log
 
+## 17 Apr
+
+* We finished our discussion of Rose and Walker 2011.
+* Reading and schedule for the next last weeks:
+  - Apr 22: [Kaye 1980](materials/RoseWalkerHarmonysystemsch8.pdf) and
+    [Kenstowicz and Kisseberth
+    1977](materials/KenstowiczKisseberth1977.pdf) on abstractness
+  - Apr 24: [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151)
+  - Apr 29: TBD; Course review
+  - May 01: Class presentations
+  - May 03: Class presentations
+  - May 08: Class canceled, instructor traveling to [NAPhC](https://sites.google.com/view/naphcxiii/)
+
 ## 15 Apr
 
 * We began discussing harmony patterns and their analyses.
