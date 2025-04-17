@@ -15,6 +15,17 @@
 
 # Course Log
 
+## 17 Apr
+
+* main lesson: Life is precious. Don't sweat the small stuff.
+* We talked about the role of composition in the construction of morpho-phonological finite-systems.
+* We talked about the rol of composition in the construction of
+  compilers of rewrite rules into finite-state transducers. (See
+  [Mohri and Sproat 1996](materials/MohriSproat1996.pdf) for details.)
+* Here are [instructions](materials/minimize.md) on how to take a
+  transducer in ATT format, prepare it for classification, and then
+  classify it with plebby.
+
 ## 15 Apr
 
 * We studied function composition with transducers.

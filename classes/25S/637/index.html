@@ -28,12 +28,19 @@
 <li><a href="materials/LIN637_Syllabus_Spring2025.pdf">Syllabus</a></li>
 </ul>
 <h1 id="course-log">Course Log</h1>
-<h2 id="apr">15 Apr</h2>
+<h2 id="apr">17 Apr</h2>
+<ul>
+<li>main lesson: Life is precious. Don’t sweat the small stuff.</li>
+<li>We talked about the role of composition in the construction of morpho-phonological finite-systems.</li>
+<li>We talked about the rol of composition in the construction of compilers of rewrite rules into finite-state transducers. (See <a href="materials/MohriSproat1996.pdf">Mohri and Sproat 1996</a> for details.)</li>
+<li>Here are <a href="materials/minimize.md">instructions</a> on how to take a transducer in ATT format, prepare it for classification, and then classify it with plebby.</li>
+</ul>
+<h2 id="apr-1">15 Apr</h2>
 <ul>
 <li>We studied function composition with transducers.</li>
 <li>We studied other closure operations of regular relations and functions.</li>
 </ul>
-<h2 id="apr-1">10 Apr</h2>
+<h2 id="apr-2">10 Apr</h2>
 <ul>
 <li><p>We realized that the right FST in Figure 6 in Burness et al. 2021 is not the minimum FST. The minimum one is here: <a href="fig6rightmin.att">att</a>.</p>
 <p><code>$ classify -N TDef TRDef &lt; fig6rightmin.att    [ ("TDef",True)    , ("TRDef",True)    ]</code></p></li>
@@ -43,7 +50,7 @@
 </ul></li>
 <li><p>We discussed some of the differences between the FST libraries.</p></li>
 </ul>
-<h2 id="apr-2">08 Apr</h2>
+<h2 id="apr-3">08 Apr</h2>
 <ul>
 <li>We reviewed the Myhill relation and construction of the syntactic monoid from minimal DFTs.</li>
 <li>We saw how to use the classify program in <a href="https://github.com/vvulpes0/Language-Toolkit-2">LTK</a> to classify transducers
@@ -53,7 +60,7 @@
 <li><a href="fig6right.att">att</a> <a href="materials/syms-fig6.txt">syms</a></li>
 </ul></li>
 </ul>
-<h2 id="apr-3">03 Apr</h2>
+<h2 id="apr-4">03 Apr</h2>
 <ul>
 <li>We reviewed deterministic top-down tree transducers.</li>
 <li>We discussed their expressivity re bottom-up ones.</li>
@@ -67,7 +74,7 @@
 <li>Don’t forget proposals are supposed to be approved by next Friday.</li>
 <li>For next Tuesday, choose one process discussed in <a href="https://www.glossa-journal.org/article/id/5780/">Burness et al. 2019, sections 5 and 6</a>, or for a challenge, choose a FST used in NLP such as a <a href="https://github.com/cslu-nlp/DetectorMorse/blob/master/detectormorse/ptbtokenizer.py">tokenizer</a>, <a href="https://snowballstem.org/">stemmer</a>, or <a href="https://dmort27.github.io/subwordmodeling/assignments/project3.html">G2P, P2G</a>, something with <a href="https://github.com/dmort27/epitran">epitran</a>, etc.</li>
 </ul>
-<h2 id="apr-4">01 Apr</h2>
+<h2 id="apr-5">01 Apr</h2>
 <ul>
 <li>We reviewed 1-way, string-to-M transducers for an arbitrary monoid M.</li>
 <li>We defined 1-way non-deterministic letter-to-letter transducers.</li>
