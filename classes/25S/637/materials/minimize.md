@@ -107,7 +107,19 @@ tier-based finite (I think it's just an oversight). So just check the
 following: `FIN Def RDef GD TDef TRDef TGD MTF MTDef MTRDef MTGD`.
 
 ```
-cat minimized.att | classify -N Fin Def RDef GD TDef TRDef TGD MTF MTDef MTRDef MTGD 
+$ cat minimized.att | classify -N Fin Def RDef GD TDef TRDef TGD MTF MTDef MTRDef MTGD 
+[ ("Fin",False)
+, ("Def",False)
+, ("RDef",False)
+, ("GD",False)
+, ("MTF",True)
+, ("TDef",True)
+, ("TRDef",True)
+, ("MTDef",True)
+, ("MTRDef",True)
+, ("TGD",True)
+, ("MTGD",True)
+]
 ```
 
 # Step 5 - Record your results!
