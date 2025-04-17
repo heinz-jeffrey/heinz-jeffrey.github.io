@@ -22,7 +22,7 @@
 * We talked about the rol of composition in the construction of
   compilers of rewrite rules into finite-state transducers. (See
   [Mohri and Sproat 1996](materials/MohriSproat1996.pdf) for details.)
-* Here are [instructions](materials/minimize.md) on how to take a
+* Here are [instructions](materials/minimize.html) on how to take a
   transducer in ATT format, prepare it for classification, and then
   classify it with plebby.
 

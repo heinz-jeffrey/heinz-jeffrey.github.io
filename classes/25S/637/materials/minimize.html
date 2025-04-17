@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>How to classify a transducer in ATT format</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+  </style>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">How to classify a transducer in ATT format</h1>
+</header>
+<h1 id="overview">Overview</h1>
+<p>This shows step by step how to algebraically classify a finite-state transducer provided in the ATT format.</p>
+<p>As a running example, it will use the <a href="fig6right.att">fig6right.att</a> file, which is the nonminimal DFT found on the right in Figure 6 of <a href="https://www.glossa-journal.org/article/id/5780/">Burness et al. 2021</a>.</p>
+<p>This ATT file is accompanied by the <a href="syms-fig6.txt">syms-fig6.txt</a> file which provides a numerical encoding of the symbols. Note there can be two such files, one for input symbols and one for output symbols. In this example, the input and output symbols are the same and so only one file is present.</p>
+<h1 id="what-you-will-need-to-have-installed">What you will need to have installed</h1>
+<ol type="1">
+<li>The <a href="https://www.openfst.org/twiki/bin/view/GRM/Pynini">pynini python package</a>. Use <code>pip install pynini</code>. This should also install the openfst command line tools.</li>
+<li>The program <code>classify</code> from the <a href="https://github.com/vvulpes0/Language-Toolkit-2">Language-Toolkit-2</a>. Follow the directions there.</li>
+</ol>
+<h1 id="step-1---conversion">Step 1 - Conversion</h1>
+<p>Convert the ATT file to a binary FST file. This is done generally with the command line as follows.</p>
+<pre><code>&gt; fstcompile --isymbols=isyms_file --osymbols=osyms_file --keep_isymbols --keep_osymbols filename.att filename.fst</code></pre>
+<p>where <code>isyms_file</code>, <code>osyms_file</code>, <code>filename.att</code> are the names of the text files you provide as input for the numerical encoding of the input symbols, the numerical encoding of the output symbols, and the ATT format description of the transducer itself, respectively; and where <code>filename.fst</code> is the binary file output by this command encoding the transducer.</p>
+<p>Thus for the transducer in our example, one can run the following.</p>
+<pre><code>$ fstcompile --isymbols=syms-fig6.txt --osymbols=syms-fig6.txt --keep_isymbols --keep_osymbols fig6right.att fig6right.fst</code></pre>
+<h1 id="step-2---minimization">Step 2 - Minimization</h1>
+<p>Start up python, import pynini, read the fst file, and minimize the transducer.</p>
+<pre><code>$ python3
+Python 3.8.18 (default, Sep 11 2023, 13:40:15) 
+[GCC 11.2.0] :: Anaconda, Inc. on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt; import pynini
+&gt;&gt;&gt; f = pynini.Fst.read(&quot;fig6right.fst&quot;)
+&gt;&gt;&gt; f.minimize()</code></pre>
+<p>That’s it!</p>
+<p>Note that <code>minimize()</code> assumes that the trnsducer is deterministic. If it is not, use <code>optimize()</code> instead since this first aims to determinize the transducer before minimizing. See the pynini documentation for details.</p>
+<h1 id="step-3---printing-and-file-writing">Step 3 - Printing and file writing</h1>
+<p>To check it on the screen, just use <code>print</code>.</p>
+<pre><code>&gt;&gt;&gt; print(f)
+0   0   x   x
+0   0   s   s
+0   1   S   S
+0
+1   1   x   x
+1   1   S   S
+1   1   s   S
+1
+
+&gt;&gt;&gt; quit()</code></pre>
+<p>To put it into a file, you can do something like this.</p>
+<pre><code>&gt;&gt;&gt; output = open(&quot;minimized.att&quot;,&#39;w&#39;)
+&gt;&gt;&gt; print(f,file=output)
+&gt;&gt;&gt; quit()</code></pre>
+<h1 id="step-4---classify">Step 4 - Classify</h1>
+<p>Now we have a minimized transducer in ATT format and so we can check its algebraic structure. From the command line, run the <code>classify</code> command. You must use the <code>-N</code> flag. There are 12 classes we want to check. These are the finite, definite, reverse definite, and generalized definite classes, as well as their tier-based, and multi-tier based counterparts. However, classify won’t check the tier-based finite (I think it’s just an oversight). So just check the following: <code>FIN Def RDef GD TDef TRDef TGD MTF MTDef MTRDef MTGD</code>.</p>
+<pre><code>$ cat minimized.att | classify -N Fin Def RDef GD TDef TRDef TGD MTF MTDef MTRDef MTGD 
+[ (&quot;Fin&quot;,False)
+, (&quot;Def&quot;,False)
+, (&quot;RDef&quot;,False)
+, (&quot;GD&quot;,False)
+, (&quot;MTF&quot;,True)
+, (&quot;TDef&quot;,True)
+, (&quot;TRDef&quot;,True)
+, (&quot;MTDef&quot;,True)
+, (&quot;MTRDef&quot;,True)
+, (&quot;TGD&quot;,True)
+, (&quot;MTGD&quot;,True)
+]</code></pre>
+<h1 id="step-5---record-your-results">Step 5 - Record your results!</h1>
+<p>Put your results in the <a href="https://docs.google.com/spreadsheets/d/1IWFIMThG5AIkmrA2c6gmbTTBxIZinQmGT5WUhJI-47I/edit?usp=sharing">spreadsheet</a>!</p>
+</body>
+</html>
