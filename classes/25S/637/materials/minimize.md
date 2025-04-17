@@ -54,7 +54,7 @@ Start up python, import pynini, read the fst file, and minimize the transducer.
 
 ```
 $ python3
-Python 3.8.18 (default, Sep 11 2023, 13:40:15) 
+Python 3.8.18 (default, Sep 11 2023, 13:40:15)
 [GCC 11.2.0] :: Anaconda, Inc. on linux
 Type "help", "copyright", "credits" or "license" for more information.
 >>> import pynini
