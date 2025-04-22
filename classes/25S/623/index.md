@@ -16,7 +16,7 @@
 
 ## 22 Mar
 
-* We discussed Dida and abstractness.
+* We discussed Dida and [abstractness](materials/kk77.md).
 
 
 ## 17 Apr
