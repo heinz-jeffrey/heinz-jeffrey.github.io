@@ -15,6 +15,22 @@
 
 # Course Log
 
+## 22 Apr
+
+* We talked a bit about the classification exercise.
+* We discussed topics related to non-determinism.
+  - Inversion
+  - Semirings (see Mohri's 2009 chapter on [Weighted Automata
+    Algorithms](https://cs.nyu.edu/~mohri/transducer-algorithms.html)).
+* We noted one more item about composition.
+  - composition as application.
+  - For rational relations, this gives us a way to represent
+    infinitely many outputs with a single input.
+  - [Roark and Sproat 2007](materials/Roark-Sproat2008Comp.pdf)
+    highlight the importance of composition in grammar construction
+    and analysis.
+* We discussed the last two weeks of classes.
+
 ## 17 Apr
 
 * main lesson: Life is precious. Don't sweat the small stuff.
