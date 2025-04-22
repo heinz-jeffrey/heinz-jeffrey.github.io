@@ -20,11 +20,15 @@ and so only one file is present.
 
 1. The [pynini python
    package](https://www.openfst.org/twiki/bin/view/GRM/Pynini). Use
-   `pip install pynini`. This should also install the openfst command
-   line tools.
+   `pip install pynini`. 
 2. The program `classify` from the
    [Language-Toolkit-2](https://github.com/vvulpes0/Language-Toolkit-2). Follow
    the directions there.
+3. The [openfst command line tools](https://www.openfst.org/). This is
+   easiest to install with
+   [conda](https://docs.conda.io/en/latest/). Use the command `conda
+   install -c conda-forge openfst` on Linux, MacOS, or (hopefully)
+   WSL.
 
 # Step 1 - Conversion
 
