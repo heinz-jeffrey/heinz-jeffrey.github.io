@@ -14,11 +14,16 @@
 
 # Course Log
 
+## 22 Mar
+
+* We discussed Dida and abstractness.
+
+
 ## 17 Apr
 
 * We finished our discussion of Rose and Walker 2011.
 * Reading and schedule for the next last weeks:
-  - Apr 22: [Kaye 1980](materials/RoseWalkerHarmonysystemsch8.pdf) and
+  - Apr 22: [Kaye 1980](materials/Kaye1980.pdf) and
     [Kenstowicz and Kisseberth
     1977](materials/KenstowiczKisseberth1977.pdf) on abstractness
   - Apr 24: [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151)
