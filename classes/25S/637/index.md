@@ -29,6 +29,9 @@
   product*. Direct products hold for algebraic varieties (like
   k-definiteness). We discussed this in the context of phonological
   features and Magda's dissertation research.
+* An additional paper with potentially challenging long-distance
+  transformations: [Gleim and Schneider
+  2023](materials/GleimSchneider2023.pdf)
 
 ## 22 Apr
 
