@@ -24,7 +24,7 @@
   - [Roark and Sproat 2007](materials/Roark-Sproat2008Comp.pdf)
     highlight the importance of composition in grammar construction
     and analysis.
-  - Example in pynini: [English Plurals](materials/EngPlural.py)
+  - Example in pynini: [English Plurals](materials/EngPlurals.py)
 * Another way to factor complex functions is with the *direct
   product*. Direct products hold for algebraic varieties (like
   k-definiteness). We discussed this in the context of phonological
