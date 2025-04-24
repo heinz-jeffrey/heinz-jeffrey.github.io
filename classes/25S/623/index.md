@@ -14,6 +14,12 @@
 
 # Course Log
 
+
+
+## 24 Mar
+
+* We discussed the [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151).
+
 ## 22 Mar
 
 * We discussed Dida and [abstractness](materials/kk77.md).
@@ -47,7 +53,7 @@
   - [overview](materials/tone-overview.pdf) of pitch, intonation and mostly tone (with some exercises)
   - [handout on autosegmental reps](materials/tone-ASRs.pdf)
   - [excerpt](materials/marlo.pdf) from Marlo on OT and tone (but also see Yip's book)
-* [Squib 3: Lama](materials/Lama.pdf) is due in ONE WEEK! 
+* [Squib 3: Lama](materials/Lama.pdf) is due in ONE WEEK!
 
 
 ## 03 Apr
