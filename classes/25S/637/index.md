@@ -15,6 +15,20 @@
 
 # Course Log
 
+## 28 Apr
+
+* We discussed the problem of learning finite-state machines.
+  - State merging. See chapter 3 of [this
+    book](materials/GIFCL2015.pdf)
+  - Learning Tree Languages. See chapter 7 of [this
+    book](materials/TGI2016.pdf).
+  - Learning deterministic, structured classes.
+    - Path following in acceptors [Heinz and Rogers
+      2013](http://jeffreyheinz.net/papers/Heinz-Rogers-2013-LSCLFDA.pdf)
+    - Path following + lcp for transducers [Jardine et
+      al. 2014](http://jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf)
+* Course review.
+
 ## 24 Apr
 
 * We noted one more item about composition.
