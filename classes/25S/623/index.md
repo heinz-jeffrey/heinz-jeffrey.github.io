@@ -15,12 +15,17 @@
 # Course Log
 
 
+## 28 Apr
 
-## 24 Mar
+* We finished discussion of the BMP.
+* We [reviewed](materials/review.md) the contents of this course.
+* We discussed current research directions in phonology more broadly.
+
+## 24 Apr
 
 * We discussed the [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151).
 
-## 22 Mar
+## 22 Apr
 
 * We discussed Dida and [abstractness](materials/kk77.md).
 
@@ -45,7 +50,8 @@
 
 ## 10 Apr
 
-* to be added soon
+* We finished our discussion of tone and autosegmental
+  representations.
 
 ## 08 Apr
 
