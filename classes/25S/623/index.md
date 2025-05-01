@@ -15,6 +15,10 @@
 # Course Log
 
 
+## 01 May
+
+* Today we enjoyed presentations from Ola, Jacob, and Anton.
+
 ## 28 Apr
 
 * We finished discussion of the BMP.

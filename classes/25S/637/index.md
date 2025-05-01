@@ -15,6 +15,11 @@
 
 # Course Log
 
+
+## 01 May
+
+* Today we enjoyed presentations from William, Hannah, Robin, and Jacob.
+
 ## 28 Apr
 
 * We discussed the problem of learning finite-state machines.
