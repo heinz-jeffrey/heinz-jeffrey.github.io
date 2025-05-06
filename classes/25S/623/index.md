@@ -14,6 +14,15 @@
 
 # Course Log
 
+## 08 May
+
+* Class canceled, instructor away.
+* Thanks for the great semester!
+* Submit your [course evaluation here](http://url5919.courseval.net/ls/click?upn=u001.hk7A-2FjnA6gotchwZQDt3bJX5hf-2BilO0iViB-2Bwdu5U6l7TbSqb1-2BYhL8-2BgVzMbtcH7yHfEyXpV3lXLURQyghyhvR9-2FNWZX7AzH9CPU5A7kyQ-3DBgR1_yi-2FF8O9dI2IZIjwMOLdjRGE9tSRLzPSuBNHRw74RFFfsBmLiayUxGqQ8eJUQX4OsP0O95DYOlHOZFzfd-2BmSoCltOsBnE8kwE-2F4XkY5YWZ8y0nicI0zvwS5MRmIe7miaphH9JzA-2F1vpHawm6UjR1L4ye-2BBkRY97mzwYm-2BKN1ZaIHvyxt9RqIUe6TO73L-2BLoxs-2FUKjRxTHMMIJuH8FSK-2FFV95bIkjAbDwChN126Ac4QmM-3D)
+
+## 06 May
+
+* Today we enjoyed presentations from Matthew, Dorothy, William, and Abed.
 
 ## 01 May
 
