@@ -15,6 +15,72 @@
 
 # Course Log
 
+## 08 May
+
+* Class canceled, instructor away.
+* Thanks for the great semester!
+* Submit your [course evaluation here](http://url5919.courseval.net/ls/click?upn=u001.hk7A-2FjnA6gotchwZQDt3bJX5hf-2BilO0iViB-2Bwdu5U6l7TbSqb1-2BYhL8-2BgVzMbtcH7yHfEyXpV3lXLURQyghyhvR9-2FNWZX7AzH9CPU5A7kyQ-3DBgR1_yi-2FF8O9dI2IZIjwMOLdjRGE9tSRLzPSuBNHRw74RFFfsBmLiayUxGqQ8eJUQX4OsP0O95DYOlHOZFzfd-2BmSoCltOsBnE8kwE-2F4XkY5YWZ8y0nicI0zvwS5MRmIe7miaphH9JzA-2F1vpHawm6UjR1L4ye-2BBkRY97mzwYm-2BKN1ZaIHvyxt9RqIUe6TO73L-2BLoxs-2FUKjRxTHMMIJuH8FSK-2FFV95bIkjAbDwChN126Ac4QmM-3D)
+
+## 06 May
+
+* Today we enjoyed presentations from Abed, Dorothy, Elizabeth, and Matthew.
+
+## 01 May
+
+* Today we enjoyed presentations from William, Hannah, Robin, and Jacob.
+
+## 28 Apr
+
+* We discussed the problem of learning finite-state machines.
+  - State merging. See chapter 3 of [this
+    book](materials/GIFCL2015.pdf)
+  - Learning Tree Languages. See chapter 7 of [this
+    book](materials/TGI2016.pdf).
+  - Learning deterministic, structured classes.
+    - Path following in acceptors [Heinz and Rogers
+      2013](http://jeffreyheinz.net/papers/Heinz-Rogers-2013-LSCLFDA.pdf)
+    - Path following + lcp for transducers [Jardine et
+      al. 2014](http://jeffreyheinz.net/papers/Jardine-ChandleeEtAl-2014-VELSCSFPD.pdf)
+* Course review.
+
+## 24 Apr
+
+* We noted one more item about composition.
+  - Application as composition.
+  - For rational relations, this gives us a way to represent
+    infinitely many outputs with a single input.
+  - [Roark and Sproat 2007](materials/Roark-Sproat2008Comp.pdf)
+    highlight the importance of composition in grammar construction
+    and analysis.
+  - Example in pynini: [English Plurals](materials/EngPlurals.py)
+* Another way to factor complex functions is with the *direct
+  product*. Direct products hold for algebraic varieties (like
+  k-definiteness). We discussed this in the context of phonological
+  features and Magda's dissertation research.
+* An additional paper with potentially challenging long-distance
+  transformations: [Gleim and Schneider
+  2023](materials/GleimSchneider2023.pdf)
+
+## 22 Apr
+
+* We talked a bit about the classification exercise.
+* We discussed topics related to non-determinism.
+  - Inversion
+  - Semirings (see Mohri's 2009 chapter on [Weighted Automata
+    Algorithms](https://cs.nyu.edu/~mohri/transducer-algorithms.html)).
+* We discussed the last two weeks of classes.
+
+## 17 Apr
+
+* main lesson: Life is precious. Don't sweat the small stuff.
+* We talked about the role of composition in the construction of morpho-phonological finite-systems.
+* We talked about the rol of composition in the construction of
+  compilers of rewrite rules into finite-state transducers. (See
+  [Mohri and Sproat 1996](materials/MohriSproat1996.pdf) for details.)
+* Here are [instructions](materials/minimize.html) on how to take a
+  transducer in ATT format, prepare it for classification, and then
+  classify it with plebby.
+
 ## 15 Apr
 
 * We studied function composition with transducers.

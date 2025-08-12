@@ -14,11 +14,40 @@
 
 # Course Log
 
+## 08 May
+
+* Class canceled, instructor away.
+* Thanks for the great semester!
+* Submit your [course evaluation here](http://url5919.courseval.net/ls/click?upn=u001.hk7A-2FjnA6gotchwZQDt3bJX5hf-2BilO0iViB-2Bwdu5U6l7TbSqb1-2BYhL8-2BgVzMbtcH7yHfEyXpV3lXLURQyghyhvR9-2FNWZX7AzH9CPU5A7kyQ-3DBgR1_yi-2FF8O9dI2IZIjwMOLdjRGE9tSRLzPSuBNHRw74RFFfsBmLiayUxGqQ8eJUQX4OsP0O95DYOlHOZFzfd-2BmSoCltOsBnE8kwE-2F4XkY5YWZ8y0nicI0zvwS5MRmIe7miaphH9JzA-2F1vpHawm6UjR1L4ye-2BBkRY97mzwYm-2BKN1ZaIHvyxt9RqIUe6TO73L-2BLoxs-2FUKjRxTHMMIJuH8FSK-2FFV95bIkjAbDwChN126Ac4QmM-3D)
+
+## 06 May
+
+* Today we enjoyed presentations from Matthew, Dorothy, William, and Abed.
+
+## 01 May
+
+* Today we enjoyed presentations from Ola, Jacob, and Anton.
+
+## 28 Apr
+
+* We finished discussion of the BMP.
+* We [reviewed](materials/review.md) the contents of this course.
+* We discussed current research directions in phonology more broadly.
+
+## 24 Apr
+
+* We discussed the [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151).
+
+## 22 Apr
+
+* We discussed Dida and [abstractness](materials/kk77.md).
+
+
 ## 17 Apr
 
 * We finished our discussion of Rose and Walker 2011.
 * Reading and schedule for the next last weeks:
-  - Apr 22: [Kaye 1980](materials/RoseWalkerHarmonysystemsch8.pdf) and
+  - Apr 22: [Kaye 1980](materials/Kaye1980.pdf) and
     [Kenstowicz and Kisseberth
     1977](materials/KenstowiczKisseberth1977.pdf) on abstractness
   - Apr 24: [Blueprint Model of Production](https://ling.auf.net/lingbuzz/008151)
@@ -34,7 +63,8 @@
 
 ## 10 Apr
 
-* to be added soon
+* We finished our discussion of tone and autosegmental
+  representations.
 
 ## 08 Apr
 
@@ -42,7 +72,7 @@
   - [overview](materials/tone-overview.pdf) of pitch, intonation and mostly tone (with some exercises)
   - [handout on autosegmental reps](materials/tone-ASRs.pdf)
   - [excerpt](materials/marlo.pdf) from Marlo on OT and tone (but also see Yip's book)
-* [Squib 3: Lama](materials/Lama.pdf) is due in ONE WEEK! 
+* [Squib 3: Lama](materials/Lama.pdf) is due in ONE WEEK!
 
 
 ## 03 Apr
