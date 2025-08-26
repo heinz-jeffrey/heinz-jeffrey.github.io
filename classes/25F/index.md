@@ -19,5 +19,6 @@
 * We went over the syllabus.
 * We introduced the idea of studying learning as a computational problem.
 * We studied the meanings of consistent estimators.
+* [01intro.pdf](materials/01intro.pdf)
 
 -------------------------------------------------------------------------------
