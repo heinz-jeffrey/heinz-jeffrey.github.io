@@ -2,7 +2,7 @@
 
 # Course Information
 
-**Course:** TThu 09:30-10:50 
+**Course:** TThu 09:30-10:50
 
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
@@ -20,5 +20,7 @@
 * We introduced the idea of studying learning as a computational problem.
 * We studied the meanings of consistent estimators.
 * [01intro.pdf](materials/01intro.pdf)
+* For Thursday: please read sections 1-3 of [Gold
+  1967](materials/Gold--1967--LanguageIdentificationInTheLimit.pdf).
 
 -------------------------------------------------------------------------------
