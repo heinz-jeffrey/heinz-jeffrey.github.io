@@ -21,6 +21,7 @@
 * We discussed the first few sections of Gold 1967.
 * We are prepared to discuss [enumeration](materials/enumeration.pdf),
   which plays an important role in computability.
+* For next Tuesday, read section 4 of Gold 1967.
 
 ## 26 Aug 2025
 
