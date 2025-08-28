@@ -14,6 +14,14 @@
 
 # Course Log
 
+## 28 Aug 2025
+
+* We discussed finished talking about likelihood.
+* We continued talking about learning as a computational problem.
+* We discussed the first few sections of Gold 1967.
+* We are prepared to discuss [enumeration](materials/enumeration.pdf),
+  which plays an important role in computability.
+
 ## 26 Aug 2025
 
 * We went over the syllabus.
