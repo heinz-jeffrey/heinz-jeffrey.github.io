@@ -16,8 +16,17 @@
 
 ## 02 Sep 2025
 
-* [id in the limit](materials/03idlimit.pdf)
-* brief notes on [recursive function theory](materials/recursive-function-theory.pdf)
+* We discussed the twelve identification in the limit paradigms that
+  Gold introduced, the main results, and Gold's discussion of the
+  implications of these results vis a vis child acquisition.
+* We took a brief aside on [recursive function
+  theory](materials/recursive-function-theory.pdf) to get an idea of
+  some of the finer points of arbitrary functions/sets/text versus
+  recursive functions/sets/text versus primitive recursive
+  functions/sets/text.
+*  Here are some notes on [id in the
+  limit](materials/03idlimit.pdf). Please read up to, but not
+  including, section 2.4 for Thursday. Document the mistakes!
 
 ## 28 Aug 2025
 
