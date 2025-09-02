@@ -14,6 +14,11 @@
 
 # Course Log
 
+## 02 Sep 2025
+
+* [id in the limit](materials/03idlimit.pdf)
+* brief notes on [recursive function theory](materials/recursive-function-theory.pdf)
+
 ## 28 Aug 2025
 
 * We discussed finished talking about likelihood.
