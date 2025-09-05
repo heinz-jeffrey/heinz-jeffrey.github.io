@@ -14,6 +14,24 @@
 
 # Course Log
 
+## 04 Sep 2025
+
+* We went through the notes on [id in the
+  limit](materials/03idlimit.pdf). In particular:
+* We reviewed identification in the limit of testers from arbitrary
+  text (commonly known as identification in the limit from positive
+  data).
+* We examined some two classes of formal languages (Strictly
+  k-Piecewise and Strictly k-Local) and algorithms which can learn
+  these classes under this definition of learning. Both exemplify
+  "string extension learning" which is a particular kind of learning
+  strategy. It has other properties as well which we will return to later.
+* At the end of class we considered another strategy based on
+  enumeration, and presented an algorithm which learns the class BAR-X
+  under this definition.
+* For next Tuesday please study Theorems 4 and 6 and their
+  proofs. (You can skip Theorems 5 and 7 for now.)
+  
 ## 02 Sep 2025
 
 * We discussed the twelve identification in the limit paradigms that
