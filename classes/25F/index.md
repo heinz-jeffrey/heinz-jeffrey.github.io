@@ -14,6 +14,18 @@
 
 # Course Log
 
+## 09 Sep 2025
+
+* We reviewed the proofs of theorems 4 and 6 and discussed them.
+* We proved the following statement: Any finite class of languages is
+  identifiable in the limit (hypothesizing testers) from positive
+  (arbitrary) data.
+* Time permitting, we considered the learnability of languages spoken
+  on the planet [Verorez](materials/04verorez.pdf).
+* For Thursday, begin reading [chapter 3](materials/HdlHvZ2015.pdf) on
+  state-merging.
+
+
 ## 04 Sep 2025
 
 * We went through the notes on [id in the
@@ -31,7 +43,7 @@
   under this definition.
 * For next Tuesday please study Theorems 4 and 6 and their
   proofs. (You can skip Theorems 5 and 7 for now.)
-  
+
 ## 02 Sep 2025
 
 * We discussed the twelve identification in the limit paradigms that
