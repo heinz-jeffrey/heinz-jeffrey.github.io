@@ -6,7 +6,7 @@
 
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
-**Office Hours:** TBD
+**Office Hours:** WF 3:30pm-5:00pm
 
 # Materials
 
@@ -20,10 +20,15 @@
 * We proved the following statement: Any finite class of languages is
   identifiable in the limit (hypothesizing testers) from positive
   (arbitrary) data.
-* Time permitting, we considered the learnability of languages spoken
-  on the planet [Verorez](materials/04verorez.pdf).
-* For Thursday, begin reading [chapter 3](materials/HdlHvZ2015.pdf) on
-  state-merging.
+* Homework for Thursday: Write 1-2 paragraphs (no more than one page),
+  reflecting on the identification in the limit paradigm. What are
+  some choices in its definition of learning that you would
+  reconsider and why? Please email the assignment to me.
+
+<!-- * Time permitting, we considered the learnability of languages spoken -->
+<!--   on the planet [Verorez](materials/04verorez.pdf). -->
+<!-- * For Thursday, begin reading [chapter 3](materials/HdlHvZ2015.pdf) on -->
+<!--   state-merging. -->
 
 
 ## 04 Sep 2025
