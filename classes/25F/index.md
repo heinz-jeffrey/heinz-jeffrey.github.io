@@ -14,7 +14,23 @@
 
 # Course Log
 
-## 13 Sep 2025
+## 18 Sep 2025
+
+* We reviewed the zero-reversible languages and the state-merging algorithm for learning them.
+* We discussed state-merging strategies more broadly for learning regular languages.
+* Abed presented on string extension learning.
+* Future topics for possible presentation
+  - a state-merging strategy for learning stress patterns [Heinz 2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf)
+  - RPNI - efficient learning of the class of regular languages from
+    positive and negative data [de la Higuera 2010, Chapter 12 section
+    4](materials/delaHiguera2010.pdf)
+  - Substitutable languages (a subclass of CF languages) [Clark and Eyraud 2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
+
+  <!-- - Distributional learning more generally []() -->
+  <!-- - Efficiency Concerns [Eyraud et al. 2014]() -->
+
+
+## 16 Sep 2025
 
 * We discussed some of your ideas on how to modify identification in the limit.
 * We discussed language learning on [planet
