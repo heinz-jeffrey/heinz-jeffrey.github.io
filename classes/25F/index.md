@@ -31,6 +31,7 @@
   - Substitutable languages (a subclass of CF languages) [Clark and
     Eyraud
     2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
+    **Claimed by M for 10/02!**
   - Sting extension learning with noise [Wu and Heinz
     2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf)
     **Claimed by Hannah for 9/25!**  <!-- - Distributional learning
