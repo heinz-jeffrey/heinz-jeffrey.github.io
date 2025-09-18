@@ -16,18 +16,26 @@
 
 ## 18 Sep 2025
 
-* We reviewed the zero-reversible languages and the state-merging algorithm for learning them.
-* We discussed state-merging strategies more broadly for learning regular languages.
+* We reviewed the zero-reversible languages and the state-merging
+  algorithm for learning them.
+* We discussed state-merging strategies more broadly for learning
+  regular languages.
 * Abed presented on string extension learning.
 * Future topics for possible presentation
-  - a state-merging strategy for learning stress patterns [Heinz 2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf)
+  - a state-merging strategy for learning stress patterns [Heinz
+    2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf)
+    **Claimed by Matthew for 9/30!**
   - RPNI - efficient learning of the class of regular languages from
     positive and negative data [de la Higuera 2010, Chapter 12 section
     4](materials/delaHiguera2010.pdf)
-  - Substitutable languages (a subclass of CF languages) [Clark and Eyraud 2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
-  - Sting extension learning with noise [Wu and Heinz 2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf)
-  <!-- - Distributional learning more generally []() -->
-  <!-- - Efficiency Concerns [Eyraud et al. 2014]() -->
+  - Substitutable languages (a subclass of CF languages) [Clark and
+    Eyraud
+    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
+  - Sting extension learning with noise [Wu and Heinz
+    2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf)
+    **Claimed by Hannah for 9/25!**  <!-- - Distributional learning
+    more generally []() --> <!-- - Efficiency Concerns [Eyraud et
+    al. 2014]() -->
 
 
 ## 16 Sep 2025
