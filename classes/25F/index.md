@@ -25,7 +25,7 @@
     positive and negative data [de la Higuera 2010, Chapter 12 section
     4](materials/delaHiguera2010.pdf)
   - Substitutable languages (a subclass of CF languages) [Clark and Eyraud 2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf)
-
+  - Sting extension learning with noise [Wu and Heinz 2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf)
   <!-- - Distributional learning more generally []() -->
   <!-- - Efficiency Concerns [Eyraud et al. 2014]() -->
 
