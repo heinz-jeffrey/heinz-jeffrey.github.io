@@ -14,6 +14,68 @@
 
 # Course Log
 
+## Upcoming
+
+* Thursday 9/25
+  - read [Wu and Heinz
+    2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf), which
+    Hanna presents
+  - we will also discuss an efficient, state-merging method "RPNI",
+    which identifies the class of regular languages in the limit from
+    positive and negative data.
+* Tuesday 9/30
+  - read [Heinz
+    2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf),
+    which Matthew presents
+  - we will also introduce the PAC learning criterion
+* Thursday 10/02
+  - read [Clark and Eyraud
+    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf),
+    which M presents which Matthew presents
+  - we continue with PAC
+* Tuesday 10/07
+  - Jacob presents Angluin's proof, reading [Angluin
+    1980](materials/Angluin1980-iiflpd.pdf), section 3, condition 1
+    and/or 2 (TBD)
+  - we continue with PAC
+
+## 23 Sep 2025
+
+* We discussed some items in the string extension learning paper.
+  - the characteristic sample
+  - the example relating to the Parikh map
+  - the example relating to the generalized subsequence languages
+* We discussed Angluin's theorem, but did not prove it.  **Claimed by
+  Jacob to show proof on 10/07!**
+* We reviewed three ways to learn k-SL languages
+  1. collect permissible k-factors
+  2. build prefix tree and merge states with a k-1 prefix
+  3. "filling in" the transitions and states of a k-definite machine
+* We observed that each method is an instantiation of a more general strategy
+  1. string extension learning
+  2. state-merging
+  3. activating parts of a fixed, deterministic grammar
+* We observed that string extension learning has been generalized to
+  lattice learning [(Heinz, Kasprzik, and Kötzing
+  2013)](https://www.jeffreyheinz.net/papers/Heinz-KasprzikEtAl-2012-LLHS.pdf)
+* We observed that the "filling in" method
+  - can be generalized to multiple finite DFA (for handling the k-SP
+  language) [(Heinz and Rogers
+  2013)](http://jeffreyheinz.net/papers/Heinz-Rogers-2013-LSCLFDA.pdf)
+  - has a probabilistic variant, which is the classical n-gram model,
+    which finds the MLE of the data with respect to this type of model.
+  - (and the probabilistic variant can also be extended to multiple
+    DFA [(Shibata and Heinz
+    2018)](http://jeffreyheinz.net/papers/Shibata-Heinz-2019-MLEFRDSL.pdf)
+    )
+* Resources for learning more on state merging
+  - [de la Higuera 2010](materials/delaHiguera2010.pdf) is a
+    comprehensive, technical treatment
+  - [Heinz, de la Higuera, and van Zaanen
+    2015](materials/HdlHvZ2015.pdf) is less technical, and covers main
+    ideas
+* For Thursday:
+
 ## 18 Sep 2025
 
 * We reviewed the zero-reversible languages and the state-merging
@@ -110,7 +172,7 @@
   L') in a proper subset relationship (so L is a subset of L'), (a
   grammar for) language L is ordered before (a grammar for) language
   L'. Then a learning strategy is to find the first grammar in the
-  list consistent with the data so far. 
+  list consistent with the data so far.
 * Homework for Thursday: Write 1-2 paragraphs (no more than one page),
   reflecting on the identification in the limit paradigm. What are
   some choices in its definition of learning that you would reconsider
