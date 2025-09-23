@@ -19,7 +19,7 @@
 * Thursday 9/25
   - read [Wu and Heinz
     2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf), which
-    Hanna presents
+    Hannah presents
   - we will also discuss an efficient, state-merging method "RPNI",
     which identifies the class of regular languages in the limit from
     positive and negative data.
