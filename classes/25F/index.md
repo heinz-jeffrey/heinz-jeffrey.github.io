@@ -16,13 +16,6 @@
 
 ## Upcoming
 
-* Thursday 9/25
-  - read [Wu and Heinz
-    2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf), which
-    Hannah presents
-  - we will also discuss an efficient, state-merging method "RPNI",
-    which identifies the class of regular languages in the limit from
-    positive and negative data.
 * Tuesday 9/30
   - read [Heinz
     2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf),
@@ -38,6 +31,17 @@
     1980](materials/Angluin1980-iiflpd.pdf), section 3, condition 1
     and/or 2 (TBD)
   - we continue with PAC
+
+## Thursday 9/25
+  - Hannah presented on [Wu and Heinz
+    2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf). We also
+    discussed the limitations of using relative frequencies as a way
+    to distinguish between well-formed and ill-formed expressions.
+  - We discussed an efficient, state-merging method "RPNI", which
+    identifies the class of regular languages in the limit from
+    positive and negative data. See [de la Higuera
+    2010](materials/delaHiguera2010.pdf) for more details (Chapter
+    12).
 
 ## 23 Sep 2025
 
