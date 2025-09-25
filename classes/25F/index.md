@@ -24,7 +24,7 @@
 * Thursday 10/02
   - read [Clark and Eyraud
     2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf),
-    which M presents which Matthew presents
+    which M presents 
   - we continue with PAC
 * Tuesday 10/07
   - Jacob presents Angluin's proof, reading [Angluin
