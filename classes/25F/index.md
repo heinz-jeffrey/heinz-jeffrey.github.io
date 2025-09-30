@@ -32,16 +32,25 @@
     and/or 2 (TBD)
   - we continue with PAC
 
+## Thursday 9/30
+
+
+* Introduction to PAC. We will be covering:
+  - Sections 5.2 - 5.6 (inclusive) of [Valiant
+    2013](materials/Valiant2013.pdf).
+  - And then up to 1.4 of [Kearns and Vazirani
+    1994](materials/KV94.pdf)
+
 ## Thursday 9/25
-  - Hannah presented on [Wu and Heinz
-    2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf). We also
-    discussed the limitations of using relative frequencies as a way
-    to distinguish between well-formed and ill-formed expressions.
-  - We discussed an efficient, state-merging method "RPNI", which
-    identifies the class of regular languages in the limit from
-    positive and negative data. See [de la Higuera
-    2010](materials/delaHiguera2010.pdf) for more details (Chapter
-    12).
+
+* Hannah presented on [Wu and Heinz
+  2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf). We also
+  discussed the limitations of using relative frequencies as a way to
+  distinguish between well-formed and ill-formed expressions.
+* We discussed an efficient, state-merging method "RPNI", which
+  identifies the class of regular languages in the limit from positive
+  and negative data. See [de la Higuera
+  2010](materials/delaHiguera2010.pdf) for more details (Chapter 12).
 
 ## 23 Sep 2025
 
