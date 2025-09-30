@@ -16,15 +16,10 @@
 
 ## Upcoming
 
-* Tuesday 9/30
-  - read [Heinz
-    2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf),
-    which Matthew presents
-  - we will also introduce the PAC learning criterion
 * Thursday 10/02
   - read [Clark and Eyraud
     2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf),
-    which M presents 
+    which M presents
   - we continue with PAC
 * Tuesday 10/07
   - Jacob presents Angluin's proof, reading [Angluin
@@ -34,8 +29,12 @@
 
 ## Thursday 9/30
 
-
-* Introduction to PAC. We will be covering:
+*  Matthew presented [Heinz
+   2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf), on
+   learning stress patterns with neighborhood distinctness.
+* We began our introduction to PAC. We got through sections 5.2 and
+  5.3 of [Valiant 2013](materials/Valiant2013.pdf).
+* PAC readings in the near term which we will be going over in class.
   - Sections 5.2 - 5.6 (inclusive) of [Valiant
     2013](materials/Valiant2013.pdf).
   - And then up to 1.4 of [Kearns and Vazirani
