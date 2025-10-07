@@ -16,18 +16,23 @@
 
 ## Upcoming
 
-* Thursday 10/02
-  - read [Clark and Eyraud
-    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf),
-    which M presents
-  - we continue with PAC
 * Tuesday 10/07
   - Jacob presents Angluin's proof, reading [Angluin
     1980](materials/Angluin1980-iiflpd.pdf), section 3, condition 1
     and/or 2 (TBD)
   - we continue with PAC
 
-## Thursday 9/30
+## 07 Oct 2025
+
+* Formal [introduction to PAC](materials/05pacintro.pdf)
+
+## 02 Oct 2025
+  - M presented [Clark and Eyraud
+    2007](https://www.jmlr.org/papers/volume8/clark07a/clark07a.pdf),
+  - We continued with PAC, getting through section 5.6 of [Valiant
+    2013](materials/Valiant2013.pdf).
+
+## 30 Sep 2025
 
 *  Matthew presented [Heinz
    2009](https://www.jeffreyheinz.net/papers/Heinz-2009-RLLSP.pdf), on
@@ -40,7 +45,7 @@
   - And then up to 1.4 of [Kearns and Vazirani
     1994](materials/KV94.pdf)
 
-## Thursday 9/25
+## 25 Sep 2025
 
 * Hannah presented on [Wu and Heinz
   2023](https://proceedings.mlr.press/v217/wu23a/wu23a.pdf). We also
