@@ -4,7 +4,8 @@
 
 **Course:** TuTh 09:30-10:50
 
-**Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/), [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
+**Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/),
+  [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
 **Office Hours:** WF 3:30pm-5:00pm
 
@@ -16,15 +17,42 @@
 
 ## Upcoming
 
-* Tuesday 10/07
-  - Jacob presents Angluin's proof, reading [Angluin
-    1980](materials/Angluin1980-iiflpd.pdf), section 3, condition 1
-    and/or 2 (TBD)
-  - we continue with PAC
+(subject to change)
+
+* Thu 10/16 - [BUFIA](https://aclanthology.org/W19-5708/) by Ola
+* Tue 10/21 - [Yang and Piantadosi 2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by Robin
+* Thu 10/23 - One of [OSTIA (see chapter 18)](materials/delaHiguera2010.pdf),
+  [ISLFLA](https://transacl.org/ojs/index.php/tacl/article/view/429/84),
+  or [SOSFIA](https://proceedings.mlr.press/v34/jardine14a.html) (DF
+  Transducer learning) by Dorothy
+* Tue 10/28 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
+* Thu 10/30 - [review paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by Geonhee
+* Tue 11/04 - something related to syntactic learning (precise paper TBD) by Alina
+
+## 09 Oct 2025
+
+* We made plans for papers and topics to study in upcoming weeks.
+* We discussed in broad terms ideas for final projects.
+  - theoretical work -- identify linguistically motivated classes of
+    concepts learnable under some criterion
+  - theoretical/empirical work -- identify weakness in some current
+    learning algorithm and improve it
+  - empirical work -- compare a new variant of a learning algorithm
+    (that you are introducing) to the existing version on one or more
+    datasets
+  - empirical work -- compare an existing learning algorithm on one or
+    more datasets to others (such as NNs or maxent)
+* We began the formal [introduction to PAC](materials/05pacintro.pdf)
 
 ## 07 Oct 2025
 
-* Formal [introduction to PAC](materials/05pacintro.pdf)
+* Jacob presented Angluin's proof, reading [Angluin
+  1980](materials/Angluin1980-iiflpd.pdf), section 3q, condition 1
+  and/or 2 (TBD)
+* We introduced the axis-aligned rectangle learning problem and
+  identified the strategy of selecting the smallest axis-aligned
+  rectangle which fits the positive data will as one that will succeed
+  if all positive data points are eventually observed.
 
 ## 02 Oct 2025
   - M presented [Clark and Eyraud
