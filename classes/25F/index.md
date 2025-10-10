@@ -19,15 +19,25 @@
 
 (subject to change)
 
-* Thu 10/16 - [BUFIA](https://aclanthology.org/W19-5708/) by Ola
-* Tue 10/21 - [Yang and Piantadosi 2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by Robin
-* Thu 10/23 - One of [OSTIA (see chapter 18)](materials/delaHiguera2010.pdf),
+* Thu 10/16 - Jeff on [PAC](materials/KV94.pdf) (up to 1.4)
+* Tue 10/21 - [BUFIA](https://aclanthology.org/W19-5708/) by Ola
+* Thu 10/23 - Guest Lectures by Logan and Han on their recent papers
+* Tue 10/28 - [Yang and Piantadosi
+  2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by
+  Robin
+* Thu 10/30 - One of [OSTIA (see chapter
+  18)](materials/delaHiguera2010.pdf),
   [ISLFLA](https://transacl.org/ojs/index.php/tacl/article/view/429/84),
   or [SOSFIA](https://proceedings.mlr.press/v34/jardine14a.html) (DF
   Transducer learning) by Dorothy
-* Tue 10/28 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
-* Thu 10/30 - [review paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by Geonhee
-* Tue 11/04 - something related to syntactic learning (precise paper TBD) by Alina
+* Tue 11/04 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
+* Thu 11/06 - Guest lecture by Magda on her recent paper +
+  dissertation research
+* Tue 11/11 - [review
+  paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by
+  Geonhee
+* Thu 11/13 - something related to syntactic learning (precise paper
+  TBD) by Alina
 
 ## 09 Oct 2025
 
