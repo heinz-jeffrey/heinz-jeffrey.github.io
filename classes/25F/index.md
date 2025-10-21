@@ -41,6 +41,7 @@
 ## 21 Oct 2025
 
 * Ola presented the [BUFIA](https://aclanthology.org/W19-5708/) paper.
+* We discussed abductive principles as they relate to bufia (see chapters 3 and 4 of [Rawski 2021](http://jeffreyheinz.net/advisees/2021_JonRawski_dissertation.pdf)).
 * We discussed [empirical and theoretical approaches to
   learning](materials/06empirical.pdf).
 
