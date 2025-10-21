@@ -19,8 +19,6 @@
 
 (subject to change)
 
-* Thu 10/16 - Jeff on [PAC](materials/KV94.pdf) (up to 1.4)
-* Tue 10/21 - [BUFIA](https://aclanthology.org/W19-5708/) by Ola
 * Thu 10/23 - Guest Lectures by Logan and Han on their recent papers
 * Tue 10/28 - [Yang and Piantadosi
   2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by
@@ -30,7 +28,7 @@
   [ISLFLA](https://transacl.org/ojs/index.php/tacl/article/view/429/84),
   or [SOSFIA](https://proceedings.mlr.press/v34/jardine14a.html) (DF
   Transducer learning) by Dorothy
-* Tue 11/04 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
+  * Tue 11/04 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
 * Thu 11/06 - Guest lecture by Magda on her recent paper +
   dissertation research
 * Tue 11/11 - [review
@@ -38,6 +36,25 @@
   Geonhee
 * Thu 11/13 - something related to syntactic learning (precise paper
   TBD) by Alina
+
+
+## 21 Oct 2025
+
+* Ola presented the [BUFIA](https://aclanthology.org/W19-5708/) paper.
+* We discussed [empirical and theoretical approaches to
+  learning](materials/06empirical.pdf).
+
+
+## 16 Oct 2025
+
+* We went over the proofs that the strategies we discussed for
+  learning (1) axis-aligned rectangles and (2) monomials both satisfy
+  the PAC-criteria. See [Kearns and Vazirani](materials/KV94.pdf) (up
+  to 1.4), and Jeff's [notes on it](materials/05pacintro.pdf)
+
+## 14 Oct 2025
+
+* FALL BREAK - NO CLASS
 
 ## 09 Oct 2025
 
