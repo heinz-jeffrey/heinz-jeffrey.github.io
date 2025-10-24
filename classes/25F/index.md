@@ -28,7 +28,8 @@
   [ISLFLA](https://transacl.org/ojs/index.php/tacl/article/view/429/84),
   or [SOSFIA](https://proceedings.mlr.press/v34/jardine14a.html) (DF
   Transducer learning) by Dorothy
-  * Tue 11/04 - [UR learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
+* Tue 11/04 - [UR
+  learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
 * Thu 11/06 - Guest lecture by Magda on her recent paper +
   dissertation research
 * Tue 11/11 - [review
@@ -37,6 +38,13 @@
 * Thu 11/13 - something related to syntactic learning (precise paper
   TBD) by Alina
 
+
+
+## 23 Oct 2025
+
+* Logan presented on his work applying bufia to Quechua.
+* Han presented her work on developing a version of bufia over
+  autosegmental representations for learning tonotactics.
 
 ## 21 Oct 2025
 
