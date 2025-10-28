@@ -23,11 +23,8 @@
 * Tue 10/28 - [Yang and Piantadosi
   2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by
   Robin
-* Thu 10/30 - One of [OSTIA (see chapter
-  18)](materials/delaHiguera2010.pdf),
-  [ISLFLA](https://transacl.org/ojs/index.php/tacl/article/view/429/84),
-  or [SOSFIA](https://proceedings.mlr.press/v34/jardine14a.html) (DF
-  Transducer learning) by Dorothy
+* Thu 10/30 - [OSTIA (see chapter
+  18)](materials/delaHiguera2010.pdf) by Dorothy
 * Tue 11/04 - [UR
   learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
 * Thu 11/06 - Guest lecture by Magda on her recent paper +
@@ -39,6 +36,11 @@
   TBD) by Alina
 
 
+
+## 28 Oct 2025
+* Robin presents the Yang and Piantadosi paper.
+* We had a follow-up discussion on bufia.
+* We discussed the [Vapnik-Chervonenkis dimension](materials/07vcd.pdf).
 
 ## 23 Oct 2025
 
