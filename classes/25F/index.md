@@ -19,26 +19,32 @@
 
 (subject to change)
 
-* Thu 10/23 - Guest Lectures by Logan and Han on their recent papers
-* Tue 10/28 - [Yang and Piantadosi
-  2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) by
-  Robin
-* Thu 10/30 - [OSTIA (see chapter
-  18)](materials/delaHiguera2010.pdf) by Dorothy
-* Tue 11/04 - [UR
-  learning](https://proceedings.mlr.press/v153/hua21a.html) by Ben
 * Thu 11/06 - Guest lecture by Magda on her recent paper +
   dissertation research
-* Tue 11/11 - [review
+* Thu 11/13 - Learning syntactic structures [Clark
+  2013](materials/Clark2013.pdf) by Alina
+* Tue 11/20 - [review
   paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by
   Geonhee
-* Thu 11/13 - something related to syntactic learning (precise paper
-  TBD) by Alina
 
 
+## 04 Nov 2025
+
+* We planned the remainder of the semester.
+* New deadline: proposals need be approved by me by November 11.
+* Ben presents on [Hua and Jardine
+  2021](https://proceedings.mlr.press/v153/hua21a.html)
+
+## 30 Oct 2025
+
+* Dorothy presented [OSTIA (see chapter
+  18)](materials/delaHiguera2010.pdf)
+* We compelted discussion of the [Vapnik-Chervonenkis
+  dimension](materials/07vcd.pdf).
 
 ## 28 Oct 2025
-* Robin presents the Yang and Piantadosi paper.
+* Robin presents the [Yang and Piantadosi
+  2022](https://www.pnas.org/doi/full/10.1073/pnas.2021865119) paper.
 * We had a follow-up discussion on bufia.
 * We discussed the [Vapnik-Chervonenkis dimension](materials/07vcd.pdf).
 
