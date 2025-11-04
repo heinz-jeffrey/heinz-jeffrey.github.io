@@ -21,12 +21,19 @@
 
 * Thu 11/06 - Guest lecture by Magda on her recent paper +
   dissertation research
-* Thu 11/13 - Learning syntactic structures [Clark
-  2013](materials/Clark2013.pdf) by Alina
-* Tue 11/20 - [review
+* Tue 11/11 - [Generation in the
+  Limit](https://proceedings.neurips.cc/paper_files/paper/2024/file/7988e9b3876ad689e921ce05d711442f-Paper-Conference.pdf). See
+  also the [tutorial session](https://languagegeneration.github.io/).
+* Thu 11/13 - Learning from Stochastic Examples [Angluin 1988](materials/Angluin1988TR614.pdf)
+* Tue 11/18 - Bias Variance Tradeoff and Double Descent
+* Thu 11/20 - Learning syntactic structures [Clark
+  2013](materials/Clark2013.pdf) by Alina, and [review
   paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by
   Geonhee
-
+* Tue 11/25 - [Futrell and Mahowald
+  2025](https://arxiv.org/abs/2501.17047) discussion
+* Thu 12/02 - Student presentations: M, Jacob, Ola, Hannah, Ben, Abed
+* Tue 12/04 - Student presentations: Dorothy, Alina, Mathew, Robin, Geonhee
 
 ## 04 Nov 2025
 
