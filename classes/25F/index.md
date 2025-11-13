@@ -33,7 +33,7 @@
 
 ## 13 Nov 2025
 
-* [Slides](cis-angluin88tr614.beamer.pdf) on Angluin's 1988 TR that I
+* [Slides](materials/cis-angluin88tr614.beamer.pdf) on Angluin's 1988 TR that I
   presented some fifteen years ago!
 
 ## 11 Nov 2025
