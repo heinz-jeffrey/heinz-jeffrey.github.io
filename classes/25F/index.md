@@ -30,10 +30,15 @@
 * Thu 12/02 - Student presentations: M, Jacob, Ola, Hannah, Ben, Abed
 * Tue 12/04 - Student presentations: Dorothy, Alina, Mathew, Robin, Geonhee
 
+
+## 13 Nov 2025
+
+* [Slides](cis-angluin88tr614.beamer.pdf) on Angluin's 1988 TR that I
+  presented some fifteen years ago!
+
 ## 11 Nov 2025
 
-
-* [handout](materials/generationinthelimit.pdf)
+* A [handout](materials/generationinthelimit.pdf) on generation in the limit.
 * We discussed the paper [Generation in the Limit](https://proceedings.neurips.cc/paper_files/paper/2024/file/7988e9b3876ad689e921ce05d711442f-Paper-Conference.pdf). * See also the [tutorial
   session](https://languagegeneration.github.io/).
 
