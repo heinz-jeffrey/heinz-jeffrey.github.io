@@ -19,8 +19,6 @@
 
 (subject to change)
 
-* Thu 11/13 - Learning from Stochastic Examples [Angluin 1988](materials/Angluin1988TR614.pdf)
-* Tue 11/18 - Bias Variance Tradeoff and Double Descent
 * Thu 11/20 - Learning syntactic structures [Clark
   2013](materials/Clark2013.pdf) by Alina, and [review
   paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by
@@ -31,10 +29,16 @@
 * Tue 12/04 - Student presentations: Dorothy, Alina, Mathew, Robin, Geonhee
 
 
+## 18 Nov 2025
+
+* Today we organize next Tuesday's debate!
+* [handout](materials/bias-variance-dd.pdf) on the bias-variance
+  tradeoff and double-descent
+
 ## 13 Nov 2025
 
-* [Slides](materials/cis-angluin88tr614.beamer.pdf) on Angluin's 1988 TR that I
-  presented some fifteen years ago!
+* [Slides](materials/cis-angluin88tr614.beamer.pdf) on Angluin's 1988
+  TR that I presented some fifteen years ago!
 
 ## 11 Nov 2025
 
