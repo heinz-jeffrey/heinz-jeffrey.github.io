@@ -15,19 +15,34 @@
 
 # Course Log
 
-## Upcoming
+## 04 Dec 2025
 
-(subject to change)
+* Project presentations by Dorothy, Alina, Mathew, Robin, and Geonhee.
+* Jeff summarizes the class.
 
-* Thu 11/20 - Learning syntactic structures [Clark
-  2013](materials/Clark2013.pdf) by Alina, and [review
-  paper](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf) by
-  Geonhee
-* Tue 11/25 - [Futrell and Mahowald
-  2025](https://arxiv.org/abs/2501.17047) discussion
-* Thu 12/02 - Student presentations: M, Jacob, Ola, Hannah, Ben, Abed
-* Tue 12/04 - Student presentations: Dorothy, Alina, Mathew, Robin, Geonhee
+## 02 Dec 2025
 
+* Project presentations by M, Jacob, Ola, Hannah, Ben, and Abed.
+
+## 27 Nov 2025
+
+* Thanksgiving Holiday
+
+## 25 Nov 2025
+
+* We had a very enjoyable debate about [Futrell and Mahowald
+  2025](https://arxiv.org/abs/2501.17047).
+  - Pro: Matthew, Ola, Alina, Ben
+  - Critique: Dorothy, Abed, Robin, Geonhee
+  - Judges: Hannah, M, Jake
+  - Special guest: Jordan
+
+## 20 Nov 2025
+
+* Alina presented on Learning syntactic structures [Clark
+  2013](materials/Clark2013.pdf).
+* Geonhee presented [Heinz
+  2016](http://jeffreyheinz.net/papers/Heinz-2016-CTLDP.pdf).
 
 ## 18 Nov 2025
 
