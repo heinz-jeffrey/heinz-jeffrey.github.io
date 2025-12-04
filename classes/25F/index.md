@@ -21,11 +21,11 @@
 
 * Jeff summarizes the class.
   1. Three main parameters in learning problems
-    1. class of concepts to be learned
-    2. class of admissible data presentations for those concepts
-    3. resources allowed
-  2. Fundamental computational tradoffs exist that are akin to physical
-    conservation laws. "No Free Lunch"
+     1. class of concepts to be learned
+     2. class of admissible data presentations for those concepts
+     3. resources allowed
+  2. Fundamental computational tradoffs exist that are akin to
+     physical conservation laws. "No Free Lunch"
   3. Understanding the general behavior of learning algoritms is
     important.
     - long term behavior: How does the learner behave in the limit?
