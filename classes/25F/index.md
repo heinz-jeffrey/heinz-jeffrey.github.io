@@ -18,7 +18,34 @@
 ## 04 Dec 2025
 
 * Project presentations by Dorothy, Alina, Mathew, Robin, and Geonhee.
+
 * Jeff summarizes the class.
+  1. Three main parameters in learning problems
+    1. class of concepts to be learned
+    2. class of admissible data presentations for those concepts
+    3. resources allowed
+  2. Fundamental computational tradoffs exist that are akin to physical
+    conservation laws. "No Free Lunch"
+  3. Understanding the general behavior of learning algoritms is
+    important.
+    - long term behavior: How does the learner behave in the limit?
+      - Examples: consistent estimators, Gold's paradigms
+    - short term behavior: Given any finite data presentation, what
+      can be said about the quality of the learner's output? (cf. PAC
+      framework)
+      - Examples: MLE, grammar for smallest language in the
+      class consistent with data, 'strong' learning,
+    - Both empirical and theoretical results are important, but
+      theoretical results have been negelcted in recent decades.
+    - Empirical results are only as good as the
+      experiments/evaluations!
+  4. Much confusion can be traced to people having different ideas of
+     "what learning means".
+     - At the same time, watch out for the bait and switch: "So and so
+     said nothing can learn XYZ, but we show how to learn XYZ." Does
+     'learn' mean the same thing in both instances?
+  5. Occasionaly, there is recognition of the issues, e.g. [Goyal and
+     Bengio 2022](https://doi.org/10.1098/rspa.2021.0068)
 
 ## 02 Dec 2025
 
