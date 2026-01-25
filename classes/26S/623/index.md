@@ -25,8 +25,8 @@
   [html](materials/01-intro.html)
   to this course.
 * We began discussion of the **Lezgian assignment**
-  [pdf](materials/Lezgian.pdf)
-  [html](materials/Lezgian.html)
+  [pdf](materials/lezgian.pdf)
+  [html](materials/lezgian.html)
   due Thursday February 5 before class.
 * For Thursday, please read sections 1.1, 1.2, and 1.3 of [McCarthy
   2008](materials/McCarthy2008-DOT.pdf)
