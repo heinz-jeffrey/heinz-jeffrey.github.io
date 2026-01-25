@@ -19,7 +19,7 @@
 
 * We went over the **syllabus**
   [pdf](materials/LIN623_Syllabus_Spring2026.pdf)
-  [html](materials/LIN623_Syllabus_Spring2026.pdf).
+  [html](materials/LIN623_Syllabus_Spring2026.html).
 * We went over the **introduction**
   [pdf](materials/01-intro.pdf)
   [html](materials/01-intro.html)
