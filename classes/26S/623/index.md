@@ -7,7 +7,7 @@
 **Instructor:** [Jeffrey Heinz](http://jeffreyheinz.net/),
 [jeffrey.heinz@stonybrook.edu](mailto:jeffrey.heinz@stonybrook.edu)
 
-**Office Hours:** TBD
+**Office Hours:** MW 4:30-6pm in IACS L160
 
 **Syllabus:**
   [pdf](materials/LIN623_Syllabus_Spring2026.pdf)
