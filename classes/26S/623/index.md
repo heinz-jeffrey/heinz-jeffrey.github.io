@@ -10,8 +10,8 @@
 **Office Hours:** MW 4:30-6pm in IACS L160
 
 **Syllabus:**
-  [pdf](materials/LIN623_Syllabus_Spring2026.pdf)
-  [html](materials/LIN623_Syllabus_Spring2026.html)
+  [pdf](materials/LIN623_Syllabus_Spring2026v2.pdf)
+  [html](materials/LIN623_Syllabus_Spring2026v2.html)
 
 # Course Log
 
