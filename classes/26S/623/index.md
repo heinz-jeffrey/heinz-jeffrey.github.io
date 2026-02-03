@@ -15,7 +15,18 @@
 
 # Course Log
 
-## 27 Jan 2026
+## 03 Feb
+
+* We discussed any questions related to the intro handout.
+* We discussed questions from McCarthy 2008, chapter 1.
+* We intended to further discussed Lezgian, but did not so we will
+  start off with this on Thursday.
+* Read Chapter 2 of [McCarthy 2008](materials/McCarthy2008-DOT.pdf) up
+  to and including section 2.2 (up to page 53). Be prepared to
+  disscuss the [excerpts](materials/Chapter2discussion.txt) from these
+  sections.
+
+## 29 Jan
 
 * We went over the **syllabus**
   [pdf](materials/LIN623_Syllabus_Spring2026.pdf)
@@ -50,5 +61,9 @@
      constraints." In the specific case he discussed in Timugon Murut,
      how could one decide between these two alternatives?
   5. Please bring any questions you have about chapte 1 to class.
-  
+
+## 27 Jan
+
+* University canceled class due to Sunday's snowstorm.
+
 -------------------------------------------------------------------------------
