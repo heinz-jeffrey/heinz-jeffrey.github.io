@@ -20,11 +20,14 @@
 * We discussed Lezgian, due next Tuesday.
 * We discussed excerpts from the first couple sections of McCarthy
   2008, chapter 2.
-* [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf) 
-* Finish read Chapter 2 of [McCarthy
-  2008](materials/McCarthy2008-DOT.pdf) (you may skip section 2.9),
-  and be prepared to discuss the remanining
+* [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf) on theorizing
+  in cognitive science.
+* For next Tuesday, please read up to section 2.7 (up to page 83) and
+  Be prepared to discuss the relevant
   [excerpts](materials/Chapter2discussion.txt).
+* Finish reading Chapter 2 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf) (you may skip section 2.9) by
+  next Thursday.
 
 ## 03 Feb
 
