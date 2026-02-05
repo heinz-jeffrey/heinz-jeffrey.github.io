@@ -20,7 +20,7 @@
 * We discussed Lezgian, due next Tuesday.
 * We discussed excerpts from the first couple sections of McCarthy
   2008, chapter 2.
-* [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf) on theorizing
+* (optional) [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf) on theorizing
   in cognitive science.
 * For next Tuesday, please read up to section 2.7 (up to page 83) of
   [McCarthy 2008](materials/McCarthy2008-DOT.pdf) and be prepared to
