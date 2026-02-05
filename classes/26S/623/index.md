@@ -15,11 +15,22 @@
 
 # Course Log
 
+## 05 Feb
+
+* We discussed Lezgian, due next Tuesday.
+* We discussed excerpts from the first couple sections of McCarthy
+  2008, chapter 2.
+* [Rooij and Baggio 2021](materials/RooijBaggio2021.pdf) 
+* Finish read Chapter 2 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf) (you may skip section 2.9),
+  and be prepared to discuss the remanining
+  [excerpts](materials/Chapter2discussion.txt).
+
 ## 03 Feb
 
 * We discussed any questions related to the intro handout.
 * We discussed questions from McCarthy 2008, chapter 1.
-* We intended to further discussed Lezgian, but did not so we will
+* We intended to further discussed Lezgian, but did not, so we will
   start off with this on Thursday.
 * Read Chapter 2 of [McCarthy 2008](materials/McCarthy2008-DOT.pdf) up
   to and including section 2.2 (up to page 53). Be prepared to
