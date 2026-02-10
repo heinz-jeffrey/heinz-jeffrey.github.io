@@ -15,6 +15,21 @@
 
 # Course Log
 
+## 10 Feb
+
+* We continued our discussion of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf) up to section 2.7.
+* In particular we discussed:
+  - violation and comparative tableaux and Hasse diagrams
+  - the Yawelmani example illustrating how to come up with ranking arguments
+  - limits of ranking arguents
+  - candidates in ranking arguments
+  - harmonic bounding
+* Finish reading Chapter 2 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf) (you may skip section 2.9) by
+  next Thursday, and be prepared to discuss the relevant
+  [excerpts](materials/Chapter2discussion.txt).
+
 ## 05 Feb
 
 * We discussed Lezgian, due next Tuesday.
