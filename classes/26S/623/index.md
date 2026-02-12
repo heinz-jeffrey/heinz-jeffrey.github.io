@@ -15,6 +15,27 @@
 
 # Course Log
 
+
+## 12 Feb
+
+* We concluded discussion of Chapter 2 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf) and the relevant
+  [excerpts](materials/Chapter2discussion.txt).
+* In particular we dicussed:
+  - constraints in ranking arguments
+  - inputs in ranking arguments
+  - richness of the base
+  - contrast in OT
+  - finding and fixing problems, what to check
+  - recursive constraint demotion
+  - logic of constraint ranking (time permitting)
+* Your next squib assignment is on Ilokano
+  [pdf](materials/Ilokano.pdf) [html](materials/ilokano.html) and it
+  is due Thursday, February 26 during class. Please **print a physical
+  copy** of your assignment and turn it into me then.
+* For next Tuesday, please read Chapter 3 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf).
+
 ## 10 Feb
 
 * We continued our discussion of [McCarthy
