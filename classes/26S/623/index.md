@@ -16,6 +16,21 @@
 # Course Log
 
 
+## 17 Feb
+
+* We discussed the Lezgian assigment. Here are some [general
+  comments](materials/lezgian-comments.md).
+* We discussed Chapter 3 of [McCarthy
+  2008](materials/McCarthy2008-DOT.pdf).
+  - how to organize a paper
+  - how to write an OT analysis
+  - good scholarship, criticism
+  - how to write clearly
+* We discussed the current Ilokano assignment
+  [pdf](materials/Ilokano.pdf) [html](materials/ilokano.html) due
+  Thursday, February 26 during class.
+
+
 ## 12 Feb
 
 * We concluded discussion of Chapter 2 of [McCarthy
