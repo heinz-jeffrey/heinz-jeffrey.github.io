@@ -29,7 +29,8 @@
 * We discussed the current Ilokano assignment
   [pdf](materials/Ilokano.pdf) [html](materials/ilokano.html) due
   Thursday, February 26 during class.
-
+* Read [McCarthy 2010](materials/McCarthy2010-HS.pdf) on Harmonic
+  Serialism for Thursday. What are McCarthy's main arguments for HS?
 
 ## 12 Feb
 
