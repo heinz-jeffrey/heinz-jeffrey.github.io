@@ -15,6 +15,21 @@
 
 # Course Log
 
+## 19 Feb
+
+* We continued discussing the Ilokano assignment
+  [pdf](materials/Ilokano.pdf) [html](materials/ilokano.html) due
+  Thursday, February 26 during class.
+
+* We discussed [McCarthy 2010](materials/MacCarthy2010-HS.pdf) on Harmonic
+  Serialism.
+  - What is HS? How is a surface form calculated from an underlying form?
+  - Considering the stress-syncope interaction in Macushi Carib, what
+    is McCarthy's argument for intermediate representations?
+  - Why does McCarthy say HS provides a more restrictive typology than
+    classic parallel OT?
+  - Why does McCarthy pinpoint global optimization as a flaw of
+    classic parallel OT?
 
 ## 17 Feb
 
