@@ -8,10 +8,19 @@
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
-    span.underline{text-decoration: underline;}
-    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="my.css" />
 </head>
@@ -21,37 +30,66 @@
 </header>
 <h1 id="course-information">Course Information</h1>
 <p><strong>Course:</strong> TuTh 09:30-10:50, SBS 216</p>
-<p><strong>Instructor:</strong> <a href="http://jeffreyheinz.net/">Jeffrey Heinz</a>, <a href="mailto:jeffrey.heinz@stonybrook.edu">jeffrey.heinz@stonybrook.edu</a></p>
+<p><strong>Instructor:</strong> <a
+href="http://jeffreyheinz.net/">Jeffrey Heinz</a>, <a
+href="mailto:jeffrey.heinz@stonybrook.edu">jeffrey.heinz@stonybrook.edu</a></p>
 <p><strong>Office Hours:</strong> MW 4:30-6pm in IACS L160</p>
-<p><strong>Syllabus:</strong> <a href="materials/LIN623_Syllabus_Spring2026v2.pdf">pdf</a> <a href="materials/LIN623_Syllabus_Spring2026v2.html">html</a></p>
+<p><strong>Syllabus:</strong> <a
+href="materials/LIN623_Syllabus_Spring2026v2.pdf">pdf</a> <a
+href="materials/LIN623_Syllabus_Spring2026v2.html">html</a></p>
 <h1 id="course-log">Course Log</h1>
-<h2 id="feb">19 Feb</h2>
+<h2 id="feb">24 Feb</h2>
 <ul>
-<li><p>We continued discussing the Ilokano assignment <a href="materials/Ilokano.pdf">pdf</a> <a href="materials/ilokano.html">html</a> due Thursday, February 26 during class.</p></li>
-<li><p>We discussed <a href="materials/MacCarthy2010-HS.pdf">McCarthy 2010</a> on Harmonic Serialism.</p>
+<li>Class canceled because of the storm.</li>
+<li>The Ilokano assignment is now due Tuesday March 3 in class.</li>
+<li>Please also read the first two sections of <a
+href="materials/Pater2016.pdf">Pater 2016</a> for an introduction to
+Harmonic Grammar for Thursday Feb 26.</li>
+</ul>
+<h2 id="feb-1">19 Feb</h2>
 <ul>
-<li>What is HS? How is a surface form calculated from an underlying form?</li>
-<li>Considering the stress-syncope interaction in Macushi Carib, what is McCarthy’s argument for intermediate representations?</li>
-<li>Why does McCarthy say HS provides a more restrictive typology than classic parallel OT?</li>
-<li>Why does McCarthy pinpoint global optimization as a flaw of classic parallel OT?</li>
+<li><p>We continued discussing the Ilokano assignment <a
+href="materials/Ilokano.pdf">pdf</a> <a
+href="materials/ilokano.html">html</a> due Thursday, February 26 during
+class.</p></li>
+<li><p>We discussed <a href="materials/MacCarthy2010-HS.pdf">McCarthy
+2010</a> on Harmonic Serialism.</p>
+<ul>
+<li>What is HS? How is a surface form calculated from an underlying
+form?</li>
+<li>Considering the stress-syncope interaction in Macushi Carib, what is
+McCarthy’s argument for intermediate representations?</li>
+<li>Why does McCarthy say HS provides a more restrictive typology than
+classic parallel OT?</li>
+<li>Why does McCarthy pinpoint global optimization as a flaw of classic
+parallel OT?</li>
 </ul></li>
 </ul>
-<h2 id="feb-1">17 Feb</h2>
+<h2 id="feb-2">17 Feb</h2>
 <ul>
-<li>We discussed the Lezgian assigment. Here are some <a href="materials/lezgian-comments.md">general comments</a>.</li>
-<li>We discussed Chapter 3 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a>.
+<li>We discussed the Lezgian assigment. Here are some <a
+href="materials/lezgian-comments.md">general comments</a>.</li>
+<li>We discussed Chapter 3 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a>.
 <ul>
 <li>how to organize a paper</li>
 <li>how to write an OT analysis</li>
 <li>good scholarship, criticism</li>
 <li>how to write clearly</li>
 </ul></li>
-<li>We discussed the current Ilokano assignment <a href="materials/Ilokano.pdf">pdf</a> <a href="materials/ilokano.html">html</a> due Thursday, February 26 during class.</li>
-<li>Read <a href="materials/McCarthy2010-HS.pdf">McCarthy 2010</a> on Harmonic Serialism for Thursday. What are McCarthy’s main arguments for HS?</li>
+<li>We discussed the current Ilokano assignment <a
+href="materials/Ilokano.pdf">pdf</a> <a
+href="materials/ilokano.html">html</a> due Thursday, February 26 during
+class.</li>
+<li>Read <a href="materials/McCarthy2010-HS.pdf">McCarthy 2010</a> on
+Harmonic Serialism for Thursday. What are McCarthy’s main arguments for
+HS?</li>
 </ul>
-<h2 id="feb-2">12 Feb</h2>
+<h2 id="feb-3">12 Feb</h2>
 <ul>
-<li>We concluded discussion of Chapter 2 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and the relevant <a href="materials/Chapter2discussion.txt">excerpts</a>.</li>
+<li>We concluded discussion of Chapter 2 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and the relevant
+<a href="materials/Chapter2discussion.txt">excerpts</a>.</li>
 <li>In particular we dicussed:
 <ul>
 <li>constraints in ranking arguments</li>
@@ -62,48 +100,93 @@
 <li>recursive constraint demotion</li>
 <li>logic of constraint ranking (time permitting)</li>
 </ul></li>
-<li>Your next squib assignment is on Ilokano <a href="materials/Ilokano.pdf">pdf</a> <a href="materials/ilokano.html">html</a> and it is due Thursday, February 26 during class. Please <strong>print a physical copy</strong> of your assignment and turn it into me then.</li>
-<li>For next Tuesday, please read Chapter 3 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a>.</li>
+<li>Your next squib assignment is on Ilokano <a
+href="materials/Ilokano.pdf">pdf</a> <a
+href="materials/ilokano.html">html</a> and it is due Thursday, February
+26 during class. Please <strong>print a physical copy</strong> of your
+assignment and turn it into me then.</li>
+<li>For next Tuesday, please read Chapter 3 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a>.</li>
 </ul>
-<h2 id="feb-3">10 Feb</h2>
+<h2 id="feb-4">10 Feb</h2>
 <ul>
-<li>We continued our discussion of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> up to section 2.7.</li>
+<li>We continued our discussion of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> up to section
+2.7.</li>
 <li>In particular we discussed:
 <ul>
 <li>violation and comparative tableaux and Hasse diagrams</li>
-<li>the Yawelmani example illustrating how to come up with ranking arguments</li>
+<li>the Yawelmani example illustrating how to come up with ranking
+arguments</li>
 <li>limits of ranking arguents</li>
 <li>candidates in ranking arguments</li>
 <li>harmonic bounding</li>
 </ul></li>
-<li>Finish reading Chapter 2 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> (you may skip section 2.9) by next Thursday, and be prepared to discuss the relevant <a href="materials/Chapter2discussion.txt">excerpts</a>.</li>
+<li>Finish reading Chapter 2 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> (you may skip
+section 2.9) by next Thursday, and be prepared to discuss the relevant
+<a href="materials/Chapter2discussion.txt">excerpts</a>.</li>
 </ul>
-<h2 id="feb-4">05 Feb</h2>
+<h2 id="feb-5">05 Feb</h2>
 <ul>
 <li>We discussed Lezgian, due next Tuesday.</li>
-<li>We discussed excerpts from the first couple sections of McCarthy 2008, chapter 2.</li>
-<li>(optional) <a href="materials/RooijBaggio2021.pdf">Rooij and Baggio 2021</a> on theorizing in cognitive science.</li>
-<li>For next Tuesday, please read up to section 2.7 (up to page 83) of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and be prepared to discuss the relevant <a href="materials/Chapter2discussion.txt">excerpts</a>.</li>
-<li>Finish reading Chapter 2 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> (you may skip section 2.9) by next Thursday.</li>
+<li>We discussed excerpts from the first couple sections of McCarthy
+2008, chapter 2.</li>
+<li>(optional) <a href="materials/RooijBaggio2021.pdf">Rooij and Baggio
+2021</a> on theorizing in cognitive science.</li>
+<li>For next Tuesday, please read up to section 2.7 (up to page 83) of
+<a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and be
+prepared to discuss the relevant <a
+href="materials/Chapter2discussion.txt">excerpts</a>.</li>
+<li>Finish reading Chapter 2 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> (you may skip
+section 2.9) by next Thursday.</li>
 </ul>
-<h2 id="feb-5">03 Feb</h2>
+<h2 id="feb-6">03 Feb</h2>
 <ul>
 <li>We discussed any questions related to the intro handout.</li>
 <li>We discussed questions from McCarthy 2008, chapter 1.</li>
-<li>We intended to further discussed Lezgian, but did not, so we will start off with this on Thursday.</li>
-<li>Read Chapter 2 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> up to and including section 2.2 (up to page 53). Be prepared to disscuss the <a href="materials/Chapter2discussion.txt">excerpts</a> from these sections.</li>
+<li>We intended to further discussed Lezgian, but did not, so we will
+start off with this on Thursday.</li>
+<li>Read Chapter 2 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy
+2008</a> up to and including section 2.2 (up to page 53). Be prepared to
+disscuss the <a href="materials/Chapter2discussion.txt">excerpts</a>
+from these sections.</li>
 </ul>
 <h2 id="jan">29 Jan</h2>
 <ul>
-<li>We went over the <strong>syllabus</strong> <a href="materials/LIN623_Syllabus_Spring2026.pdf">pdf</a> <a href="materials/LIN623_Syllabus_Spring2026.html">html</a>.</li>
-<li>We went over the <strong>introduction</strong> <a href="materials/01-intro.pdf">pdf</a> <a href="materials/01-intro.html">html</a> to this course.</li>
-<li>We began discussion of the <strong>Lezgian assignment</strong> <a href="materials/lezgian.pdf">pdf</a> <a href="materials/lezgian.html">html</a> due Tuesday, February 10 during class. Please <strong>print a physical copy</strong> of your assignment and turn it into me then.</li>
-<li>For Tuesday, please read Chapter 1 of <a href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and be prepared to discuss the following questions.
+<li>We went over the <strong>syllabus</strong> <a
+href="materials/LIN623_Syllabus_Spring2026.pdf">pdf</a> <a
+href="materials/LIN623_Syllabus_Spring2026.html">html</a>.</li>
+<li>We went over the <strong>introduction</strong> <a
+href="materials/01-intro.pdf">pdf</a> <a
+href="materials/01-intro.html">html</a> to this course.</li>
+<li>We began discussion of the <strong>Lezgian assignment</strong> <a
+href="materials/lezgian.pdf">pdf</a> <a
+href="materials/lezgian.html">html</a> due Tuesday, February 10 during
+class. Please <strong>print a physical copy</strong> of your assignment
+and turn it into me then.</li>
+<li>For Tuesday, please read Chapter 1 of <a
+href="materials/McCarthy2008-DOT.pdf">McCarthy 2008</a> and be prepared
+to discuss the following questions.
 <ol type="1">
-<li>Section 1.2 asks “Why Must Constraints Be Violable?” Is McCarthy’s argument convincing? Why or why not?</li>
-<li>In section 1.3, McCarthy writes “OT itself does not say much about the nature of constraints, beyond distinguishing between markedness and faithfulness. OT is a theory of how constraints interact with one another; it isn’t a theory of what the constraints are, nor is it a theory of representations.” Why do you think this is or isn’t true, and what does it mean for a theory of phonology?</li>
-<li>Section 1.4 claims the operations in GEN are “extremely general”. Can you think of any reasonable limits to the operations GEN employs?</li>
-<li>Section 1.6 ends with McCarthy arguing against positing highly specific markedness constraints and says “The best practice in OT is to state constraints in very general ways and then try to limit their activity through interaction with higher-ranking constraints.” In the specific case he discussed in Timugon Murut, how could one decide between these two alternatives?</li>
+<li>Section 1.2 asks “Why Must Constraints Be Violable?” Is McCarthy’s
+argument convincing? Why or why not?</li>
+<li>In section 1.3, McCarthy writes “OT itself does not say much about
+the nature of constraints, beyond distinguishing between markedness and
+faithfulness. OT is a theory of how constraints interact with one
+another; it isn’t a theory of what the constraints are, nor is it a
+theory of representations.” Why do you think this is or isn’t true, and
+what does it mean for a theory of phonology?</li>
+<li>Section 1.4 claims the operations in GEN are “extremely general”.
+Can you think of any reasonable limits to the operations GEN
+employs?</li>
+<li>Section 1.6 ends with McCarthy arguing against positing highly
+specific markedness constraints and says “The best practice in OT is to
+state constraints in very general ways and then try to limit their
+activity through interaction with higher-ranking constraints.” In the
+specific case he discussed in Timugon Murut, how could one decide
+between these two alternatives?</li>
 <li>Please bring any questions you have about chapte 1 to class.</li>
 </ol></li>
 </ul>

@@ -15,6 +15,14 @@
 
 # Course Log
 
+## 24 Feb
+
+* Class canceled because of the storm.
+* The Ilokano assignment is now due Tuesday March 3 in class.
+* Please also read the first two sections of [Pater
+  2016](materials/Pater2016.pdf) for an introduction to Harmonic
+  Grammar for Thursday Feb 26.
+
 ## 19 Feb
 
 * We continued discussing the Ilokano assignment
