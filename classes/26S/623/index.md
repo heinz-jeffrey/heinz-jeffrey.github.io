@@ -15,6 +15,16 @@
 
 # Course Log
 
+## 26 Feb
+
+* We discussed Ilokano.
+* We finished our discussion of Harmonic Serialism.
+* We discussed Harmonic Grammar.
+* For next week, please read Chapter 2 of [Vaux and Nevins
+  2008](materials/VauxNevins2008.pdf) for a critique of OT. On Tuesday
+  we will focus on the arguments regarding opacity, optionality, and
+  ineffability, but Q&A on any aspect of the chapter is welcome.
+
 ## 24 Feb
 
 * Class canceled because of the storm.
