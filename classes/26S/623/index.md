@@ -15,6 +15,13 @@
 
 # Course Log
 
+## 03 Mar
+
+* We discussed why counterbleeding and counterfeeding is problematic
+  for classic OT, HG and HS.
+* [old handout on opacity in OT](materials/02-opacity.pdf)
+* We briefly introduced stratal OT.
+
 ## 26 Feb
 
 * We discussed Ilokano.
