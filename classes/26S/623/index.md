@@ -15,6 +15,26 @@
 
 # Course Log
 
+## 10 Mar
+
+* We reviewed the course to date
+  - Architectures of classic OT, HS, HG
+  - How to do OT (analysis, presentation)
+  - Critiques of OT
+* We previewed the next phase of the course on syllabification in ITB
+  - with rules
+  - with OT
+  - with logical transductions
+* We discussed and analyzed [syllabification in ITB](materials/itb.html)
+  - [Dell and Elmedaoui 1985](materials/DellElmedlaoui1985.pdf)
+  - [Prince and Smolensky 1993](materials/PrinceSmolensky1993.pdf), section 2, pages 11-22
+  - [Strother-Garcia 2018](materials/Strother-Garcia2018.pdf)
+
+## 08 Mar
+
+* We discussed Vaux's critique of OT in regards to optionality and ineffability.
+* We revisited McCarthy's critique of global optimization in classic OT.
+
 ## 03 Mar
 
 * We discussed why counterbleeding and counterfeeding is problematic
