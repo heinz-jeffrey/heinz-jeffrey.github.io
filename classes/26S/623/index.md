@@ -25,7 +25,7 @@
   - with rules
   - with OT
   - with logical transductions
-* We discussed and analyzed [syllabification in ITB](materials/itb.html)
+* We discussed and analyzed syllabification in ITB [html](materials/itb.html) [pdf](materials/itb.pdf)
   - [Dell and Elmedaoui 1985](materials/DellElmedlaoui1985.pdf)
   - [Prince and Smolensky 1993](materials/PrinceSmolensky1993.pdf), section 2, pages 11-22
   - [Strother-Garcia 2018](materials/Strother-Garcia2018.pdf)
