@@ -15,6 +15,17 @@
 
 # Course Log
 
+
+## 12 Mar
+
+* We reviewed D&E's analysis of ITB syllabification.
+* We reviewed P&S's analysis of ITB syllabification.
+* For next Tuesday please read [Strother-Garcia
+  2018](materials/Strother-Garcia2018.pdf).
+* For a non-technical introduction to logical transductions, please
+  read [Heinz 2025](Heinz-2025-LSPG.pdf) before the Strother-Garcia
+  paper.
+
 ## 10 Mar
 
 * We reviewed the course to date
