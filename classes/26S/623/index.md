@@ -16,6 +16,15 @@
 # Course Log
 
 
+## 24 Mar
+
+* [Some notes on Ilokano](materials/ilokano-notes.md)
+* We discussed [Heinz 2025](Heinz-2025-LSPG.pdf) and [Strother-Garcia
+  2018](materials/Strother-Garcia2018.pdf).
+* Please see me this week about your idea for your final paper.  
+
+## 17 and 19 Mar -- Spring Break
+
 ## 12 Mar
 
 * We reviewed D&E's analysis of ITB syllabification.
