@@ -19,7 +19,7 @@
 ## 24 Mar
 
 * [Some notes on Ilokano](materials/ilokano-notes.md)
-* We discussed [Heinz 2025](Heinz-2025-LSPG.pdf) and [Strother-Garcia
+* We discussed [Heinz 2025](materials/Heinz-2025-LSPG.pdf) and [Strother-Garcia
   2018](materials/Strother-Garcia2018.pdf).
 * Please see me this week about your idea for your final paper.  
 
@@ -32,7 +32,7 @@
 * For next Tuesday please read [Strother-Garcia
   2018](materials/Strother-Garcia2018.pdf).
 * For a non-technical introduction to logical transductions, please
-  read [Heinz 2025](Heinz-2025-LSPG.pdf) before the Strother-Garcia
+  read [Heinz 2025](materials/Heinz-2025-LSPG.pdf) before the Strother-Garcia
   paper.
 
 ## 10 Mar
