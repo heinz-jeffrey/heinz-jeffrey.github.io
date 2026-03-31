@@ -15,6 +15,20 @@
 
 # Course Log
 
+## 31 Mar
+
+* We covered some basics of [tone](materials/tone-handout.pdf),
+  focusing on representational issues and arguments from the
+  autosegmentality of tone
+* [Kikuyu exercise](materials/KikuyuTone.pdf)
+* Additional reading [Hyman 2011](materials/Hyman-2011-Tone-is-it-different.pdf)
+
+## 26 Mar
+
+* We finished discussion of [Strother-Garcia
+  2018](materials/Strother-Garcia2018.pdf) and [Heinz
+  2025](materials/Heinz-2025-LSPG.pdf).
+
 
 ## 24 Mar
 
