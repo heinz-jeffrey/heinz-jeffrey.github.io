@@ -17,7 +17,7 @@
 
 ## 02 Apr
 
-* We discussed [representations and rules](materials/tone-reps-rules.pdf)
+* We discussed [representations and rules](materials/tone-reps-rule.pdf)
 * We reviewed evidence that tones are autonomous from segments
   - tonal mobility in Kikuyu
   - tonal morphemes in Efik
