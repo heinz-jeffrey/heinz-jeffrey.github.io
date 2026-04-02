@@ -15,6 +15,21 @@
 
 # Course Log
 
+## 02 Apr
+
+* We discussed [representations and rules](materials/tone-reps-rules.pdf)
+* We reviewed evidence that tones are autonomous from segments
+  - tonal mobility in Kikuyu
+  - tonal morphemes in Efik
+  - tonal stability in Ogbia
+  - tonal spans in Shona
+* We discussed approaches in OT (see [Yip 2002](materials/Yip2002.pdf)
+  chapter 4 and [Marlo's 2007 cautionary note](materials/marlo.pdf).
+* Downdrift and downstep
+  - Example from Hyman (2011:28) finds downstep where two H spans meet.
+  - Other work argues downstep occurs in the "H, floating L, H"
+    configuration (e.g. Venda, Kenstowicz 1996).
+
 ## 31 Mar
 
 * We covered some basics of [tone](materials/tone-handout.pdf),
