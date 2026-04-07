@@ -15,6 +15,23 @@
 
 # Course Log
 
+## 07 Apr
+
+* We finished the discussion of downdrift and downstep.
+* We began our discussion of harmony.
+* Resources on harmony
+  - [Archangeli and Pulleyblank 2007 (chapter 15)](materials/CHP2007.pdf)
+  - [Rose and Walker 2011 (chapter 8)](materials/HPT2011.pdf)
+  - [van der Hulst 2016](materials/vdHulst2016-vh.pdf)
+  - The Oxford Handbook of Vowel Harmony, edited by Nancy A. Ritter
+    and Harry van der Hulst (nearly 1000 pages!!)
+* Formal grammars for vowel harmony
+  - Rules, autosegmental, OT (Agree, Agreement by Correspondence,
+    ...), Search and Copy ([Nevins 2010](materials/Nevins-2010.pdf)),
+    computational ([Burness et
+    al. 2019](https://doi.org/10.16995/glossa.5780), [Lambert and
+    Heinz 2024](https://aclanthology.org/2024.scil-1.13/)), ...
+
 ## 02 Apr
 
 * We discussed [representations and rules](materials/tone-reps-rule.pdf)
