@@ -15,6 +15,14 @@
 
 # Course Log
 
+## 09 Apr
+
+* We studied Turkish vowel harmony (pages 190-192 in [Odden
+  2013](materials/Odden2013.pdf).)
+* The Hakha Lai [pdf](HakhaLai.pdf)
+  [html](materials/HakhaLai.html) assignment was distributed. It is
+  due April 28.
+
 ## 07 Apr
 
 * We finished the discussion of downdrift and downstep.
@@ -24,13 +32,13 @@
   - [Rose and Walker 2011 (chapter 8)](materials/HPT2011.pdf)
   - [van der Hulst 2016](materials/vdHulst2016-vh.pdf)
   - The Oxford Handbook of Vowel Harmony, edited by Nancy A. Ritter
-    and Harry van der Hulst (nearly 1000 pages!!)
+	and Harry van der Hulst (nearly 1000 pages!!)
 * Formal grammars for vowel harmony
   - Rules, autosegmental, OT (Agree, Agreement by Correspondence,
-    ...), Search and Copy ([Nevins 2010](materials/Nevins-2010.pdf)),
-    computational ([Burness et
-    al. 2019](https://doi.org/10.16995/glossa.5780), [Lambert and
-    Heinz 2024](https://aclanthology.org/2024.scil-1.13/)), ...
+	...), Search and Copy ([Nevins 2010](materials/Nevins-2010.pdf)),
+	computational ([Burness et
+	al. 2019](https://doi.org/10.16995/glossa.5780), [Lambert and
+	Heinz 2024](https://aclanthology.org/2024.scil-1.13/)), ...
 
 ## 02 Apr
 
@@ -45,7 +53,7 @@
 * Downdrift and downstep
   - Example from Hyman (2011:28) finds downstep where two H spans meet.
   - Other work argues downstep occurs in the "H, floating L, H"
-    configuration (e.g. Venda, Kenstowicz 1996).
+	configuration (e.g. Venda, Kenstowicz 1996).
 
 ## 31 Mar
 
@@ -67,7 +75,7 @@
 * [Some notes on Ilokano](materials/ilokano-notes.md)
 * We discussed [Heinz 2025](materials/Heinz-2025-LSPG.pdf) and [Strother-Garcia
   2018](materials/Strother-Garcia2018.pdf).
-* Please see me this week about your idea for your final paper.  
+* Please see me this week about your idea for your final paper.
 
 ## 17 and 19 Mar -- Spring Break
 
@@ -136,11 +144,11 @@
   Serialism.
   - What is HS? How is a surface form calculated from an underlying form?
   - Considering the stress-syncope interaction in Macushi Carib, what
-    is McCarthy's argument for intermediate representations?
+	is McCarthy's argument for intermediate representations?
   - Why does McCarthy say HS provides a more restrictive typology than
-    classic parallel OT?
+	classic parallel OT?
   - Why does McCarthy pinpoint global optimization as a flaw of
-    classic parallel OT?
+	classic parallel OT?
 
 ## 17 Feb
 
@@ -235,23 +243,23 @@
   2008](materials/McCarthy2008-DOT.pdf) and be prepared to discuss the
   following questions.
   1. Section 1.2 asks "Why Must Constraints Be Violable?" Is
-     McCarthy's argument convincing? Why or why not?
+	 McCarthy's argument convincing? Why or why not?
   2. In section 1.3, McCarthy writes "OT itself does not say much
-     about the nature of constraints, beyond distinguishing between
-     markedness and faithfulness. OT is a theory of how constraints
-     interact with one another; it isn’t a theory of what the
-     constraints are, nor is it a theory of representations." Why do
-     you think this is or isn't true, and what does it mean for a
-     theory of phonology?
+	 about the nature of constraints, beyond distinguishing between
+	 markedness and faithfulness. OT is a theory of how constraints
+	 interact with one another; it isn’t a theory of what the
+	 constraints are, nor is it a theory of representations." Why do
+	 you think this is or isn't true, and what does it mean for a
+	 theory of phonology?
   3. Section 1.4 claims the operations in GEN are "extremely
-     general". Can you think of any reasonable limits to the
-     operations GEN employs?
+	 general". Can you think of any reasonable limits to the
+	 operations GEN employs?
   4. Section 1.6 ends with McCarthy arguing against positing highly
-     specific markedness constraints and says "The best practice in OT
-     is to state constraints in very general ways and then try to
-     limit their activity through interaction with higher-ranking
-     constraints." In the specific case he discussed in Timugon Murut,
-     how could one decide between these two alternatives?
+	 specific markedness constraints and says "The best practice in OT
+	 is to state constraints in very general ways and then try to
+	 limit their activity through interaction with higher-ranking
+	 constraints." In the specific case he discussed in Timugon Murut,
+	 how could one decide between these two alternatives?
   5. Please bring any questions you have about chapte 1 to class.
 
 ## 27 Jan
