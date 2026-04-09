@@ -19,7 +19,7 @@
 
 * We studied Turkish vowel harmony (pages 190-192 in [Odden
   2013](materials/Odden2013.pdf).)
-* The Hakha Lai [pdf](HakhaLai.pdf)
+* The Hakha Lai [pdf](materials/HakhaLai.pdf)
   [html](materials/HakhaLai.html) assignment was distributed. It is
   due April 28.
 
