@@ -15,6 +15,19 @@
 
 # Course Log
 
+
+## 14 Apr
+
+* We discussed HakhaLai. 
+* We previewed the rest of the class.
+  - April 16: Discuss [Kaye 1980](materials/Kaye1980.pdf)
+  - April 21: Discuss [Gorman 2026](materials/Gorman2026.pdf)
+  - April 23: Class canceled
+  - April 28: Discuss [Chandlee and Jardine 2021](ChandleeJardine2021.pdf)
+  - April 30: Course review.
+  - May 05: project presentations
+  - May 07: project presentations
+
 ## 09 Apr
 
 * We studied Turkish vowel harmony (pages 190-192 in [Odden
