@@ -16,9 +16,19 @@
 # Course Log
 
 
+## 21 Apr
+
+* We finished our discussion of abstract vowels and Dide.
+* We disscused [Gorman 2026](materials/Gorman2026.pdf) analysis of Greek.
+
+## 16 Apr
+
+* We discussed HakhaLai.
+* We discussed [Kaye 1980](materials/Kaye1980.pdf).
+
 ## 14 Apr
 
-* We discussed HakhaLai. 
+
 * We previewed the rest of the class.
   - April 16: Discuss [Kaye 1980](materials/Kaye1980.pdf)
   - April 21: Discuss [Gorman 2026](materials/Gorman2026.pdf)
