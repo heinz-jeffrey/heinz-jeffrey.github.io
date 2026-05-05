@@ -15,6 +15,36 @@
 
 # Course Log
 
+## 07 May
+
+* Student presentations
+  - Liam
+  - Ben
+  - Jimin
+  - Maggie
+
+## 05 May
+
+* Student presentations
+  - Ashley
+  - Zhuohan
+  - Tong
+
+## 28 Apr
+
+* We concluded discussion of [Chandlee and Jardine
+  2021](materials/ChandleeJardine2021.pdf)
+  - We thoroughly studied the Hixkaryana stress example.
+
+## 26 Apr
+
+* We began discussion of [Chandlee and Jardine
+  2021](materials/ChandleeJardine2021.pdf)
+* We discussed how BMRS work (sections 2 and 3)
+  - We studied the arguments made that the if/then/else structure
+    essentially provides a series of licensing and blocking structures
+    that reflect competing pressures not unlike OT analyses
+  - We discussed why BMRS also avoid pitfalls of global optimization.
 
 ## 21 Apr
 
